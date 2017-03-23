@@ -1,0 +1,1766 @@
+,Year,Region,Seed,Team Name,Location,Oppenent Seed,Opponent
+0,2010,Midwest,1,Kansas,"Oklahoma City, Oklahoma",16,Lehigh
+1,2010,Midwest,8,Nevada-Las Vegas,"Oklahoma City, Oklahoma",9,Northern Iowa
+2,2010,Midwest,5,Michigan State,"Spokane, Washington",12,New Mexico State
+3,2010,Midwest,4,Maryland,"Spokane, Washington",13,Houston
+4,2010,Midwest,3,Georgetown,"Providence, Rhode Island",14,Ohio
+5,2010,Midwest,6,Tennessee,"Providence, Rhode Island",11,San Diego State
+6,2010,Midwest,7,Oklahoma State,"Milwaukee, Wisconsin",10,Georgia Tech
+7,2010,Midwest,2,Ohio State,"Milwaukee, Wisconsin",15,California-Santa Barbara
+8,2010,West,1,Syracuse,"Buffalo, New York",16,Vermont
+9,2010,West,8,Gonzaga,"Buffalo, New York",9,Florida State
+10,2010,West,5,Butler,"San Jose, California",12,Texas-El Paso
+11,2010,West,4,Vanderbilt,"San Jose, California",13,Murray State
+12,2010,West,3,Pittsburgh,"Milwaukee, Wisconsin",14,Oakland
+13,2010,West,6,Xavier,"Milwaukee, Wisconsin",11,Minnesota
+14,2010,West,7,Brigham Young,"Oklahoma City, Oklahoma",10,Florida
+15,2010,West,2,Kansas State,"Oklahoma City, Oklahoma",15,North Texas
+16,2010,East,1,Kentucky,"New Orleans, Louisiana",16,East Tennessee State
+17,2010,East,8,Texas,"New Orleans, Louisiana",9,Wake Forest
+18,2010,East,5,Temple,"Jacksonville, Florida",12,Cornell
+19,2010,East,4,Wisconsin,"Jacksonville, Florida",13,Wofford
+20,2010,East,3,New Mexico,"San Jose, California",14,Montana
+21,2010,East,6,Marquette,"San Jose, California",11,Washington
+22,2010,East,7,Clemson,"Buffalo, New York",10,Missouri
+23,2010,East,2,West Virginia,"Buffalo, New York",15,Morgan State
+24,2010,South,1,Duke,"Jacksonville, Florida",16,Arkansas-Pine Bluff
+25,2010,South,8,California,"Jacksonville, Florida",9,Louisville
+26,2010,South,5,Texas A&M,"Spokane, Washington",12,Utah State
+27,2010,South,4,Purdue,"Spokane, Washington",13,Siena
+28,2010,South,3,Baylor,"New Orleans, Louisiana",14,Sam Houston State
+29,2010,South,6,Notre Dame,"New Orleans, Louisiana",11,Old Dominion
+30,2010,South,7,Richmond,"Providence, Rhode Island",10,St
+31,2010,South,2,Villanova,"Providence, Rhode Island",15,Robert Morris
+32,2009,Midwest,1,Louisville,"Dayton, Ohio",16,Morehead State
+33,2009,Midwest,8,Ohio State,"Dayton, Ohio",9,Siena
+34,2009,Midwest,5,Utah,"Miami, Florida",12,Arizona
+35,2009,Midwest,4,Wake Forest,"Miami, Florida",13,Cleveland State
+36,2009,Midwest,3,Kansas,"Minneapolis, Minnesota",14,North Dakota State
+37,2009,Midwest,6,West Virginia,"Minneapolis, Minnesota",11,Dayton
+38,2009,Midwest,7,Boston College,"Minneapolis, Minnesota",10,Southern California
+39,2009,Midwest,2,Michigan State,"Minneapolis, Minnesota",15,Robert Morris
+40,2009,West,1,Connecticut,"Philadelphia, Pennsylvania",16,Chattanooga
+41,2009,West,8,Brigham Young,"Philadelphia, Pennsylvania",9,Texas A&M
+42,2009,West,5,Purdue,"Portland, Oregon",12,Northern Iowa
+43,2009,West,4,Washington,"Portland, Oregon",13,Mississippi State
+44,2009,West,3,Missouri,"Boise, Idaho",14,Cornell
+45,2009,West,6,Marquette,"Boise, Idaho",11,Utah State
+46,2009,West,7,California,"Kansas City, Missouri",10,Maryland
+47,2009,West,2,Memphis,"Kansas City, Missouri",15,California State-Northridge
+48,2009,East,1,Pittsburgh,"Dayton, Ohio",16,East Tennessee State
+49,2009,East,8,Oklahoma State,"Dayton, Ohio",9,Tennessee
+50,2009,East,5,Florida State,"Boise, Idaho",12,Wisconsin
+51,2009,East,4,Xavier,"Boise, Idaho",13,Portland State
+52,2009,East,3,Villanova,"Philadelphia, Pennsylvania",14,American
+53,2009,East,6,UCLA,"Philadelphia, Pennsylvania",11,Virginia Commonwealth
+54,2009,East,7,Texas,"Greensboro, North Carolina",10,Minnesota
+55,2009,East,2,Duke,"Greensboro, North Carolina",15,Binghamton
+56,2009,South,1,North Carolina,"Greensboro, North Carolina",16,Radford
+57,2009,South,8,Louisiana State,"Greensboro, North Carolina",9,Butler
+58,2009,South,5,Illinois,"Portland, Oregon",12,Western Kentucky
+59,2009,South,4,Gonzaga,"Portland, Oregon",13,Akron
+60,2009,South,3,Syracuse,"Miami, Florida",14,Stephen F
+61,2009,South,6,Arizona State,"Miami, Florida",11,Temple
+62,2009,South,7,Clemson,"Kansas City, Missouri",10,Michigan
+63,2009,South,2,Oklahoma,"Kansas City, Missouri",15,Morgan State
+64,2008,East,1,North Carolina,"Raleigh, North Carolina",16,Mt
+65,2008,East,8,Indiana,"Raleigh, North Carolina",9,Arkansas
+66,2008,East,5,Notre Dame,"Denver, Colorado",12,George Mason
+67,2008,East,4,Washington State,"Denver, Colorado",13,Winthrop
+68,2008,East,3,Louisville,"Birmingham, Alabama",14,Boise State
+69,2008,East,6,Oklahoma,"Birmingham, Alabama",11,St
+70,2008,East,7,Butler,"Birmingham, Alabama",10,South Alabama
+71,2008,East,2,Tennessee,"Birmingham, Alabama",15,American
+72,2008,Midwest,1,Kansas,"Omaha, Nebraska",16,Portland State
+73,2008,Midwest,8,Nevada-Las Vegas,"Omaha, Nebraska",9,Kent State
+74,2008,Midwest,5,Clemson,"Tampa, Florida",12,Villanova
+75,2008,Midwest,4,Vanderbilt,"Tampa, Florida",13,Siena
+76,2008,Midwest,3,Wisconsin,"Omaha, Nebraska",14,California State-Fullerton
+77,2008,Midwest,6,Southern California,"Omaha, Nebraska",11,Kansas State
+78,2008,Midwest,7,Gonzaga,"Raleigh, North Carolina",10,Davidson
+79,2008,Midwest,2,Georgetown,"Raleigh, North Carolina",15,UMBC
+80,2008,South,1,Memphis,"Little Rock, Arkansas",16,Texas-Arlington
+81,2008,South,8,Mississippi State,"Little Rock, Arkansas",9,Oregon
+82,2008,South,5,Michigan State,"Denver, Colorado",12,Temple
+83,2008,South,4,Pittsburgh,"Denver, Colorado",13,Oral Roberts
+84,2008,South,3,Stanford,"Anaheim, California",14,Cornell
+85,2008,South,6,Marquette,"Anaheim, California",11,Kentucky
+86,2008,South,7,Miami,"Little Rock, Arkansas",10,St
+87,2008,South,2,Texas,"Little Rock, Arkansas",15,Austin Peay
+88,2008,West,1,UCLA,"Anaheim, California",16,Mississippi Valley
+89,2008,West,8,Brigham Young,"Anaheim, California",9,Texas A&M
+90,2008,West,5,Drake,"Tampa, Florida",12,Western Kentucky
+91,2008,West,4,Connecticut,"Tampa, Florida",13,San Diego
+92,2008,West,3,Xavier,"Washington, District of Columbia",14,Georgia
+93,2008,West,6,Purdue,"Washington, District of Columbia",11,Baylor
+94,2008,West,7,West Virginia,"Washington, District of Columbia",10,Arizona
+95,2008,West,2,Duke,"Washington, District of Columbia",15,Belmont
+96,2007,West,1,Kansas,"Chicago, Illinois",16,Niagara
+97,2007,West,8,Kentucky,"Chicago, Illinois",9,Villanova
+98,2007,West,5,Virginia Tech,"Columbus, Ohio",12,Illinois
+99,2007,West,4,Southern Illinois,"Columbus, Ohio",13,Holy Cross
+100,2007,West,3,Pittsburgh,"Buffalo, New York",14,Wright State
+101,2007,West,6,Duke,"Buffalo, New York",11,Virginia Commonwealth
+102,2007,West,7,Indiana,"Sacramento, California",10,Gonzaga
+103,2007,West,2,UCLA,"Sacramento, California",15,Weber State
+104,2007,Midwest,1,Florida,"New Orleans, Louisiana",16,Jackson State
+105,2007,Midwest,8,Arizona,"New Orleans, Louisiana",9,Purdue
+106,2007,Midwest,5,Butler,"Buffalo, New York",12,Old Dominion
+107,2007,Midwest,4,Maryland,"Buffalo, New York",13,Davidson
+108,2007,Midwest,3,Oregon,"Spokane, Washington",14,Miami
+109,2007,Midwest,6,Notre Dame,"Spokane, Washington",11,Winthrop
+110,2007,Midwest,7,Nevada-Las Vegas,"Chicago, Illinois",10,Georgia Tech
+111,2007,Midwest,2,Wisconsin,"Chicago, Illinois",15,Texas A&M-Corpus
+112,2007,South,1,Ohio State,"Lexington, Kentucky",16,Central Connecticut State
+113,2007,South,8,Brigham Young,"Lexington, Kentucky",9,Xavier
+114,2007,South,5,Tennessee,"Columbus, Ohio",12,Long Beach State
+115,2007,South,4,Virginia,"Columbus, Ohio",13,Albany
+116,2007,South,3,Texas A&M,"Lexington, Kentucky",14,Pennsylvania
+117,2007,South,6,Louisville,"Lexington, Kentucky",11,Stanford
+118,2007,South,7,Nevada,"New Orleans, Louisiana",10,Creighton
+119,2007,South,2,Memphis,"New Orleans, Louisiana",15,North Texas
+120,2007,East,1,North Carolina,"Winston-Salem, North Carolina",16,Eastern Kentucky
+121,2007,East,8,Marquette,"Winston-Salem, North Carolina",9,Michigan State
+122,2007,East,5,Southern California,"Spokane, Washington",12,Arkansas
+123,2007,East,4,Texas,"Spokane, Washington",13,New Mexico State
+124,2007,East,3,Washington State,"Sacramento, California",14,Oral Roberts
+125,2007,East,6,Vanderbilt,"Sacramento, California",11,George Washington
+126,2007,East,7,Boston College,"Winston-Salem, North Carolina",10,Texas Tech
+127,2007,East,2,Georgetown,"Winston-Salem, North Carolina",15,Belmont
+128,2006,East,1,Connecticut,"Philadelphia, Pennsylvania",16,Albany
+129,2006,East,8,Kentucky,"Philadelphia, Pennsylvania",9,UAB
+130,2006,East,5,Washington,"San Diego, California",12,Utah State
+131,2006,East,4,Illinois,"San Diego, California",13,Air Force
+132,2006,East,3,North Carolina,"Dayton, Ohio",14,Murray State
+133,2006,East,6,Michigan State,"Dayton, Ohio",11,George Mason
+134,2006,East,7,Wichita State,"Greensboro, North Carolina",10,Seton Hall
+135,2006,East,2,Tennessee,"Greensboro, North Carolina",15,Winthrop
+136,2006,Midwest,1,Villanova,"Philadelphia, Pennsylvania",16,Monmouth
+137,2006,Midwest,8,Arizona,"Philadelphia, Pennsylvania",9,Wisconsin
+138,2006,Midwest,5,Nevada,"Salt Lake City, Utah",12,Montana
+139,2006,Midwest,4,Boston College,"Salt Lake City, Utah",13,Pacific
+140,2006,Midwest,3,Florida,"Jacksonville, Florida",14,South Alabama
+141,2006,Midwest,6,Oklahoma,"Jacksonville, Florida",11,Wisconsin-Milwaukee
+142,2006,Midwest,7,Georgetown,"Dayton, Ohio",10,Northern Iowa
+143,2006,Midwest,2,Ohio State,"Dayton, Ohio",15,Davidson
+144,2006,South,1,Duke,"Greensboro, North Carolina",16,Southern
+145,2006,South,8,George Washington,"Greensboro, North Carolina",9,North Carolina-Wilmington
+146,2006,South,5,Syracuse,"Jacksonville, Florida",12,Texas A&M
+147,2006,South,4,Louisiana State,"Jacksonville, Florida",13,Iona
+148,2006,South,3,Iowa,"Auburn Hills, Michigan",14,Northwestern State
+149,2006,South,6,West Virginia,"Auburn Hills, Michigan",11,Southern Illinois
+150,2006,South,7,California,"Dallas, Texas",10,North Carolina State
+151,2006,South,2,Texas,"Dallas, Texas",15,Pennsylvania
+152,2006,West,1,Memphis,"Dallas, Texas",16,Oral Roberts
+153,2006,West,8,Arkansas,"Dallas, Texas",9,Bucknell
+154,2006,West,5,Pittsburgh,"Auburn Hills, Michigan",12,Kent State
+155,2006,West,4,Kansas,"Auburn Hills, Michigan",13,Bradley
+156,2006,West,3,Gonzaga,"Salt Lake City, Utah",14,Xavier
+157,2006,West,6,Indiana,"Salt Lake City, Utah",11,San Diego State
+158,2006,West,7,Marquette,"San Diego, California",10,Alabama
+159,2006,West,2,UCLA,"San Diego, California",15,Belmont
+160,2005,East,1,North Carolina,"Charlotte, North Carolina",16,Oakland
+161,2005,East,8,Minnesota,"Charlotte, North Carolina",9,Iowa State
+162,2005,East,5,Villanova,"Nashville, Tennessee",12,New Mexico
+163,2005,East,4,Florida,"Nashville, Tennessee",13,Ohio
+164,2005,East,3,Kansas,"Oklahoma City, Oklahoma",14,Bucknell
+165,2005,East,6,Wisconsin,"Oklahoma City, Oklahoma",11,Northern Iowa
+166,2005,East,7,Charlotte,"Worcester, Massachusetts",10,North Carolina State
+167,2005,East,2,Connecticut,"Worcester, Massachusetts",15,Central Florida
+168,2005,South,1,Duke,"Charlotte, North Carolina",16,Delaware State
+169,2005,South,8,Stanford,"Charlotte, North Carolina",9,Mississippi State
+170,2005,South,5,Michigan State,"Worcester, Massachusetts",12,Old Dominion
+171,2005,South,4,Syracuse,"Worcester, Massachusetts",13,Vermont
+172,2005,South,3,Oklahoma,"Tucson, Arizona",14,Niagara
+173,2005,South,6,Utah,"Tucson, Arizona",11,Texas-El Paso
+174,2005,South,7,Cincinnati,"Indianapolis, Indiana",10,Iowa
+175,2005,South,2,Kentucky,"Indianapolis, Indiana",15,Eastern Kentucky
+176,2005,Midwest,1,Illinois,"Indianapolis, Indiana",16,Fairleigh Dickinson
+177,2005,Midwest,8,Texas,"Indianapolis, Indiana",9,Nevada
+178,2005,Midwest,5,Alabama,"Cleveland, Ohio",12,Wisconsin-Milwaukee
+179,2005,Midwest,4,Boston College,"Cleveland, Ohio",13,Pennsylvania
+180,2005,Midwest,3,Arizona,"Boise, Idaho",14,Utah State
+181,2005,Midwest,6,Louisiana State,"Boise, Idaho",11,UAB
+182,2005,Midwest,7,Southern Illinois,"Oklahoma City, Oklahoma",10,St
+183,2005,Midwest,2,Oklahoma State,"Oklahoma City, Oklahoma",15,Southeastern Louisiana
+184,2005,West,1,Washington,"Boise, Idaho",16,Montana
+185,2005,West,8,Pacific,"Boise, Idaho",9,Pittsburgh
+186,2005,West,5,Georgia Tech,"Nashville, Tennessee",12,George Washington
+187,2005,West,4,Louisville,"Nashville, Tennessee",13,Louisiana-Lafayette
+188,2005,West,3,Gonzaga,"Tucson, Arizona",14,Winthrop
+189,2005,West,6,Texas Tech,"Tucson, Arizona",11,UCLA
+190,2005,West,7,West Virginia,"Cleveland, Ohio",10,Creighton
+191,2005,West,2,Wake Forest,"Cleveland, Ohio",15,Chattanooga
+192,2004,East,1,St,"Buffalo, New York",16,Liberty
+193,2004,East,8,Texas Tech,"Buffalo, New York",9,Charlotte
+194,2004,East,5,Florida,"Raleigh, North Carolina",12,Manhattan
+195,2004,East,4,Wake Forest,"Raleigh, North Carolina",13,Virginia Commonwealth
+196,2004,East,3,Pittsburgh,"Milwaukee, Wisconsin",14,Central Florida
+197,2004,East,6,Wisconsin,"Milwaukee, Wisconsin",11,Richmond
+198,2004,East,7,Memphis,"Kansas City, Missouri",10,South Carolina
+199,2004,East,2,Oklahoma State,"Kansas City, Missouri",15,Eastern Washington
+200,2004,Midwest,1,Kentucky,"Columbus, Ohio",16,Florida A&M
+201,2004,Midwest,8,Washington,"Columbus, Ohio",9,UAB
+202,2004,Midwest,5,Providence,"Kansas City, Missouri",12,Pacific
+203,2004,Midwest,4,Kansas,"Kansas City, Missouri",13,Illinois-Chicago
+204,2004,Midwest,3,Georgia Tech,"Milwaukee, Wisconsin",14,Northern Iowa
+205,2004,Midwest,6,Boston College,"Milwaukee, Wisconsin",11,Utah
+206,2004,Midwest,7,Michigan State,"Seattle, Washington",10,Nevada
+207,2004,Midwest,2,Gonzaga,"Seattle, Washington",15,Valparaiso
+208,2004,West,1,Stanford,"Seattle, Washington",16,Texas-San Antonio
+209,2004,West,8,Alabama,"Seattle, Washington",9,Southern Illinois
+210,2004,West,5,Syracuse,"Denver, Colorado",12,Brigham Young
+211,2004,West,4,Maryland,"Denver, Colorado",13,Texas-El Paso
+212,2004,West,3,North Carolina State,"Orlando, Florida",14,Louisiana-Lafayette
+213,2004,West,6,Vanderbilt,"Orlando, Florida",11,Western Michigan
+214,2004,West,7,DePaul,"Buffalo, New York",10,Dayton
+215,2004,West,2,Connecticut,"Buffalo, New York",15,Vermont
+216,2004,South,1,Duke,"Raleigh, North Carolina",16,Alabama State
+217,2004,South,8,Seton Hall,"Raleigh, North Carolina",9,Arizona
+218,2004,South,5,Illinois,"Columbus, Ohio",12,Murray State
+219,2004,South,4,Cincinnati,"Columbus, Ohio",13,East Tennessee State
+220,2004,South,3,Texas,"Denver, Colorado",14,Princeton
+221,2004,South,6,North Carolina,"Denver, Colorado",11,Air Force
+222,2004,South,7,Xavier,"Orlando, Florida",10,Louisville
+223,2004,South,2,Mississippi State,"Orlando, Florida",15,Monmouth
+224,2003,East,1,Oklahoma,"Oklahoma City, Oklahoma",16,South Carolina State
+225,2003,East,8,California,"Oklahoma City, Oklahoma",9,North Carolina State
+226,2003,East,5,Mississippi State,"Birmingham, Alabama",12,Butler
+227,2003,East,4,Louisville,"Birmingham, Alabama",13,Austin Peay
+228,2003,East,3,Syracuse,"Boston, Massachusetts",14,Manhattan
+229,2003,East,6,Oklahoma State,"Boston, Massachusetts",11,Pennsylvania
+230,2003,East,7,St,"Tampa, Florida",10,Auburn
+231,2003,East,2,Wake Forest,"Tampa, Florida",15,East Tennessee State
+232,2003,South,1,Texas,"Birmingham, Alabama",16,North Carolina-Asheville
+233,2003,South,8,Louisiana State,"Birmingham, Alabama",9,Purdue
+234,2003,South,5,Connecticut,"Spokane, Washington",12,Brigham Young
+235,2003,South,4,Stanford,"Spokane, Washington",13,San Diego
+236,2003,South,3,Xavier,"Nashville, Tennessee",14,Troy
+237,2003,South,6,Maryland,"Nashville, Tennessee",11,North Carolina-Wilmington
+238,2003,South,7,Michigan State,"Tampa, Florida",10,Colorado
+239,2003,South,2,Florida,"Tampa, Florida",15,Sam Houston State
+240,2003,West,1,Arizona,"Salt Lake City, Utah",16,Vermont
+241,2003,West,8,Cincinnati,"Salt Lake City, Utah",9,Gonzaga
+242,2003,West,5,Notre Dame,"Indianapolis, Indiana",12,Wisconsin-Milwaukee
+243,2003,West,4,Illinois,"Indianapolis, Indiana",13,Western Kentucky
+244,2003,West,3,Duke,"Salt Lake City, Utah",14,Colorado State
+245,2003,West,6,Creighton,"Salt Lake City, Utah",11,Central Michigan
+246,2003,West,7,Memphis,"Oklahoma City, Oklahoma",10,Arizona State
+247,2003,West,2,Kansas,"Oklahoma City, Oklahoma",15,Utah State
+248,2003,Midwest,1,Kentucky,"Nashville, Tennessee",16,IUPUI
+249,2003,Midwest,8,Oregon,"Nashville, Tennessee",9,Utah
+250,2003,Midwest,5,Wisconsin,"Spokane, Washington",12,Weber State
+251,2003,Midwest,4,Dayton,"Spokane, Washington",13,Tulsa
+252,2003,Midwest,3,Marquette,"Indianapolis, Indiana",14,Holy Cross
+253,2003,Midwest,6,Missouri,"Indianapolis, Indiana",11,Southern Illinois
+254,2003,Midwest,7,Indiana,"Boston, Massachusetts",10,Alabama
+255,2003,Midwest,2,Pittsburgh,"Boston, Massachusetts",15,Wagner
+256,2002,West,1,Cincinnati,"Pittsburgh, Pennsylvania",16,Boston
+257,2002,West,8,UCLA,"Pittsburgh, Pennsylvania",9,Mississippi
+258,2002,West,5,Miami,"Albuquerque, New Mexico",12,Missouri
+259,2002,West,4,Ohio State,"Albuquerque, New Mexico",13,Davidson
+260,2002,West,3,Arizona,"Albuquerque, New Mexico",14,California-Santa Barbara
+261,2002,West,6,Gonzaga,"Albuquerque, New Mexico",11,Wyoming
+262,2002,West,7,Xavier,"Dallas, Texas",10,Hawaii
+263,2002,West,2,Oklahoma,"Dallas, Texas",15,Illinois-Chicago
+264,2002,South,1,Duke,"Greenville, South Carolina",16,Winthrop
+265,2002,South,8,Notre Dame,"Greenville, South Carolina",9,Charlotte
+266,2002,South,5,Indiana,"Sacramento, California",12,Utah
+267,2002,South,4,Southern California,"Sacramento, California",13,North Carolina-Wilmington
+268,2002,South,3,Pittsburgh,"Pittsburgh, Pennsylvania",14,Central Connecticut State
+269,2002,South,6,California,"Pittsburgh, Pennsylvania",11,Pennsylvania
+270,2002,South,7,Oklahoma State,"Greenville, South Carolina",10,Kent State
+271,2002,South,2,Alabama,"Greenville, South Carolina",15,Florida Atlantic
+272,2002,Midwest,1,Kansas,"St. Louis, Missouri",16,Holy Cross
+273,2002,Midwest,8,Stanford,"St. Louis, Missouri",9,Western Kentucky
+274,2002,Midwest,5,Florida,"Chicago, Illinois",12,Creighton
+275,2002,Midwest,4,Illinois,"Chicago, Illinois",13,San Diego State
+276,2002,Midwest,3,Mississippi State,"Dallas, Texas",14,McNeese State
+277,2002,Midwest,6,Texas,"Dallas, Texas",11,Boston College
+278,2002,Midwest,7,Wake Forest,"Sacramento, California",10,Pepperdine
+279,2002,Midwest,2,Oregon,"Sacramento, California",15,Montana
+280,2002,East,1,Maryland,"Washington, District of Columbia",16,Siena
+281,2002,East,8,Wisconsin,"Washington, District of Columbia",9,St
+282,2002,East,5,Marquette,"St. Louis, Missouri",12,Tulsa
+283,2002,East,4,Kentucky,"St. Louis, Missouri",13,Valparaiso
+284,2002,East,3,Georgia,"Chicago, Illinois",14,Murray State
+285,2002,East,6,Texas Tech,"Chicago, Illinois",11,Southern Illinois
+286,2002,East,7,North Carolina State,"Washington, District of Columbia",10,Michigan State
+287,2002,East,2,Connecticut,"Washington, District of Columbia",15,Hampton
+288,2001,Midwest,1,Illinois,"Dayton, Ohio",16,Northwestern State
+289,2001,Midwest,8,Tennessee,"Dayton, Ohio",9,Charlotte
+290,2001,Midwest,5,Syracuse,"Dayton, Ohio",12,Hawaii
+291,2001,Midwest,4,Kansas,"Dayton, Ohio",13,California State-Northridge
+292,2001,Midwest,3,Mississippi,"Kansas City, Missouri",14,Iona
+293,2001,Midwest,6,Notre Dame,"Kansas City, Missouri",11,Xavier
+294,2001,Midwest,7,Wake Forest,"Kansas City, Missouri",10,Butler
+295,2001,Midwest,2,Arizona,"Kansas City, Missouri",15,Eastern Illinois
+296,2001,South,1,Michigan State,"Memphis, Tennessee",16,Alabama State
+297,2001,South,8,California,"Memphis, Tennessee",9,Fresno State
+298,2001,South,5,Virginia,"Memphis, Tennessee",12,Gonzaga
+299,2001,South,4,Oklahoma,"Memphis, Tennessee",13,Indiana State
+300,2001,South,3,Florida,"New Orleans, Louisiana",14,Western Kentucky
+301,2001,South,6,Texas,"New Orleans, Louisiana",11,Temple
+302,2001,South,7,Pennsylvania State,"New Orleans, Louisiana",10,Providence
+303,2001,South,2,North Carolina,"New Orleans, Louisiana",15,Princeton
+304,2001,East,1,Duke,"Greensboro, North Carolina",16,Monmouth
+305,2001,East,8,Georgia,"Greensboro, North Carolina",9,Missouri
+306,2001,East,5,Ohio State,"Greensboro, North Carolina",12,Utah State
+307,2001,East,4,UCLA,"Greensboro, North Carolina",13,Hofstra
+308,2001,East,3,Boston College,"Uniondale, New York",14,Southern Utah
+309,2001,East,6,Southern California,"Uniondale, New York",11,Oklahoma State
+310,2001,East,7,Iowa,"Uniondale, New York",10,Creighton
+311,2001,East,2,Kentucky,"Uniondale, New York",15,Holy Cross
+312,2001,West,1,Stanford,"San Diego, California",16,North Carolina-Greensboro
+313,2001,West,8,Georgia Tech,"San Diego, California",9,St
+314,2001,West,5,Cincinnati,"San Diego, California",12,Brigham Young
+315,2001,West,4,Indiana,"San Diego, California",13,Kent State
+316,2001,West,3,Maryland,"Boise, Idaho",14,George Mason
+317,2001,West,6,Wisconsin,"Boise, Idaho",11,Georgia State
+318,2001,West,7,Arkansas,"Boise, Idaho",10,Georgetown
+319,2001,West,2,Iowa State,"Boise, Idaho",15,Hampton
+320,2000,West,1,Arizona,"Salt Lake City, Utah",16,Jackson State
+321,2000,West,8,Wisconsin,"Salt Lake City, Utah",9,Fresno State
+322,2000,West,5,Texas,"Salt Lake City, Utah",12,Indiana State
+323,2000,West,4,Louisiana State,"Salt Lake City, Utah",13,Southeast Missouri State
+324,2000,West,3,Oklahoma,"Tucson, Arizona",14,Winthrop
+325,2000,West,6,Purdue,"Tucson, Arizona",11,Dayton
+326,2000,West,7,Louisville,"Tucson, Arizona",10,Gonzaga
+327,2000,West,2,St,"Tucson, Arizona",15,Northern Arizona
+328,2000,Midwest,1,Michigan State,"Cleveland, Ohio",16,Valparaiso
+329,2000,Midwest,8,Utah,"Cleveland, Ohio",9,St
+330,2000,Midwest,5,Kentucky,"Cleveland, Ohio",12,St
+331,2000,Midwest,4,Syracuse,"Cleveland, Ohio",13,Samford
+332,2000,Midwest,3,Maryland,"Minneapolis, Minnesota",14,Iona
+333,2000,Midwest,6,UCLA,"Minneapolis, Minnesota",11,Ball State
+334,2000,Midwest,7,Auburn,"Minneapolis, Minnesota",10,Creighton
+335,2000,Midwest,2,Iowa State,"Minneapolis, Minnesota",15,Central Connecticut State
+336,2000,South,1,Stanford,"Birmingham, Alabama",16,South Carolina State
+337,2000,South,8,North Carolina,"Birmingham, Alabama",9,Missouri
+338,2000,South,5,Connecticut,"Birmingham, Alabama",12,Utah State
+339,2000,South,4,Tennessee,"Birmingham, Alabama",13,Louisiana-Lafayette
+340,2000,South,3,Ohio State,"Nashville, Tennessee",14,Appalachian State
+341,2000,South,6,Miami,"Nashville, Tennessee",11,Arkansas
+342,2000,South,7,Tulsa,"Nashville, Tennessee",10,Nevada-Las Vegas
+343,2000,South,2,Cincinnati,"Nashville, Tennessee",15,North Carolina-Wilmington
+344,2000,East,1,Duke,"Winston-Salem, North Carolina",16,Lamar
+345,2000,East,8,Kansas,"Winston-Salem, North Carolina",9,DePaul
+346,2000,East,5,Florida,"Winston-Salem, North Carolina",12,Butler
+347,2000,East,4,Illinois,"Winston-Salem, North Carolina",13,Pennsylvania
+348,2000,East,3,Oklahoma State,"Buffalo, New York",14,Hofstra
+349,2000,East,6,Indiana,"Buffalo, New York",11,Pepperdine
+350,2000,East,7,Oregon,"Buffalo, New York",10,Seton Hall
+351,2000,East,2,Temple,"Buffalo, New York",15,Lafayette
+352,1999,South,1,Auburn,"Indianapolis, Indiana",16,Winthrop
+353,1999,South,8,Syracuse,"Indianapolis, Indiana",9,Oklahoma State
+354,1999,South,5,UCLA,"Indianapolis, Indiana",12,Detroit
+355,1999,South,4,Ohio State,"Indianapolis, Indiana",13,Murray State
+356,1999,South,3,St,"Orlando, Florida",14,Samford
+357,1999,South,6,Indiana,"Orlando, Florida",11,George Washington
+358,1999,South,7,Louisville,"Orlando, Florida",10,Creighton
+359,1999,South,2,Maryland,"Orlando, Florida",15,Valparaiso
+360,1999,West,1,Connecticut,"Denver, Colorado",16,Texas-San Antonio
+361,1999,West,8,Missouri,"Denver, Colorado",9,New Mexico
+362,1999,West,5,Iowa,"Denver, Colorado",12,UAB
+363,1999,West,4,Arkansas,"Denver, Colorado",13,Siena
+364,1999,West,3,North Carolina,"Seattle, Washington",14,Weber State
+365,1999,West,6,Florida,"Seattle, Washington",11,Pennsylvania
+366,1999,West,7,Minnesota,"Seattle, Washington",10,Gonzaga
+367,1999,West,2,Stanford,"Seattle, Washington",15,Alcorn State
+368,1999,East,1,Duke,"Charlotte, North Carolina",16,Florida A&M
+369,1999,East,8,Charleston,"Charlotte, North Carolina",9,Tulsa
+370,1999,East,5,Wisconsin,"Charlotte, North Carolina",12,Missouri State
+371,1999,East,4,Tennessee,"Charlotte, North Carolina",13,Delaware
+372,1999,East,3,Cincinnati,"Boston, Massachusetts",14,George Mason
+373,1999,East,6,Temple,"Boston, Massachusetts",11,Kent State
+374,1999,East,7,Texas,"Boston, Massachusetts",10,Purdue
+375,1999,East,2,Miami,"Boston, Massachusetts",15,Lafayette
+376,1999,Midwest,1,Michigan State,"Milwaukee, Wisconsin",16,Mt
+377,1999,Midwest,8,Villanova,"Milwaukee, Wisconsin",9,Mississippi
+378,1999,Midwest,5,Charlotte,"Milwaukee, Wisconsin",12,Rhode Island
+379,1999,Midwest,4,Arizona,"Milwaukee, Wisconsin",13,Oklahoma
+380,1999,Midwest,3,Kentucky,"New Orleans, Louisiana",14,New Mexico State
+381,1999,Midwest,6,Kansas,"New Orleans, Louisiana",11,Evansville
+382,1999,Midwest,7,Washington,"New Orleans, Louisiana",10,Miami
+383,1999,Midwest,2,Utah,"New Orleans, Louisiana",15,Arkansas State
+384,1998,West,1,Arizona,"Sacramento, California",16,Nicholls State
+385,1998,West,8,Tennessee,"Sacramento, California",9,Illinois State
+386,1998,West,5,Illinois,"Sacramento, California",12,South Alabama
+387,1998,West,4,Maryland,"Sacramento, California",13,Utah State
+388,1998,West,3,Utah,"Boise, Idaho",14,San Francisco
+389,1998,West,6,Arkansas,"Boise, Idaho",11,Nebraska
+390,1998,West,7,Temple,"Boise, Idaho",10,West Virginia
+391,1998,West,2,Cincinnati,"Boise, Idaho",15,Northern Arizona
+392,1998,East,1,North Carolina,"Hartford, Connecticut",16,Navy
+393,1998,East,8,Charlotte,"Hartford, Connecticut",9,Illinois-Chicago
+394,1998,East,5,Princeton,"Hartford, Connecticut",12,Nevada-Las Vegas
+395,1998,East,4,Michigan State,"Hartford, Connecticut",13,Eastern Michigan
+396,1998,East,3,South Carolina,"Washington, District of Columbia",14,Richmond
+397,1998,East,6,Xavier,"Washington, District of Columbia",11,Washington
+398,1998,East,7,Indiana,"Washington, District of Columbia",10,Oklahoma
+399,1998,East,2,Connecticut,"Washington, District of Columbia",15,Fairleigh Dickinson
+400,1998,Midwest,1,Kansas,"Oklahoma City, Oklahoma",16,Prairie View
+401,1998,Midwest,8,Rhode Island,"Oklahoma City, Oklahoma",9,Murray State
+402,1998,Midwest,5,Texas Christian,"Oklahoma City, Oklahoma",12,Florida State
+403,1998,Midwest,4,Mississippi,"Oklahoma City, Oklahoma",13,Valparaiso
+404,1998,Midwest,3,Stanford,"Chicago, Illinois",14,Charleston
+405,1998,Midwest,6,Clemson,"Chicago, Illinois",11,Western Michigan
+406,1998,Midwest,7,St,"Chicago, Illinois",10,Detroit
+407,1998,Midwest,2,Purdue,"Chicago, Illinois",15,Delaware
+408,1998,South,1,Duke,"Lexington, Kentucky",16,Radford
+409,1998,South,8,Oklahoma State,"Lexington, Kentucky",9,George Washington
+410,1998,South,5,Syracuse,"Lexington, Kentucky",12,Iona
+411,1998,South,4,New Mexico,"Lexington, Kentucky",13,Butler
+412,1998,South,3,Michigan,"Atlanta, Georgia",14,Davidson
+413,1998,South,6,UCLA,"Atlanta, Georgia",11,Miami
+414,1998,South,7,Massachusetts,"Atlanta, Georgia",10,St
+415,1998,South,2,Kentucky,"Atlanta, Georgia",15,South Carolina State
+416,1997,Southeast,1,Kansas,"Memphis, Tennessee",16,Jackson State
+417,1997,Southeast,8,Purdue,"Memphis, Tennessee",9,Rhode Island
+418,1997,Southeast,5,Maryland,"Memphis, Tennessee",12,Charleston
+419,1997,Southeast,4,Arizona,"Memphis, Tennessee",13,South Alabama
+420,1997,Southeast,3,Georgia,"Charlotte, North Carolina",14,Chattanooga
+421,1997,Southeast,6,Illinois,"Charlotte, North Carolina",11,Southern California
+422,1997,Southeast,7,Marquette,"Charlotte, North Carolina",10,Providence
+423,1997,Southeast,2,Duke,"Charlotte, North Carolina",15,Murray State
+424,1997,East,1,North Carolina,"Winston-Salem, North Carolina",16,Fairfield
+425,1997,East,8,Indiana,"Winston-Salem, North Carolina",9,Colorado
+426,1997,East,5,California,"Winston-Salem, North Carolina",12,Princeton
+427,1997,East,4,Villanova,"Winston-Salem, North Carolina",13,Long Island-Brooklyn
+428,1997,East,3,New Mexico,"Pittsburgh, Pennsylvania",14,Old Dominion
+429,1997,East,6,Louisville,"Pittsburgh, Pennsylvania",11,Massachusetts
+430,1997,East,7,Wisconsin,"Pittsburgh, Pennsylvania",10,Texas
+431,1997,East,2,South Carolina,"Pittsburgh, Pennsylvania",15,Coppin State
+432,1997,West,1,Kentucky,"Salt Lake City, Utah",16,Montana
+433,1997,West,8,Iowa,"Salt Lake City, Utah",9,Virginia
+434,1997,West,5,Boston College,"Salt Lake City, Utah",12,Valparaiso
+435,1997,West,4,St,"Salt Lake City, Utah",13,Pacific
+436,1997,West,3,Wake Forest,"Tucson, Arizona",14,St
+437,1997,West,6,Stanford,"Tucson, Arizona",11,Oklahoma
+438,1997,West,7,Charlotte,"Tucson, Arizona",10,Georgetown
+439,1997,West,2,Utah,"Tucson, Arizona",15,Navy
+440,1997,Midwest,1,Minnesota,"Kansas City, Missouri",16,Texas State
+441,1997,Midwest,8,Mississippi,"Kansas City, Missouri",9,Temple
+442,1997,Midwest,5,Tulsa,"Kansas City, Missouri",12,Boston
+443,1997,Midwest,4,Clemson,"Kansas City, Missouri",13,Miami
+444,1997,Midwest,3,Cincinnati,"Auburn Hills, Michigan",14,Butler
+445,1997,Midwest,6,Iowa State,"Auburn Hills, Michigan",11,Illinois State
+446,1997,Midwest,7,Xavier,"Auburn Hills, Michigan",10,Vanderbilt
+447,1997,Midwest,2,UCLA,"Auburn Hills, Michigan",15,Charleston Southern
+448,1996,West,1,Purdue,"Albuquerque, New Mexico",16,Western Carolina
+449,1996,West,8,Georgia,"Albuquerque, New Mexico",9,Clemson
+450,1996,West,5,Memphis,"Albuquerque, New Mexico",12,Drexel
+451,1996,West,4,Syracuse,"Albuquerque, New Mexico",13,Montana State
+452,1996,West,3,Arizona,"Tempe, Arizona",14,Valparaiso
+453,1996,West,6,Iowa,"Tempe, Arizona",11,George Washington
+454,1996,West,7,Maryland,"Tempe, Arizona",10,Santa Clara
+455,1996,West,2,Kansas,"Tempe, Arizona",15,South Carolina State
+456,1996,Southeast,1,Connecticut,"Indianapolis, Indiana",16,Colgate
+457,1996,Southeast,8,Duke,"Indianapolis, Indiana",9,Eastern Michigan
+458,1996,Southeast,5,Mississippi State,"Indianapolis, Indiana",12,Virginia Commonwealth
+459,1996,Southeast,4,UCLA,"Indianapolis, Indiana",13,Princeton
+460,1996,Southeast,3,Georgia Tech,"Orlando, Florida",14,Austin Peay
+461,1996,Southeast,6,Indiana,"Orlando, Florida",11,Boston College
+462,1996,Southeast,7,Temple,"Orlando, Florida",10,Oklahoma
+463,1996,Southeast,2,Cincinnati,"Orlando, Florida",15,North Carolina-Greensboro
+464,1996,Midwest,1,Kentucky,"Dallas, Texas",16,San Jose State
+465,1996,Midwest,8,Wisconsin-Green Bay,"Dallas, Texas",9,Virginia Tech
+466,1996,Midwest,5,Iowa State,"Dallas, Texas",12,California
+467,1996,Midwest,4,Utah,"Dallas, Texas",13,Canisius
+468,1996,Midwest,3,Villanova,"Milwaukee, Wisconsin",14,Portland
+469,1996,Midwest,6,Louisville,"Milwaukee, Wisconsin",11,Tulsa
+470,1996,Midwest,7,Michigan,"Milwaukee, Wisconsin",10,Texas
+471,1996,Midwest,2,Wake Forest,"Milwaukee, Wisconsin",15,Louisiana-Monroe
+472,1996,East,1,Massachusetts,"Providence, Rhode Island",16,Central Florida
+473,1996,East,8,Bradley,"Providence, Rhode Island",9,Stanford
+474,1996,East,5,Pennsylvania State,"Providence, Rhode Island",12,Arkansas
+475,1996,East,4,Marquette,"Providence, Rhode Island",13,Monmouth
+476,1996,East,3,Texas Tech,"Richmond, Virginia",14,Northern Illinois
+477,1996,East,6,North Carolina,"Richmond, Virginia",11,New Orleans
+478,1996,East,7,New Mexico,"Richmond, Virginia",10,Kansas State
+479,1996,East,2,Georgetown,"Richmond, Virginia",15,Mississippi Valley
+480,1995,Midwest,1,Kansas,"Dayton, Ohio",16,Colgate
+481,1995,Midwest,8,Western Kentucky,"Dayton, Ohio",9,Michigan
+482,1995,Midwest,5,Arizona,"Dayton, Ohio",12,Miami
+483,1995,Midwest,4,Virginia,"Dayton, Ohio",13,Nicholls State
+484,1995,Midwest,3,Purdue,"Austin, Texas",14,Wisconsin-Green Bay
+485,1995,Midwest,6,Memphis,"Austin, Texas",11,Louisville
+486,1995,Midwest,7,Syracuse,"Austin, Texas",10,Southern Illinois
+487,1995,Midwest,2,Arkansas,"Austin, Texas",15,Texas Southern
+488,1995,Southeast,1,Kentucky,"Memphis, Tennessee",16,Mt
+489,1995,Southeast,8,Brigham Young,"Memphis, Tennessee",9,Tulane
+490,1995,Southeast,5,Arizona State,"Memphis, Tennessee",12,Ball State
+491,1995,Southeast,4,Oklahoma,"Memphis, Tennessee",13,Manhattan
+492,1995,Southeast,3,Michigan State,"Tallahassee, Florida",14,Weber State
+493,1995,Southeast,6,Georgetown,"Tallahassee, Florida",11,Xavier
+494,1995,Southeast,7,Iowa State,"Tallahassee, Florida",10,Florida
+495,1995,Southeast,2,North Carolina,"Tallahassee, Florida",15,Murray State
+496,1995,West,1,UCLA,"Boise, Idaho",16,Florida International
+497,1995,West,8,Missouri,"Boise, Idaho",9,Indiana
+498,1995,West,5,Mississippi State,"Boise, Idaho",12,Santa Clara
+499,1995,West,4,Utah,"Boise, Idaho",13,Long Beach State
+500,1995,West,3,Maryland,"Salt Lake City, Utah",14,Gonzaga
+501,1995,West,6,Oregon,"Salt Lake City, Utah",11,Texas
+502,1995,West,7,Cincinnati,"Salt Lake City, Utah",10,Temple
+503,1995,West,2,Connecticut,"Salt Lake City, Utah",15,Chattanooga
+504,1995,East,1,Wake Forest,"Baltimore, Maryland",16,North Carolina A&T
+505,1995,East,8,Minnesota,"Baltimore, Maryland",9,St
+506,1995,East,5,Alabama,"Baltimore, Maryland",12,Pennsylvania
+507,1995,East,4,Oklahoma State,"Baltimore, Maryland",13,Drexel
+508,1995,East,3,Villanova,"Albany, New York",14,Old Dominion
+509,1995,East,6,Tulsa,"Albany, New York",11,Illinois
+510,1995,East,7,Charlotte,"Albany, New York",10,Stanford
+511,1995,East,2,Massachusetts,"Albany, New York",15,St
+512,1994,West,1,Missouri,"Ogden, Utah",16,Navy
+513,1994,West,8,Cincinnati,"Ogden, Utah",9,Wisconsin
+514,1994,West,5,California,"Ogden, Utah",12,Wisconsin-Green Bay
+515,1994,West,4,Syracuse,"Ogden, Utah",13,Hawaii
+516,1994,West,3,Louisville,"Sacramento, California",14,Boise State
+517,1994,West,6,Minnesota,"Sacramento, California",11,Southern Illinois
+518,1994,West,7,Virginia,"Sacramento, California",10,New Mexico
+519,1994,West,2,Arizona,"Sacramento, California",15,Loyola
+520,1994,Midwest,1,Arkansas,"Oklahoma City, Oklahoma",16,North Carolina A&T
+521,1994,Midwest,8,Illinois,"Oklahoma City, Oklahoma",9,Georgetown
+522,1994,Midwest,5,UCLA,"Oklahoma City, Oklahoma",12,Tulsa
+523,1994,Midwest,4,Oklahoma State,"Oklahoma City, Oklahoma",13,New Mexico State
+524,1994,Midwest,3,Michigan,"Wichita, Kansas",14,Pepperdine
+525,1994,Midwest,6,Texas,"Wichita, Kansas",11,Western Kentucky
+526,1994,Midwest,7,St,"Wichita, Kansas",10,Maryland
+527,1994,Midwest,2,Massachusetts,"Wichita, Kansas",15,Texas State
+528,1994,Southeast,1,Purdue,"Lexington, Kentucky",16,Central Florida
+529,1994,Southeast,8,Providence,"Lexington, Kentucky",9,Alabama
+530,1994,Southeast,5,Wake Forest,"Lexington, Kentucky",12,Charleston
+531,1994,Southeast,4,Kansas,"Lexington, Kentucky",13,Chattanooga
+532,1994,Southeast,3,Kentucky,"St. Petersburg, Florida",14,Tennessee State
+533,1994,Southeast,6,Marquette,"St. Petersburg, Florida",11,Louisiana-Lafayette
+534,1994,Southeast,7,Michigan State,"St. Petersburg, Florida",10,Seton Hall
+535,1994,Southeast,2,Duke,"St. Petersburg, Florida",15,Texas Southern
+536,1994,East,1,North Carolina,"Landover, Maryland",16,Liberty
+537,1994,East,8,Washington State,"Landover, Maryland",9,Boston College
+538,1994,East,5,Indiana,"Landover, Maryland",12,Ohio
+539,1994,East,4,Temple,"Landover, Maryland",13,Drexel
+540,1994,East,3,Florida,"Uniondale, New York",14,James Madison
+541,1994,East,6,Nebraska,"Uniondale, New York",11,Pennsylvania
+542,1994,East,7,UAB,"Uniondale, New York",10,George Washington
+543,1994,East,2,Connecticut,"Uniondale, New York",15,Rider
+544,1993,East,1,North Carolina,"Winston-Salem, North Carolina",16,East Carolina
+545,1993,East,8,Rhode Island,"Winston-Salem, North Carolina",9,Purdue
+546,1993,East,5,St,"Winston-Salem, North Carolina",12,Texas Tech
+547,1993,East,4,Arkansas,"Winston-Salem, North Carolina",13,Holy Cross
+548,1993,East,3,Massachusetts,"Syracuse, New York",14,Pennsylvania
+549,1993,East,6,Virginia,"Syracuse, New York",11,Manhattan
+550,1993,East,7,New Mexico State,"Syracuse, New York",10,Nebraska
+551,1993,East,2,Cincinnati,"Syracuse, New York",15,Coppin State
+552,1993,Midwest,1,Indiana,"Indianapolis, Indiana",16,Wright State
+553,1993,Midwest,8,New Orleans,"Indianapolis, Indiana",9,Xavier
+554,1993,Midwest,5,Oklahoma State,"Indianapolis, Indiana",12,Marquette
+555,1993,Midwest,4,Louisville,"Indianapolis, Indiana",13,Delaware
+556,1993,Midwest,3,Duke,"Rosemont, Illinois",14,Southern Illinois
+557,1993,Midwest,6,California,"Rosemont, Illinois",11,Louisiana State
+558,1993,Midwest,7,Brigham Young,"Rosemont, Illinois",10,Southern Methodist
+559,1993,Midwest,2,Kansas,"Rosemont, Illinois",15,Ball State
+560,1993,Southeast,1,Kentucky,"Nashville, Tennessee",16,Rider
+561,1993,Southeast,8,Utah,"Nashville, Tennessee",9,Pittsburgh
+562,1993,Southeast,5,Wake Forest,"Nashville, Tennessee",12,Chattanooga
+563,1993,Southeast,4,Iowa,"Nashville, Tennessee",13,Louisiana-Monroe
+564,1993,Southeast,3,Florida State,"Orlando, Florida",14,Evansville
+565,1993,Southeast,6,Kansas State,"Orlando, Florida",11,Tulane
+566,1993,Southeast,7,Western Kentucky,"Orlando, Florida",10,Memphis
+567,1993,Southeast,2,Seton Hall,"Orlando, Florida",15,Tennessee State
+568,1993,West,1,Michigan,"Tucson, Arizona",16,Coastal Carolina
+569,1993,West,8,Iowa State,"Tucson, Arizona",9,UCLA
+570,1993,West,5,New Mexico,"Tucson, Arizona",12,George Washington
+571,1993,West,4,Georgia Tech,"Tucson, Arizona",13,Southern
+572,1993,West,3,Vanderbilt,"Salt Lake City, Utah",14,Boise State
+573,1993,West,6,Illinois,"Salt Lake City, Utah",11,Long Beach State
+574,1993,West,7,Temple,"Salt Lake City, Utah",10,Missouri
+575,1993,West,2,Arizona,"Salt Lake City, Utah",15,Santa Clara
+576,1992,Midwest,1,Kansas,"Dayton, Ohio",16,Howard
+577,1992,Midwest,8,Evansville,"Dayton, Ohio",9,Texas-El Paso
+578,1992,Midwest,5,Michigan State,"Dayton, Ohio",12,Missouri State
+579,1992,Midwest,4,Cincinnati,"Dayton, Ohio",13,Delaware
+580,1992,Midwest,3,Arkansas,"Milwaukee, Wisconsin",14,Murray State
+581,1992,Midwest,6,Memphis,"Milwaukee, Wisconsin",11,Pepperdine
+582,1992,Midwest,7,Georgia Tech,"Milwaukee, Wisconsin",10,Houston
+583,1992,Midwest,2,Southern California,"Milwaukee, Wisconsin",15,Louisiana-Monroe
+584,1992,Southeast,1,Ohio State,"Cincinnati, Ohio",16,Mississippi Valley
+585,1992,Southeast,8,Nebraska,"Cincinnati, Ohio",9,Connecticut
+586,1992,Southeast,5,Alabama,"Cincinnati, Ohio",12,Stanford
+587,1992,Southeast,4,North Carolina,"Cincinnati, Ohio",13,Miami
+588,1992,Southeast,3,Arizona,"Atlanta, Georgia",14,East Tennessee State
+589,1992,Southeast,6,Michigan,"Atlanta, Georgia",11,Temple
+590,1992,Southeast,7,St,"Atlanta, Georgia",10,Tulane
+591,1992,Southeast,2,Oklahoma State,"Atlanta, Georgia",15,Georgia Southern
+592,1992,East,1,Duke,"Greensboro, North Carolina",16,Campbell
+593,1992,East,8,Texas,"Greensboro, North Carolina",9,Iowa
+594,1992,East,5,Missouri,"Greensboro, North Carolina",12,West Virginia
+595,1992,East,4,Seton Hall,"Greensboro, North Carolina",13,La Salle
+596,1992,East,3,Massachusetts,"Worcester, Massachusetts",14,Fordham
+597,1992,East,6,Syracuse,"Worcester, Massachusetts",11,Princeton
+598,1992,East,7,Charlotte,"Worcester, Massachusetts",10,Iowa State
+599,1992,East,2,Kentucky,"Worcester, Massachusetts",15,Old Dominion
+600,1992,West,1,UCLA,"Tempe, Arizona",16,Robert Morris
+601,1992,West,8,Louisville,"Tempe, Arizona",9,Wake Forest
+602,1992,West,5,DePaul,"Tempe, Arizona",12,New Mexico State
+603,1992,West,4,Oklahoma,"Tempe, Arizona",13,Louisiana-Lafayette
+604,1992,West,3,Florida State,"Boise, Idaho",14,Montana
+605,1992,West,6,Georgetown,"Boise, Idaho",11,South Florida
+606,1992,West,7,Louisiana State,"Boise, Idaho",10,Brigham Young
+607,1992,West,2,Indiana,"Boise, Idaho",15,Eastern Illinois
+608,1991,West,1,Nevada-Las Vegas,"Tucson, Arizona",16,Montana
+609,1991,West,8,Georgetown,"Tucson, Arizona",9,Vanderbilt
+610,1991,West,5,Michigan State,"Tucson, Arizona",12,Wisconsin-Green Bay
+611,1991,West,4,Utah,"Tucson, Arizona",13,South Alabama
+612,1991,West,3,Seton Hall,"Salt Lake City, Utah",14,Pepperdine
+613,1991,West,6,New Mexico State,"Salt Lake City, Utah",11,Creighton
+614,1991,West,7,Virginia,"Salt Lake City, Utah",10,Brigham Young
+615,1991,West,2,Arizona,"Salt Lake City, Utah",15,St
+616,1991,Midwest,1,Ohio State,"Dayton, Ohio",16,Towson
+617,1991,Midwest,8,Georgia Tech,"Dayton, Ohio",9,DePaul
+618,1991,Midwest,5,Texas,"Dayton, Ohio",12,St
+619,1991,Midwest,4,St,"Dayton, Ohio",13,Northern Illinois
+620,1991,Midwest,3,Nebraska,"Minneapolis, Minnesota",14,Xavier
+621,1991,Midwest,6,Louisiana State,"Minneapolis, Minnesota",11,Connecticut
+622,1991,Midwest,7,Iowa,"Minneapolis, Minnesota",10,East Tennessee State
+623,1991,Midwest,2,Duke,"Minneapolis, Minnesota",15,Louisiana-Monroe
+624,1991,East,1,North Carolina,"Syracuse, New York",16,Northeastern
+625,1991,East,8,Princeton,"Syracuse, New York",9,Villanova
+626,1991,East,5,Mississippi State,"Syracuse, New York",12,Eastern Michigan
+627,1991,East,4,UCLA,"Syracuse, New York",13,Pennsylvania State
+628,1991,East,3,Oklahoma State,"College Park, Maryland",14,New Mexico
+629,1991,East,6,North Carolina State,"College Park, Maryland",11,Southern Mississippi
+630,1991,East,7,Purdue,"College Park, Maryland",10,Temple
+631,1991,East,2,Syracuse,"College Park, Maryland",15,Richmond
+632,1991,Southeast,1,Arkansas,"Atlanta, Georgia",16,Georgia State
+633,1991,Southeast,8,Arizona State,"Atlanta, Georgia",9,Rutgers
+634,1991,Southeast,5,Wake Forest,"Atlanta, Georgia",12,Louisiana Tech
+635,1991,Southeast,4,Alabama,"Atlanta, Georgia",13,Murray State
+636,1991,Southeast,3,Kansas,"Louisville, Kentucky",14,New Orleans
+637,1991,Southeast,6,Pittsburgh,"Louisville, Kentucky",11,Georgia
+638,1991,Southeast,7,Florida State,"Louisville, Kentucky",10,Southern California
+639,1991,Southeast,2,Indiana,"Louisville, Kentucky",15,Coastal Carolina
+640,1990,Midwest,1,Oklahoma,"Austin, Texas",16,Towson
+641,1990,Midwest,8,North Carolina,"Austin, Texas",9,Missouri State
+642,1990,Midwest,5,Illinois,"Austin, Texas",12,Dayton
+643,1990,Midwest,4,Arkansas,"Austin, Texas",13,Princeton
+644,1990,Midwest,3,Georgetown,"Indianapolis, Indiana",14,Texas Southern
+645,1990,Midwest,6,Xavier,"Indianapolis, Indiana",11,Kansas State
+646,1990,Midwest,7,Georgia,"Indianapolis, Indiana",10,Texas
+647,1990,Midwest,2,Purdue,"Indianapolis, Indiana",15,Louisiana-Monroe
+648,1990,East,1,Connecticut,"Hartford, Connecticut",16,Boston
+649,1990,East,8,Indiana,"Hartford, Connecticut",9,California
+650,1990,East,5,Clemson,"Hartford, Connecticut",12,Brigham Young
+651,1990,East,4,La Salle,"Hartford, Connecticut",13,Southern Mississippi
+652,1990,East,3,Duke,"Atlanta, Georgia",14,Richmond
+653,1990,East,6,St,"Atlanta, Georgia",11,Temple
+654,1990,East,7,UCLA,"Atlanta, Georgia",10,UAB
+655,1990,East,2,Kansas,"Atlanta, Georgia",15,Robert Morris
+656,1990,West,1,Nevada-Las Vegas,"Salt Lake City, Utah",16,Arkansas-Little Rock
+657,1990,West,8,Ohio State,"Salt Lake City, Utah",9,Providence
+658,1990,West,5,Oregon State,"Salt Lake City, Utah",12,Ball State
+659,1990,West,4,Louisville,"Salt Lake City, Utah",13,Idaho
+660,1990,West,3,Michigan,"Long Beach, California",14,Illinois State
+661,1990,West,6,New Mexico State,"Long Beach, California",11,Loyola Marymount
+662,1990,West,7,Alabama,"Long Beach, California",10,Colorado State
+663,1990,West,2,Arizona,"Long Beach, California",15,South Florida
+664,1990,Southeast,1,Michigan State,"Knoxville, Tennessee",16,Murray State
+665,1990,Southeast,8,Houston,"Knoxville, Tennessee",9,California-Santa Barbara
+666,1990,Southeast,5,Louisiana State,"Knoxville, Tennessee",12,Villanova
+667,1990,Southeast,4,Georgia Tech,"Knoxville, Tennessee",13,East Tennessee State
+668,1990,Southeast,3,Missouri,"Richmond, Virginia",14,Northern Iowa
+669,1990,Southeast,6,Minnesota,"Richmond, Virginia",11,Texas-El Paso
+670,1990,Southeast,7,Virginia,"Richmond, Virginia",10,Notre Dame
+671,1990,Southeast,2,Syracuse,"Richmond, Virginia",15,Coppin State
+672,1989,West,1,Arizona,"Boise, Idaho",16,Robert Morris
+673,1989,West,8,St,"Boise, Idaho",9,Clemson
+674,1989,West,5,Memphis,"Boise, Idaho",12,DePaul
+675,1989,West,4,Nevada-Las Vegas,"Boise, Idaho",13,Idaho
+676,1989,West,3,Seton Hall,"Tucson, Arizona",14,Missouri State
+677,1989,West,6,Oregon State,"Tucson, Arizona",11,Evansville
+678,1989,West,7,Texas-El Paso,"Tucson, Arizona",10,Louisiana State
+679,1989,West,2,Indiana,"Tucson, Arizona",15,George Mason
+680,1989,East,1,Georgetown,"Providence, Rhode Island",16,Princeton
+681,1989,East,8,Vanderbilt,"Providence, Rhode Island",9,Notre Dame
+682,1989,East,5,North Carolina State,"Providence, Rhode Island",12,South Carolina
+683,1989,East,4,Iowa,"Providence, Rhode Island",13,Rutgers
+684,1989,East,3,Stanford,"Greensboro, North Carolina",14,Siena
+685,1989,East,6,Kansas State,"Greensboro, North Carolina",11,Minnesota
+686,1989,East,7,West Virginia,"Greensboro, North Carolina",10,Tennessee
+687,1989,East,2,Duke,"Greensboro, North Carolina",15,South Carolina State
+688,1989,Midwest,1,Illinois,"Indianapolis, Indiana",16,McNeese State
+689,1989,Midwest,8,Pittsburgh,"Indianapolis, Indiana",9,Ball State
+690,1989,Midwest,5,Arkansas,"Indianapolis, Indiana",12,Loyola Marymount
+691,1989,Midwest,4,Louisville,"Indianapolis, Indiana",13,Arkansas-Little Rock
+692,1989,Midwest,3,Missouri,"Dallas, Texas",14,Creighton
+693,1989,Midwest,6,Georgia Tech,"Dallas, Texas",11,Texas
+694,1989,Midwest,7,Florida,"Dallas, Texas",10,Colorado State
+695,1989,Midwest,2,Syracuse,"Dallas, Texas",15,Bucknell
+696,1989,Southeast,1,Oklahoma,"Nashville, Tennessee",16,East Tennessee State
+697,1989,Southeast,8,La Salle,"Nashville, Tennessee",9,Louisiana Tech
+698,1989,Southeast,5,Virginia,"Nashville, Tennessee",12,Providence
+699,1989,Southeast,4,Florida State,"Nashville, Tennessee",13,Middle Tennessee State
+700,1989,Southeast,3,Michigan,"Atlanta, Georgia",14,Xavier
+701,1989,Southeast,6,Alabama,"Atlanta, Georgia",11,South Alabama
+702,1989,Southeast,7,UCLA,"Atlanta, Georgia",10,Iowa State
+703,1989,Southeast,2,North Carolina,"Atlanta, Georgia",15,Southern
+704,1988,West,1,Arizona,"Los Angeles, California",16,Cornell
+705,1988,West,8,Seton Hall,"Los Angeles, California",9,Texas-El Paso
+706,1988,West,5,Iowa,"Los Angeles, California",12,Florida State
+707,1988,West,4,Nevada-Las Vegas,"Los Angeles, California",13,Missouri State
+708,1988,West,3,Michigan,"Salt Lake City, Utah",14,Boise State
+709,1988,West,6,Florida,"Salt Lake City, Utah",11,St
+710,1988,West,7,Wyoming,"Salt Lake City, Utah",10,Loyola Marymount
+711,1988,West,2,North Carolina,"Salt Lake City, Utah",15,North Texas
+712,1988,Southeast,1,Oklahoma,"Atlanta, Georgia",16,Chattanooga
+713,1988,Southeast,8,Auburn,"Atlanta, Georgia",9,Bradley
+714,1988,Southeast,5,Louisville,"Atlanta, Georgia",12,Oregon State
+715,1988,Southeast,4,Brigham Young,"Atlanta, Georgia",13,Charlotte
+716,1988,Southeast,3,Illinois,"Cincinnati, Ohio",14,Texas-San Antonio
+717,1988,Southeast,6,Villanova,"Cincinnati, Ohio",11,Arkansas
+718,1988,Southeast,7,Maryland,"Cincinnati, Ohio",10,California-Santa Barbara
+719,1988,Southeast,2,Kentucky,"Cincinnati, Ohio",15,Southern
+720,1988,East,1,Temple,"Hartford, Connecticut",16,Lehigh
+721,1988,East,8,Georgetown,"Hartford, Connecticut",9,Louisiana State
+722,1988,East,5,Georgia Tech,"Hartford, Connecticut",12,Iowa State
+723,1988,East,4,Indiana,"Hartford, Connecticut",13,Richmond
+724,1988,East,3,Syracuse,"Chapel Hill, North Carolina",14,North Carolina A&T
+725,1988,East,6,Missouri,"Chapel Hill, North Carolina",11,Rhode Island
+726,1988,East,7,Southern Methodist,"Chapel Hill, North Carolina",10,Notre Dame
+727,1988,East,2,Duke,"Chapel Hill, North Carolina",15,Boston
+728,1988,Midwest,1,Purdue,"South Bend, Indiana",16,Fairleigh Dickinson
+729,1988,Midwest,8,Baylor,"South Bend, Indiana",9,Memphis
+730,1988,Midwest,5,DePaul,"South Bend, Indiana",12,Wichita State
+731,1988,Midwest,4,Kansas State,"South Bend, Indiana",13,La Salle
+732,1988,Midwest,3,North Carolina State,"Lincoln, Nebraska",14,Murray State
+733,1988,Midwest,6,Kansas,"Lincoln, Nebraska",11,Xavier
+734,1988,Midwest,7,Vanderbilt,"Lincoln, Nebraska",10,Utah State
+735,1988,Midwest,2,Pittsburgh,"Lincoln, Nebraska",15,Eastern Michigan
+736,1987,East,1,North Carolina,"Charlotte, North Carolina",16,Pennsylvania
+737,1987,East,8,Navy,"Charlotte, North Carolina",9,Michigan
+738,1987,East,5,Notre Dame,"Charlotte, North Carolina",12,Middle Tennessee State
+739,1987,East,4,Texas Christian,"Charlotte, North Carolina",13,Marshall
+740,1987,East,3,Purdue,"Syracuse, New York",14,Northeastern
+741,1987,East,6,Florida,"Syracuse, New York",11,North Carolina State
+742,1987,East,7,West Virginia,"Syracuse, New York",10,Western Kentucky
+743,1987,East,2,Syracuse,"Syracuse, New York",15,Georgia Southern
+744,1987,Southeast,1,Georgetown,"Atlanta, Georgia",16,Bucknell
+745,1987,Southeast,8,Kentucky,"Atlanta, Georgia",9,Ohio State
+746,1987,Southeast,5,Kansas,"Atlanta, Georgia",12,Houston
+747,1987,Southeast,4,Clemson,"Atlanta, Georgia",13,Missouri State
+748,1987,Southeast,3,Illinois,"Birmingham, Alabama",14,Austin Peay
+749,1987,Southeast,6,Providence,"Birmingham, Alabama",11,UAB
+750,1987,Southeast,7,New Orleans,"Birmingham, Alabama",10,Brigham Young
+751,1987,Southeast,2,Alabama,"Birmingham, Alabama",15,North Carolina A&T
+752,1987,Midwest,1,Indiana,"Indianapolis, Indiana",16,Fairfield
+753,1987,Midwest,8,Auburn,"Indianapolis, Indiana",9,San Diego
+754,1987,Midwest,5,Duke,"Indianapolis, Indiana",12,Texas A&M
+755,1987,Midwest,4,Missouri,"Indianapolis, Indiana",13,Xavier
+756,1987,Midwest,3,DePaul,"Chicago, Illinois",14,Louisiana Tech
+757,1987,Midwest,6,St,"Chicago, Illinois",11,Wichita State
+758,1987,Midwest,7,Georgia Tech,"Chicago, Illinois",10,Louisiana State
+759,1987,Midwest,2,Temple,"Chicago, Illinois",15,Southern
+760,1987,West,1,Nevada-Las Vegas,"Salt Lake City, Utah",16,Idaho State
+761,1987,West,8,Georgia,"Salt Lake City, Utah",9,Kansas State
+762,1987,West,5,Virginia,"Salt Lake City, Utah",12,Wyoming
+763,1987,West,4,UCLA,"Salt Lake City, Utah",13,Central Michigan
+764,1987,West,3,Pittsburgh,"Tucson, Arizona",14,Marist
+765,1987,West,6,Oklahoma,"Tucson, Arizona",11,Tulsa
+766,1987,West,7,Texas-El Paso,"Tucson, Arizona",10,Arizona
+767,1987,West,2,Iowa,"Tucson, Arizona",15,Santa Clara
+768,1986,East,1,Duke,"Greensboro, North Carolina",16,Mississippi Valley
+769,1986,East,8,Old Dominion,"Greensboro, North Carolina",9,West Virginia
+770,1986,East,5,Virginia,"Greensboro, North Carolina",12,DePaul
+771,1986,East,4,Oklahoma,"Greensboro, North Carolina",13,Northeastern
+772,1986,East,3,Indiana,"Syracuse, New York",14,Cleveland State
+773,1986,East,6,St,"Syracuse, New York",11,Richmond
+774,1986,East,7,Navy,"Syracuse, New York",10,Tulsa
+775,1986,East,2,Syracuse,"Syracuse, New York",15,Brown
+776,1986,Midwest,1,Kansas,"Dayton, Ohio",16,North Carolina A&T
+777,1986,Midwest,8,Jacksonville,"Dayton, Ohio",9,Temple
+778,1986,Midwest,5,Michigan State,"Dayton, Ohio",12,Washington
+779,1986,Midwest,4,Georgetown,"Dayton, Ohio",13,Texas Tech
+780,1986,Midwest,3,Notre Dame,"Minneapolis, Minnesota",14,Arkansas-Little Rock
+781,1986,Midwest,6,North Carolina State,"Minneapolis, Minnesota",11,Iowa
+782,1986,Midwest,7,Iowa State,"Minneapolis, Minnesota",10,Miami
+783,1986,Midwest,2,Michigan,"Minneapolis, Minnesota",15,Akron
+784,1986,Southeast,1,Kentucky,"Charlotte, North Carolina",16,Davidson
+785,1986,Southeast,8,Western Kentucky,"Charlotte, North Carolina",9,Nebraska
+786,1986,Southeast,5,Alabama,"Charlotte, North Carolina",12,Xavier
+787,1986,Southeast,4,Illinois,"Charlotte, North Carolina",13,Fairfield
+788,1986,Southeast,3,Memphis,"Baton Rouge, Louisiana",14,Ball State
+789,1986,Southeast,6,Purdue,"Baton Rouge, Louisiana",11,Louisiana State
+790,1986,Southeast,7,Virginia Tech,"Baton Rouge, Louisiana",10,Villanova
+791,1986,Southeast,2,Georgia Tech,"Baton Rouge, Louisiana",15,Marist
+792,1986,West,1,St,"Long Beach, California",16,Montana State
+793,1986,West,8,Auburn,"Long Beach, California",9,Arizona
+794,1986,West,5,Maryland,"Long Beach, California",12,Pepperdine
+795,1986,West,4,Nevada-Las Vegas,"Long Beach, California",13,Louisiana-Monroe
+796,1986,West,3,North Carolina,"Ogden, Utah",14,Utah
+797,1986,West,6,UAB,"Ogden, Utah",11,Missouri
+798,1986,West,7,Bradley,"Ogden, Utah",10,Texas-El Paso
+799,1986,West,2,Louisville,"Ogden, Utah",15,Drexel
+800,1985,Southeast,1,Michigan,"Dayton, Ohio",16,Fairleigh Dickinson
+801,1985,Southeast,8,Villanova,"Dayton, Ohio",9,Dayton
+802,1985,Southeast,5,Maryland,"Dayton, Ohio",12,Miami
+803,1985,Southeast,4,Louisiana State,"Dayton, Ohio",13,Navy
+804,1985,Southeast,3,Kansas,"Notre Dame, Indiana",14,Ohio
+805,1985,Southeast,6,Purdue,"Notre Dame, Indiana",11,Auburn
+806,1985,Southeast,7,Notre Dame,"Notre Dame, Indiana",10,Oregon State
+807,1985,Southeast,2,North Carolina,"Notre Dame, Indiana",15,Middle Tennessee State
+808,1985,Midwest,1,Oklahoma,"Tulsa, Oklahoma",16,North Carolina A&T
+809,1985,Midwest,8,Southern California,"Tulsa, Oklahoma",9,Illinois State
+810,1985,Midwest,5,Louisiana Tech,"Tulsa, Oklahoma",12,Pittsburgh
+811,1985,Midwest,4,Ohio State,"Tulsa, Oklahoma",13,Iowa State
+812,1985,Midwest,3,Duke,"Houston, Texas",14,Pepperdine
+813,1985,Midwest,6,Texas Tech,"Houston, Texas",11,Boston College
+814,1985,Midwest,7,UAB,"Houston, Texas",10,Michigan State
+815,1985,Midwest,2,Memphis,"Houston, Texas",15,Pennsylvania
+816,1985,West,1,St,"Salt Lake City, Utah",16,Southern
+817,1985,West,8,Iowa,"Salt Lake City, Utah",9,Arkansas
+818,1985,West,5,Washington,"Salt Lake City, Utah",12,Kentucky
+819,1985,West,4,Nevada-Las Vegas,"Salt Lake City, Utah",13,San Diego State
+820,1985,West,3,North Carolina State,"Albuquerque, New Mexico",14,Nevada
+821,1985,West,6,Tulsa,"Albuquerque, New Mexico",11,Texas-El Paso
+822,1985,West,7,Alabama,"Albuquerque, New Mexico",10,Arizona
+823,1985,West,2,Virginia Commonwealth,"Albuquerque, New Mexico",15,Marshall
+824,1985,East,1,Georgetown,"Hartford, Connecticut",16,Lehigh
+825,1985,East,8,Temple,"Hartford, Connecticut",9,Virginia Tech
+826,1985,East,5,Southern Methodist,"Hartford, Connecticut",12,Old Dominion
+827,1985,East,4,Loyola,"Hartford, Connecticut",13,Iona
+828,1985,East,3,Illinois,"Atlanta, Georgia",14,Northeastern
+829,1985,East,6,Georgia,"Atlanta, Georgia",11,Wichita State
+830,1985,East,7,Syracuse,"Atlanta, Georgia",10,DePaul
+831,1985,East,2,Georgia Tech,"Atlanta, Georgia",15,Mercer
+832,1984,Mideast,8,Brigham Young,"Birmingham, Alabama",9,UAB
+833,1984,Mideast,8,Brigham Young,"Birmingham, Alabama",9,UAB
+834,1984,Mideast,5,Louisville,"Milwaukee, Wisconsin",12,Morehead State
+835,1984,Mideast,5,Louisville,"Milwaukee, Wisconsin",12,Morehead State
+836,1984,Mideast,6,Oregon State,"Birmingham, Alabama",11,West Virginia
+837,1984,Mideast,6,Oregon State,"Birmingham, Alabama",11,West Virginia
+838,1984,Mideast,7,Villanova,"Milwaukee, Wisconsin",10,Marshall
+839,1984,Mideast,7,Villanova,"Milwaukee, Wisconsin",10,Marshall
+840,1984,West,8,Miami,"Pullman, Washington",9,Southern Methodist
+841,1984,West,8,Miami,"Pullman, Washington",9,Southern Methodist
+842,1984,West,5,Nevada-Las Vegas,"Salt Lake City, Utah",12,Princeton
+843,1984,West,5,Nevada-Las Vegas,"Salt Lake City, Utah",12,Princeton
+844,1984,West,6,Washington,"Pullman, Washington",11,Nevada
+845,1984,West,6,Washington,"Pullman, Washington",11,Nevada
+846,1984,West,7,Louisiana State,"Salt Lake City, Utah",10,Dayton
+847,1984,West,7,Louisiana State,"Salt Lake City, Utah",10,Dayton
+848,1984,East,8,Temple,"Charlotte, North Carolina",9,St
+849,1984,East,8,Temple,"Charlotte, North Carolina",9,St
+850,1984,East,5,Auburn,"Charlotte, North Carolina",12,Richmond
+851,1984,East,5,Auburn,"Charlotte, North Carolina",12,Richmond
+852,1984,East,6,Virginia Commonwealth,"East Rutherford, New Jersey",11,Northeastern
+853,1984,East,6,Virginia Commonwealth,"East Rutherford, New Jersey",11,Northeastern
+854,1984,East,7,Virginia,"East Rutherford, New Jersey",10,Iona
+855,1984,East,7,Virginia,"East Rutherford, New Jersey",10,Iona
+856,1984,Midwest,8,Illinois State,"Lincoln, Nebraska",9,Alabama
+857,1984,Midwest,8,Illinois State,"Lincoln, Nebraska",9,Alabama
+858,1984,Midwest,5,Kansas,"Lincoln, Nebraska",12,Alcorn State
+859,1984,Midwest,5,Kansas,"Lincoln, Nebraska",12,Alcorn State
+860,1984,Midwest,6,Memphis,"Memphis, Tennessee",11,Oral Roberts
+861,1984,Midwest,6,Memphis,"Memphis, Tennessee",11,Oral Roberts
+862,1984,Midwest,7,Fresno State,"Memphis, Tennessee",10,Louisiana Tech
+863,1984,Midwest,7,Fresno State,"Memphis, Tennessee",10,Louisiana Tech
+864,1983,Midwest,8,Maryland,"Houston, Texas",9,Chattanooga
+865,1983,Midwest,8,Maryland,"Houston, Texas",9,Chattanooga
+866,1983,Midwest,5,Georgetown,"Louisville, Kentucky",12,Alcorn State
+867,1983,Midwest,5,Georgetown,"Louisville, Kentucky",12,Alcorn State
+868,1983,Midwest,6,Alabama,"Houston, Texas",11,Lamar
+869,1983,Midwest,6,Alabama,"Houston, Texas",11,Lamar
+870,1983,Midwest,7,Iowa,"Louisville, Kentucky",10,Utah State
+871,1983,Midwest,7,Iowa,"Louisville, Kentucky",10,Utah State
+872,1983,Mideast,8,Tennessee,"Evansville, Indiana",9,Marquette
+873,1983,Mideast,8,Tennessee,"Evansville, Indiana",9,Marquette
+874,1983,Mideast,5,Purdue,"Tampa, Florida",12,Robert Morris
+875,1983,Mideast,5,Purdue,"Tampa, Florida",12,Robert Morris
+876,1983,Mideast,6,Illinois State,"Tampa, Florida",11,Ohio
+877,1983,Mideast,6,Illinois State,"Tampa, Florida",11,Ohio
+878,1983,Mideast,7,Oklahoma,"Evansville, Indiana",10,UAB
+879,1983,Mideast,7,Oklahoma,"Evansville, Indiana",10,UAB
+880,1983,West,8,Washington State,"Boise, Idaho",9,Weber State
+881,1983,West,8,Washington State,"Boise, Idaho",9,Weber State
+882,1983,West,5,Oklahoma State,"Corvallis, Oregon",12,Princeton
+883,1983,West,5,Oklahoma State,"Corvallis, Oregon",12,Princeton
+884,1983,West,6,North Carolina State,"Corvallis, Oregon",11,Pepperdine
+885,1983,West,6,North Carolina State,"Corvallis, Oregon",11,Pepperdine
+886,1983,West,7,Illinois,"Boise, Idaho",10,Utah
+887,1983,West,7,Illinois,"Boise, Idaho",10,Utah
+888,1983,East,8,Louisiana-Lafayette,"Hartford, Connecticut",9,Rutgers
+889,1983,East,8,Louisiana-Lafayette,"Hartford, Connecticut",9,Rutgers
+890,1983,East,5,Virginia Commonwealth,"Greensboro, North Carolina",12,La Salle
+891,1983,East,5,Virginia Commonwealth,"Greensboro, North Carolina",12,La Salle
+892,1983,East,6,Syracuse,"Hartford, Connecticut",11,Morehead State
+893,1983,East,6,Syracuse,"Hartford, Connecticut",11,Morehead State
+894,1983,East,7,West Virginia,"Greensboro, North Carolina",10,James Madison
+895,1983,East,7,West Virginia,"Greensboro, North Carolina",10,James Madison
+896,1982,East,8,Ohio State,"Charlotte, North Carolina",9,James Madison
+897,1982,East,8,Ohio State,"Charlotte, North Carolina",9,James Madison
+898,1982,East,5,St,"Uniondale, New York",12,Pennsylvania
+899,1982,East,5,St,"Uniondale, New York",12,Pennsylvania
+900,1982,East,6,St,"Uniondale, New York",11,Northeastern
+901,1982,East,6,St,"Uniondale, New York",11,Northeastern
+902,1982,East,7,Wake Forest,"Charlotte, North Carolina",10,Old Dominion
+903,1982,East,7,Wake Forest,"Charlotte, North Carolina",10,Old Dominion
+904,1982,Midwest,8,Boston College,"Dallas, Texas",9,San Francisco
+905,1982,Midwest,8,Boston College,"Dallas, Texas",9,San Francisco
+906,1982,Midwest,5,Kansas State,"Dallas, Texas",12,Northern Illinois
+907,1982,Midwest,5,Kansas State,"Dallas, Texas",12,Northern Illinois
+908,1982,Midwest,6,Houston,"Tulsa, Oklahoma",11,Alcorn State
+909,1982,Midwest,6,Houston,"Tulsa, Oklahoma",11,Alcorn State
+910,1982,Midwest,7,Marquette,"Tulsa, Oklahoma",10,Evansville
+911,1982,Midwest,7,Marquette,"Tulsa, Oklahoma",10,Evansville
+912,1982,Mideast,8,Louisiana-Lafayette,"Indianapolis, Indiana",9,Tennessee
+913,1982,Mideast,8,Louisiana-Lafayette,"Indianapolis, Indiana",9,Tennessee
+914,1982,Mideast,5,Indiana,"Nashville, Tennessee",12,Robert Morris
+915,1982,Mideast,5,Indiana,"Nashville, Tennessee",12,Robert Morris
+916,1982,Mideast,6,Kentucky,"Nashville, Tennessee",11,Middle Tennessee State
+917,1982,Mideast,6,Kentucky,"Nashville, Tennessee",11,Middle Tennessee State
+918,1982,Mideast,7,North Carolina State,"Indianapolis, Indiana",10,Chattanooga
+919,1982,Mideast,7,North Carolina State,"Indianapolis, Indiana",10,Chattanooga
+920,1982,West,8,Wyoming,"Logan, Utah",9,Southern California
+921,1982,West,8,Wyoming,"Logan, Utah",9,Southern California
+922,1982,West,5,West Virginia,"Logan, Utah",12,North Carolina A&T
+923,1982,West,5,West Virginia,"Logan, Utah",12,North Carolina A&T
+924,1982,West,6,Iowa,"Pullman, Washington",11,Louisiana-Monroe
+925,1982,West,6,Iowa,"Pullman, Washington",11,Louisiana-Monroe
+926,1982,West,7,Pepperdine,"Pullman, Washington",10,Pittsburgh
+927,1982,West,7,Pepperdine,"Pullman, Washington",10,Pittsburgh
+928,1981,Midwest,8,Lamar,"Austin, Texas",9,Missouri
+929,1981,Midwest,8,Lamar,"Austin, Texas",9,Missouri
+930,1981,Midwest,5,Arkansas,"Austin, Texas",12,Mercer
+931,1981,Midwest,5,Arkansas,"Austin, Texas",12,Mercer
+932,1981,Midwest,6,Wichita State,"Wichita, Kansas",11,Southern
+933,1981,Midwest,6,Wichita State,"Wichita, Kansas",11,Southern
+934,1981,Midwest,7,Kansas,"Wichita, Kansas",10,Mississippi
+935,1981,Midwest,7,Kansas,"Wichita, Kansas",10,Mississippi
+936,1981,Mideast,8,Creighton,"Dayton, Ohio",9,St
+937,1981,Mideast,8,Creighton,"Dayton, Ohio",9,St
+938,1981,Mideast,5,Boston College,"Tuscaloosa, Alabama",12,Ball State
+939,1981,Mideast,5,Boston College,"Tuscaloosa, Alabama",12,Ball State
+940,1981,Mideast,6,Maryland,"Dayton, Ohio",11,Chattanooga
+941,1981,Mideast,6,Maryland,"Dayton, Ohio",11,Chattanooga
+942,1981,Mideast,7,UAB,"Tuscaloosa, Alabama",10,Western Kentucky
+943,1981,Mideast,7,UAB,"Tuscaloosa, Alabama",10,Western Kentucky
+944,1981,West,8,Kansas State,"Los Angeles, California",9,San Francisco
+945,1981,West,8,Kansas State,"Los Angeles, California",9,San Francisco
+946,1981,West,5,Wyoming,"Los Angeles, California",12,Howard
+947,1981,West,5,Wyoming,"Los Angeles, California",12,Howard
+948,1981,West,6,Fresno State,"El Paso, Texas",11,Northeastern
+949,1981,West,6,Fresno State,"El Paso, Texas",11,Northeastern
+950,1981,West,7,Idaho,"El Paso, Texas",10,Pittsburgh
+951,1981,West,7,Idaho,"El Paso, Texas",10,Pittsburgh
+952,1981,East,8,Houston,"Charlotte, North Carolina",9,Villanova
+953,1981,East,8,Houston,"Charlotte, North Carolina",9,Villanova
+954,1981,East,5,Virginia Commonwealth,"Charlotte, North Carolina",12,Long Island-Brooklyn
+955,1981,East,5,Virginia Commonwealth,"Charlotte, North Carolina",12,Long Island-Brooklyn
+956,1981,East,6,Brigham Young,"Providence, Rhode Island",11,Princeton
+957,1981,East,6,Brigham Young,"Providence, Rhode Island",11,Princeton
+958,1981,East,7,Georgetown,"Providence, Rhode Island",10,James Madison
+959,1981,East,7,Georgetown,"Providence, Rhode Island",10,James Madison
+960,1980,East,8,Villanova,"Providence, Rhode Island",9,Marquette
+961,1980,East,8,Villanova,"Providence, Rhode Island",9,Marquette
+962,1980,East,5,Iowa,"Greensboro, North Carolina",12,Virginia Commonwealth
+963,1980,East,5,Iowa,"Greensboro, North Carolina",12,Virginia Commonwealth
+964,1980,East,6,Iona,"Providence, Rhode Island",11,Holy Cross
+965,1980,East,6,Iona,"Providence, Rhode Island",11,Holy Cross
+966,1980,East,7,Tennessee,"Greensboro, North Carolina",10,Furman
+967,1980,East,7,Tennessee,"Greensboro, North Carolina",10,Furman
+968,1980,Midwest,8,Alcorn State,"Denton, Texas",9,South Alabama
+969,1980,Midwest,8,Alcorn State,"Denton, Texas",9,South Alabama
+970,1980,Midwest,5,Missouri,"Lincoln, Nebraska",12,San Jose State
+971,1980,Midwest,5,Missouri,"Lincoln, Nebraska",12,San Jose State
+972,1980,Midwest,6,Texas A&M,"Denton, Texas",11,Bradley
+973,1980,Midwest,6,Texas A&M,"Denton, Texas",11,Bradley
+974,1980,Midwest,7,Kansas State,"Lincoln, Nebraska",10,Arkansas
+975,1980,Midwest,7,Kansas State,"Lincoln, Nebraska",10,Arkansas
+976,1980,Mideast,8,Florida State,"Bowling Green, Kentucky",9,Toledo
+977,1980,Mideast,8,Florida State,"Bowling Green, Kentucky",9,Toledo
+978,1980,Mideast,5,Washington State,"West Lafayette, Indiana",12,Pennsylvania
+979,1980,Mideast,5,Washington State,"West Lafayette, Indiana",12,Pennsylvania
+980,1980,Mideast,6,Purdue,"West Lafayette, Indiana",11,La Salle
+981,1980,Mideast,6,Purdue,"West Lafayette, Indiana",11,La Salle
+982,1980,Mideast,7,Virginia Tech,"Bowling Green, Kentucky",10,Western Kentucky
+983,1980,Mideast,7,Virginia Tech,"Bowling Green, Kentucky",10,Western Kentucky
+984,1980,West,8,UCLA,"Tempe, Arizona",9,Old Dominion
+985,1980,West,8,UCLA,"Tempe, Arizona",9,Old Dominion
+986,1980,West,5,Arizona State,"Tempe, Arizona",12,Loyola Marymount
+987,1980,West,5,Arizona State,"Tempe, Arizona",12,Loyola Marymount
+988,1980,West,6,Clemson,"Ogden, Utah",11,Utah State
+989,1980,West,6,Clemson,"Ogden, Utah",11,Utah State
+990,1980,West,7,Weber State,"Ogden, Utah",10,Lamar
+991,1980,West,7,Weber State,"Ogden, Utah",10,Lamar
+992,1979,East,8,Iona,"Raleigh, North Carolina",9,Pennsylvania
+993,1979,East,8,Iona,"Raleigh, North Carolina",9,Pennsylvania
+994,1979,East,8,Iona,"Providence, Rhode Island",9,Pennsylvania
+995,1979,East,8,Iona,"Providence, Rhode Island",9,Pennsylvania
+996,1979,East,7,Temple,"Raleigh, North Carolina",10,St
+997,1979,East,7,Temple,"Raleigh, North Carolina",10,St
+998,1979,East,7,Temple,"Providence, Rhode Island",10,St
+999,1979,East,7,Temple,"Providence, Rhode Island",10,St
+1000,1979,Mideast,8,Tennessee,"Murfreesboro, Tennessee",9,Eastern Kentucky
+1001,1979,Mideast,8,Tennessee,"Murfreesboro, Tennessee",9,Eastern Kentucky
+1002,1979,Mideast,8,Tennessee,"Bloomington, Indiana",9,Eastern Kentucky
+1003,1979,Mideast,8,Tennessee,"Bloomington, Indiana",9,Eastern Kentucky
+1004,1979,Mideast,7,Detroit,"Murfreesboro, Tennessee",10,Lamar
+1005,1979,Mideast,7,Detroit,"Murfreesboro, Tennessee",10,Lamar
+1006,1979,Mideast,7,Detroit,"Bloomington, Indiana",10,Lamar
+1007,1979,Mideast,7,Detroit,"Bloomington, Indiana",10,Lamar
+1008,1979,West,8,Utah,"Los Angeles, California",9,Pepperdine
+1009,1979,West,8,Utah,"Los Angeles, California",9,Pepperdine
+1010,1979,West,8,Utah,"Tucson, Arizona",9,Pepperdine
+1011,1979,West,8,Utah,"Tucson, Arizona",9,Pepperdine
+1012,1979,West,7,Southern California,"Los Angeles, California",10,Utah State
+1013,1979,West,7,Southern California,"Los Angeles, California",10,Utah State
+1014,1979,West,7,Southern California,"Tucson, Arizona",10,Utah State
+1015,1979,West,7,Southern California,"Tucson, Arizona",10,Utah State
+1016,1979,Midwest,8,Virginia Tech,"Lawrence, Kansas",9,Jacksonville
+1017,1979,Midwest,8,Virginia Tech,"Lawrence, Kansas",9,Jacksonville
+1018,1979,Midwest,8,Virginia Tech,"Dallas, Texas",9,Jacksonville
+1019,1979,Midwest,8,Virginia Tech,"Dallas, Texas",9,Jacksonville
+1020,1979,Midwest,7,Weber State,"Lawrence, Kansas",10,New Mexico State
+1021,1979,Midwest,7,Weber State,"Lawrence, Kansas",10,New Mexico State
+1022,1979,Midwest,7,Weber State,"Dallas, Texas",10,New Mexico State
+1023,1979,Midwest,7,Weber State,"Dallas, Texas",10,New Mexico State
+1024,1978,Mideast,7,Weber State,"Indianapolis, Indiana",10,New Mexico State
+1025,1978,Mideast,7,Weber State,"Knoxville, Tennessee",10,New Mexico State
+1026,1978,Mideast,7,Weber State,"Indianapolis, Indiana",10,New Mexico State
+1027,1978,Mideast,7,Weber State,"Knoxville, Tennessee",10,New Mexico State
+1028,1978,West,7,Weber State,"Eugene, Oregon",10,New Mexico State
+1029,1978,West,7,Weber State,"Eugene, Oregon",10,New Mexico State
+1030,1978,West,7,Weber State,"Tempe, Arizona",10,New Mexico State
+1031,1978,West,7,Weber State,"Tempe, Arizona",10,New Mexico State
+1032,1978,East,7,Weber State,"Charlotte, North Carolina",10,New Mexico State
+1033,1978,East,7,Weber State,"Philadelphia, Pennsylvania",10,New Mexico State
+1034,1978,East,7,Weber State,"Charlotte, North Carolina",10,New Mexico State
+1035,1978,East,7,Weber State,"Philadelphia, Pennsylvania",10,New Mexico State
+1036,1978,Midwest,7,Weber State,"Wichita, Kansas",10,New Mexico State
+1037,1978,Midwest,7,Weber State,"Tulsa, Oklahoma",10,New Mexico State
+1038,1978,Midwest,7,Weber State,"Wichita, Kansas",10,New Mexico State
+1039,1978,Midwest,7,Weber State,"Tulsa, Oklahoma",10,New Mexico State
+1040,1978,Midwest,7,Weber State,"St. Louis, Missouri",10,New Mexico State
+1041,1978,Midwest,7,Weber State,"St. Louis, Missouri",10,New Mexico State
+1042,1978,National Third Place Game,0,Notre Dame,"St. Louis, Missouri",0,Arkansas
+1043,1978,West Region Third Place Game,0,Montana,"St. Louis, Missouri",0,Nevada-Las Vegas
+1044,1978,Midwest Region Third Place Game,0,Notre Dame,"St. Louis, Missouri",0,Cincinnati
+1045,1978,East Region Third Place Game,0,Boston College,"St. Louis, Missouri",0,North Carolina
+1046,1978,Mideast Region Third Place Game,0,Oregon State,"St. Louis, Missouri",0,Central Michigan
+1047,1977,East,0,Oregon State,"Raleigh, North Carolina",0,Central Michigan
+1048,1977,East,0,Oregon State,"Philadelphia, Pennsylvania",0,Central Michigan
+1049,1977,East,0,Oregon State,"Philadelphia, Pennsylvania",0,Central Michigan
+1050,1977,East,0,Oregon State,"Raleigh, North Carolina",0,Central Michigan
+1051,1977,East,0,Oregon State,"Raleigh, North Carolina",0,Central Michigan
+1052,1977,East,0,Oregon State,"Philadelphia, Pennsylvania",0,Central Michigan
+1053,1977,East,0,Oregon State,"Philadelphia, Pennsylvania",0,Central Michigan
+1054,1977,East,0,Oregon State,"Raleigh, North Carolina",0,Central Michigan
+1055,1977,East,0,Oregon State,"Raleigh, North Carolina",0,Central Michigan
+1056,1977,East,0,Oregon State,"Philadelphia, Pennsylvania",0,Central Michigan
+1057,1977,East,0,Oregon State,"Philadelphia, Pennsylvania",0,Central Michigan
+1058,1977,East,0,Oregon State,"Raleigh, North Carolina",0,Central Michigan
+1059,1977,West,0,Oregon State,"Pocatello, Idaho",0,Central Michigan
+1060,1977,West,0,Oregon State,"Pocatello, Idaho",0,Central Michigan
+1061,1977,West,0,Oregon State,"Tucson, Arizona",0,Central Michigan
+1062,1977,West,0,Oregon State,"Tucson, Arizona",0,Central Michigan
+1063,1977,West,0,Oregon State,"Pocatello, Idaho",0,Central Michigan
+1064,1977,West,0,Oregon State,"Pocatello, Idaho",0,Central Michigan
+1065,1977,West,0,Oregon State,"Tucson, Arizona",0,Central Michigan
+1066,1977,West,0,Oregon State,"Tucson, Arizona",0,Central Michigan
+1067,1977,West,0,Oregon State,"Pocatello, Idaho",0,Central Michigan
+1068,1977,West,0,Oregon State,"Pocatello, Idaho",0,Central Michigan
+1069,1977,West,0,Oregon State,"Tucson, Arizona",0,Central Michigan
+1070,1977,West,0,Oregon State,"Tucson, Arizona",0,Central Michigan
+1071,1977,Mideast,0,Oregon State,"Bloomington, Indiana",0,Central Michigan
+1072,1977,Mideast,0,Oregon State,"Baton Rouge, Louisiana",0,Central Michigan
+1073,1977,Mideast,0,Oregon State,"Bloomington, Indiana",0,Central Michigan
+1074,1977,Mideast,0,Oregon State,"Baton Rouge, Louisiana",0,Central Michigan
+1075,1977,Mideast,0,Oregon State,"Bloomington, Indiana",0,Central Michigan
+1076,1977,Mideast,0,Oregon State,"Baton Rouge, Louisiana",0,Central Michigan
+1077,1977,Mideast,0,Oregon State,"Bloomington, Indiana",0,Central Michigan
+1078,1977,Mideast,0,Oregon State,"Baton Rouge, Louisiana",0,Central Michigan
+1079,1976,East,0,Oregon State,"Charlotte, North Carolina",0,Central Michigan
+1080,1976,East,0,Oregon State,"Charlotte, North Carolina",0,Central Michigan
+1081,1976,East,0,Oregon State,"Providence, Rhode Island",0,Central Michigan
+1082,1976,East,0,Oregon State,"Providence, Rhode Island",0,Central Michigan
+1083,1976,Midwest,0,Oregon State,"Denton, Texas",0,Central Michigan
+1084,1976,Midwest,0,Oregon State,"Lawrence, Kansas",0,Central Michigan
+1085,1976,Midwest,0,Oregon State,"Lawrence, Kansas",0,Central Michigan
+1086,1976,Midwest,0,Oregon State,"Denton, Texas",0,Central Michigan
+1087,1976,Mideast,0,Oregon State,"Dayton, Ohio",0,Central Michigan
+1088,1976,Mideast,0,Oregon State,"Notre Dame, Indiana",0,Central Michigan
+1089,1976,Mideast,0,Oregon State,"Dayton, Ohio",0,Central Michigan
+1090,1976,Mideast,0,Oregon State,"Notre Dame, Indiana",0,Central Michigan
+1091,1976,West,0,Oregon State,"Tempe, Arizona",0,Central Michigan
+1092,1976,West,0,Oregon State,"Eugene, Oregon",0,Central Michigan
+1093,1976,West,0,Oregon State,"Eugene, Oregon",0,Central Michigan
+1094,1976,West,0,Oregon State,"Tempe, Arizona",0,Central Michigan
+1095,1976,West,0,Oregon State,"Philadelphia, Pennsylvania",0,Central Michigan
+1096,1976,West,0,Oregon State,"Philadelphia, Pennsylvania",0,Central Michigan
+1097,1976,National Third Place Game,0,UCLA,"Philadelphia, Pennsylvania",0,Rutgers
+1098,1976,West Region Third Place Game,0,Montana,"Philadelphia, Pennsylvania",0,Nevada-Las Vegas
+1099,1976,Midwest Region Third Place Game,0,Notre Dame,"Philadelphia, Pennsylvania",0,Cincinnati
+1100,1976,East Region Third Place Game,0,Boston College,"Philadelphia, Pennsylvania",0,North Carolina
+1101,1976,Mideast Region Third Place Game,0,Oregon State,"Philadelphia, Pennsylvania",0,Central Michigan
+1102,1975,West,0,Oregon State,"Pullman, Washington",0,Central Michigan
+1103,1975,West,0,Oregon State,"Pullman, Washington",0,Central Michigan
+1104,1975,West,0,Oregon State,"Tempe, Arizona",0,Central Michigan
+1105,1975,West,0,Oregon State,"Tempe, Arizona",0,Central Michigan
+1106,1975,Midwest,0,Oregon State,"Lubbock, Texas",0,Central Michigan
+1107,1975,Midwest,0,Oregon State,"Tulsa, Oklahoma",0,Central Michigan
+1108,1975,Midwest,0,Oregon State,"Lubbock, Texas",0,Central Michigan
+1109,1975,Midwest,0,Oregon State,"Tulsa, Oklahoma",0,Central Michigan
+1110,1975,East,0,Oregon State,"Philadelphia, Pennsylvania",0,Central Michigan
+1111,1975,East,0,Oregon State,"Charlotte, North Carolina",0,Central Michigan
+1112,1975,East,0,Oregon State,"Philadelphia, Pennsylvania",0,Central Michigan
+1113,1975,East,0,Oregon State,"Charlotte, North Carolina",0,Central Michigan
+1114,1975,Mideast,0,Oregon State,"Lexington, Kentucky",0,Central Michigan
+1115,1975,Mideast,0,Oregon State,"Lexington, Kentucky",0,Central Michigan
+1116,1975,Mideast,0,Oregon State,"Tuscaloosa, Alabama",0,Central Michigan
+1117,1975,Mideast,0,Oregon State,"Tuscaloosa, Alabama",0,Central Michigan
+1118,1975,Mideast,0,Oregon State,"San Diego, California",0,Central Michigan
+1119,1975,Mideast,0,Oregon State,"San Diego, California",0,Central Michigan
+1120,1975,National Third Place Game,0,Syracuse,"San Diego, California",0,Louisville
+1121,1975,West Region Third Place Game,0,Montana,"San Diego, California",0,Nevada-Las Vegas
+1122,1975,Midwest Region Third Place Game,0,Notre Dame,"San Diego, California",0,Cincinnati
+1123,1975,East Region Third Place Game,0,Boston College,"San Diego, California",0,North Carolina
+1124,1975,Mideast Region Third Place Game,0,Oregon State,"San Diego, California",0,Central Michigan
+1125,1974,East,0,Oregon State,"Raleigh, North Carolina",0,Central Michigan
+1126,1974,East,0,Oregon State,"Jamaica, New York",0,Central Michigan
+1127,1974,East,0,Oregon State,"Morgantown, West Virginia",0,Central Michigan
+1128,1974,East,0,Oregon State,"Philadelphia, Pennsylvania",0,Central Michigan
+1129,1974,West,0,Oregon State,"Tucson, Arizona",0,Central Michigan
+1130,1974,West,0,Oregon State,"Pocatello, Idaho",0,Central Michigan
+1131,1974,West,0,Oregon State,"Pocatello, Idaho",0,Central Michigan
+1132,1974,West,0,Oregon State,"Pocatello, Idaho",0,Central Michigan
+1133,1974,Mideast,0,Oregon State,"Terre Haute, Indiana",0,Central Michigan
+1134,1974,Mideast,0,Oregon State,"Terre Haute, Indiana",0,Central Michigan
+1135,1974,Mideast,0,Oregon State,"Terre Haute, Indiana",0,Central Michigan
+1136,1974,Mideast,0,Oregon State,"Terre Haute, Indiana",0,Central Michigan
+1137,1974,Midwest,0,Oregon State,"Tulsa, Oklahoma",0,Central Michigan
+1138,1974,Midwest,0,Oregon State,"Denton, Texas",0,Central Michigan
+1139,1974,Midwest,0,Oregon State,"Denton, Texas",0,Central Michigan
+1140,1974,Midwest,0,Oregon State,"Denton, Texas",0,Central Michigan
+1141,1974,Midwest,0,Oregon State,"Greensboro, North Carolina",0,Central Michigan
+1142,1974,Midwest,0,Oregon State,"Greensboro, North Carolina",0,Central Michigan
+1143,1974,National Third Place Game,0,Kansas,"Greensboro, North Carolina",0,UCLA
+1144,1974,Regional Third Place Game,0,Furman,"Greensboro, North Carolina",0,Providence
+1145,1974,Regional Third Place Game,0,Dayton,"Greensboro, North Carolina",0,New Mexico
+1146,1974,Regional Third Place Game,0,Vanderbilt,"Greensboro, North Carolina",0,Notre Dame
+1147,1974,Regional Third Place Game,0,Louisville,"Greensboro, North Carolina",0,Creighton
+1148,1973,Midwest,0,Louisville,"Houston, Texas",0,Creighton
+1149,1973,Midwest,0,Louisville,"Wichita, Kansas",0,Creighton
+1150,1973,Midwest,0,Louisville,"Wichita, Kansas",0,Creighton
+1151,1973,Midwest,0,Louisville,"Wichita, Kansas",0,Creighton
+1152,1973,East,0,Louisville,"Williamsburg, Virginia",0,Creighton
+1153,1973,East,0,Louisville,"Jamaica, New York",0,Creighton
+1154,1973,East,0,Louisville,"Jamaica, New York",0,Creighton
+1155,1973,East,0,Louisville,"Philadelphia, Pennsylvania",0,Creighton
+1156,1973,Mideast,0,Louisville,"Nashville, Tennessee",0,Creighton
+1157,1973,Mideast,0,Louisville,"Dayton, Ohio",0,Creighton
+1158,1973,Mideast,0,Louisville,"Dayton, Ohio",0,Creighton
+1159,1973,Mideast,0,Louisville,"Dayton, Ohio",0,Creighton
+1160,1973,West,0,Louisville,"Los Angeles, California",0,Creighton
+1161,1973,West,0,Louisville,"Logan, Utah",0,Creighton
+1162,1973,West,0,Louisville,"Logan, Utah",0,Creighton
+1163,1973,West,0,Louisville,"Logan, Utah",0,Creighton
+1164,1973,West,0,Louisville,"St. Louis, Missouri",0,Creighton
+1165,1973,West,0,Louisville,"St. Louis, Missouri",0,Creighton
+1166,1973,National Third Place Game,0,Indiana,"St. Louis, Missouri",0,Providence
+1167,1973,Regional Third Place Game,0,Louisiana-Lafayette,"St. Louis, Missouri",0,South Carolina
+1168,1973,Regional Third Place Game,0,Pennsylvania,"St. Louis, Missouri",0,Syracuse
+1169,1973,Regional Third Place Game,0,Austin Peay,"St. Louis, Missouri",0,Marquette
+1170,1973,Regional Third Place Game,0,Arizona State,"St. Louis, Missouri",0,Long Beach State
+1171,1972,Mideast,0,Arizona State,"Knoxville, Tennessee",0,Long Beach State
+1172,1972,Mideast,0,Arizona State,"Knoxville, Tennessee",0,Long Beach State
+1173,1972,Mideast,0,Arizona State,"Knoxville, Tennessee",0,Long Beach State
+1174,1972,Mideast,0,Arizona State,"Knoxville, Tennessee",0,Long Beach State
+1175,1972,East,0,Arizona State,"Morgantown, West Virginia",0,Long Beach State
+1176,1972,East,0,Arizona State,"Williamsburg, Pennsylvania",0,Long Beach State
+1177,1972,East,0,Arizona State,"Jamaica, New York",0,Long Beach State
+1178,1972,East,0,Arizona State,"Princeton, New Jersey",0,Long Beach State
+1179,1972,Midwest,0,Arizona State,"Ames, Iowa",0,Long Beach State
+1180,1972,Midwest,0,Arizona State,"Las Cruces, New Mexico",0,Long Beach State
+1181,1972,Midwest,0,Arizona State,"Las Cruces, New Mexico",0,Long Beach State
+1182,1972,Midwest,0,Arizona State,"Las Cruces, New Mexico",0,Long Beach State
+1183,1972,West,0,Arizona State,"Provo, Utah",0,Long Beach State
+1184,1972,West,0,Arizona State,"Pocatello, Idaho",0,Long Beach State
+1185,1972,West,0,Arizona State,"Pocatello, Idaho",0,Long Beach State
+1186,1972,West,0,Arizona State,"Pocatello, Idaho",0,Long Beach State
+1187,1972,West,0,Arizona State,"Los Angeles, California",0,Long Beach State
+1188,1972,West,0,Arizona State,"Los Angeles, California",0,Long Beach State
+1189,1972,National Third Place Game,0,Louisville,"Los Angeles, California",0,North Carolina
+1190,1972,Regional Third Place Game,0,Marquette,"Los Angeles, California",0,Minnesota
+1191,1972,Regional Third Place Game,0,Villanova,"Los Angeles, California",0,South Carolina
+1192,1972,Regional Third Place Game,0,Texas,"Los Angeles, California",0,Louisiana-Lafayette
+1193,1972,Regional Third Place Game,0,Weber State,"Los Angeles, California",0,San Francisco
+1194,1971,East,0,Weber State,"Philadelphia, Pennsylvania",0,San Francisco
+1195,1971,East,0,Weber State,"Jamaica, New York",0,San Francisco
+1196,1971,East,0,Weber State,"Morgantown, West Virginia",0,San Francisco
+1197,1971,East,0,Weber State,"Morgantown, West Virginia",0,San Francisco
+1198,1971,Mideast,0,Weber State,"South Bend, Indiana",0,San Francisco
+1199,1971,Mideast,0,Weber State,"South Bend, Indiana",0,San Francisco
+1200,1971,Mideast,0,Weber State,"South Bend, Indiana",0,San Francisco
+1201,1971,Mideast,0,Weber State,"South Bend, Indiana",0,San Francisco
+1202,1971,Midwest,0,Weber State,"Wichita, Kansas",0,San Francisco
+1203,1971,Midwest,0,Weber State,"Houston, Texas",0,San Francisco
+1204,1971,Midwest,0,Weber State,"Houston, Texas",0,San Francisco
+1205,1971,Midwest,0,Weber State,"Houston, Texas",0,San Francisco
+1206,1971,West,0,Weber State,"Salt Lake City, Utah",0,San Francisco
+1207,1971,West,0,Weber State,"Logan, Utah",0,San Francisco
+1208,1971,West,0,Weber State,"Logan, Utah",0,San Francisco
+1209,1971,West,0,Weber State,"Logan, Utah",0,San Francisco
+1210,1971,West,0,Weber State,"Houston, Texas",0,San Francisco
+1211,1971,West,0,Weber State,"Houston, Texas",0,San Francisco
+1212,1971,National Third Place Game,0,Kansas,"Houston, Texas",0,Western Kentucky
+1213,1971,Regional Third Place Game,0,Fordham,"Houston, Texas",0,South Carolina
+1214,1971,Regional Third Place Game,0,Marquette,"Houston, Texas",0,Kentucky
+1215,1971,Regional Third Place Game,0,Houston,"Houston, Texas",0,Notre Dame
+1216,1971,Regional Third Place Game,0,Brigham Young,"Houston, Texas",0,Pacific
+1217,1970,East,0,Brigham Young,"Jamaica, New York",0,Pacific
+1218,1970,East,0,Brigham Young,"Jamaica, New York",0,Pacific
+1219,1970,East,0,Brigham Young,"Philadelphia, Pennsylvania",0,Pacific
+1220,1970,East,0,Brigham Young,"Princeton, New Jersey",0,Pacific
+1221,1970,Mideast,0,Brigham Young,"Dayton, Ohio",0,Pacific
+1222,1970,Mideast,0,Brigham Young,"Dayton, Ohio",0,Pacific
+1223,1970,Mideast,0,Brigham Young,"Dayton, Ohio",0,Pacific
+1224,1970,Mideast,0,Brigham Young,"Dayton, Ohio",0,Pacific
+1225,1970,Midwest,0,Brigham Young,"Fort Worth, Texas",0,Pacific
+1226,1970,Midwest,0,Brigham Young,"Fort Worth, Texas",0,Pacific
+1227,1970,Midwest,0,Brigham Young,"Fort Worth, Texas",0,Pacific
+1228,1970,Midwest,0,Brigham Young,"Fort Worth, Texas",0,Pacific
+1229,1970,West,0,Brigham Young,"Seattle, Washington",0,Pacific
+1230,1970,West,0,Brigham Young,"Provo, Utah",0,Pacific
+1231,1970,West,0,Brigham Young,"Provo, Utah",0,Pacific
+1232,1970,West,0,Brigham Young,"Provo, Utah",0,Pacific
+1233,1970,West,0,Brigham Young,"College Park, Maryland",0,Pacific
+1234,1970,West,0,Brigham Young,"College Park, Maryland",0,Pacific
+1235,1970,National Third Place Game,0,New Mexico State,"College Park, Maryland",0,St
+1236,1970,Regional Third Place Game,0,North Carolina State,"College Park, Maryland",0,Niagara
+1237,1970,Regional Third Place Game,0,Iowa,"College Park, Maryland",0,Notre Dame
+1238,1970,Regional Third Place Game,0,Kansas State,"College Park, Maryland",0,Houston
+1239,1970,Regional Third Place Game,0,Santa Clara,"College Park, Maryland",0,Long Beach State
+1240,1969,East,0,Santa Clara,"College Park, Maryland",0,Long Beach State
+1241,1969,East,0,Santa Clara,"Kingston, Rhode Island",0,Long Beach State
+1242,1969,East,0,Santa Clara,"Raleigh, North Carolina",0,Long Beach State
+1243,1969,East,0,Santa Clara,"Raleigh, North Carolina",0,Long Beach State
+1244,1969,Mideast,0,Santa Clara,"Madison, Wisconsin",0,Long Beach State
+1245,1969,Mideast,0,Santa Clara,"Carbondale, Illinois",0,Long Beach State
+1246,1969,Mideast,0,Santa Clara,"Carbondale, Illinois",0,Long Beach State
+1247,1969,Mideast,0,Santa Clara,"Carbondale, Illinois",0,Long Beach State
+1248,1969,Midwest,0,Santa Clara,"Manhattan, Kansas",0,Long Beach State
+1249,1969,Midwest,0,Santa Clara,"Fort Worth, Texas",0,Long Beach State
+1250,1969,Midwest,0,Santa Clara,"Fort Worth, Texas",0,Long Beach State
+1251,1969,Midwest,0,Santa Clara,"Fort Worth, Texas",0,Long Beach State
+1252,1969,West,0,Santa Clara,"Los Angeles, California",0,Long Beach State
+1253,1969,West,0,Santa Clara,"Las Cruces, New Mexico",0,Long Beach State
+1254,1969,West,0,Santa Clara,"Las Cruces, New Mexico",0,Long Beach State
+1255,1969,West,0,Santa Clara,"Las Cruces, New Mexico",0,Long Beach State
+1256,1969,West,0,Santa Clara,"Louisville, Kentucky",0,Long Beach State
+1257,1969,West,0,Santa Clara,"Louisville, Kentucky",0,Long Beach State
+1258,1969,National Third Place Game,0,Drake,"Louisville, Kentucky",0,North Carolina
+1259,1969,Regional Third Place Game,0,Duquesne,"Louisville, Kentucky",0,St
+1260,1969,Regional Third Place Game,0,Kentucky,"Louisville, Kentucky",0,Miami
+1261,1969,Regional Third Place Game,0,Colorado,"Louisville, Kentucky",0,Texas A&M
+1262,1969,Regional Third Place Game,0,Weber State,"Louisville, Kentucky",0,New Mexico State
+1263,1968,East,0,Weber State,"Raleigh, North Carolina",0,New Mexico State
+1264,1968,East,0,Weber State,"Kingston, Rhode Island",0,New Mexico State
+1265,1968,East,0,Weber State,"College Park, Maryland",0,New Mexico State
+1266,1968,East,0,Weber State,"College Park, Maryland",0,New Mexico State
+1267,1968,Mideast,0,Weber State,"Lexington, Kentucky",0,New Mexico State
+1268,1968,Mideast,0,Weber State,"Kent, Ohio",0,New Mexico State
+1269,1968,Mideast,0,Weber State,"Kent, Ohio",0,New Mexico State
+1270,1968,Mideast,0,Weber State,"Kent, Ohio",0,New Mexico State
+1271,1968,Midwest,0,Weber State,"Salt Lake City, Utah",0,New Mexico State
+1272,1968,Midwest,0,Weber State,"Salt Lake City, Utah",0,New Mexico State
+1273,1968,Midwest,0,Weber State,"Salt Lake City, Utah",0,New Mexico State
+1274,1968,Midwest,0,Weber State,"Salt Lake City, Utah",0,New Mexico State
+1275,1968,West,0,Weber State,"Albuquerque, New Mexico",0,New Mexico State
+1276,1968,West,0,Weber State,"Salt Lake City, Utah",0,New Mexico State
+1277,1968,West,0,Weber State,"Salt Lake City, Utah",0,New Mexico State
+1278,1968,West,0,Weber State,"Salt Lake City, Utah",0,New Mexico State
+1279,1968,West,0,Weber State,"Los Angeles, California",0,New Mexico State
+1280,1968,West,0,Weber State,"Los Angeles, California",0,New Mexico State
+1281,1968,National Third Place Game,0,Houston,"Los Angeles, California",0,Ohio State
+1282,1968,Regional Third Place Game,0,Columbia,"Los Angeles, California",0,St
+1283,1968,Regional Third Place Game,0,Marquette,"Los Angeles, California",0,East Tennessee State
+1284,1968,Regional Third Place Game,0,Louisville,"Los Angeles, California",0,Kansas State
+1285,1968,Regional Third Place Game,0,New Mexico State,"Los Angeles, California",0,New Mexico
+1286,1967,East,0,New Mexico State,"College Park, Maryland",0,New Mexico
+1287,1967,East,0,New Mexico State,"Blacksburg, Virginia",0,New Mexico
+1288,1967,East,0,New Mexico State,"Blacksburg, Virginia",0,New Mexico
+1289,1967,East,0,New Mexico State,"Kingston, Rhode Island",0,New Mexico
+1290,1967,Mideast,0,New Mexico State,"Evanston, Illinois",0,New Mexico
+1291,1967,Mideast,0,New Mexico State,"Lexington, Kentucky",0,New Mexico
+1292,1967,Mideast,0,New Mexico State,"Lexington, Kentucky",0,New Mexico
+1293,1967,Mideast,0,New Mexico State,"Lexington, Kentucky",0,New Mexico
+1294,1967,Midwest,0,New Mexico State,"Lawrence, Kansas",0,New Mexico
+1295,1967,Midwest,0,New Mexico State,"Fort Collins, Colorado",0,New Mexico
+1296,1967,Midwest,0,New Mexico State,"Fort Collins, Colorado",0,New Mexico
+1297,1967,Midwest,0,New Mexico State,"Fort Collins, Colorado",0,New Mexico
+1298,1967,West,0,New Mexico State,"Corvallis, Oregon",0,New Mexico
+1299,1967,West,0,New Mexico State,"Fort Collins, Colorado",0,New Mexico
+1300,1967,West,0,New Mexico State,"Fort Collins, Colorado",0,New Mexico
+1301,1967,West,0,New Mexico State,"Fort Collins, Colorado",0,New Mexico
+1302,1967,West,0,New Mexico State,"Louisville, Kentucky",0,New Mexico
+1303,1967,West,0,New Mexico State,"Louisville, Kentucky",0,New Mexico
+1304,1967,National Third Place Game,0,Houston,"Louisville, Kentucky",0,North Carolina
+1305,1967,Regional Third Place Game,0,Princeton,"Louisville, Kentucky",0,St
+1306,1967,Regional Third Place Game,0,Indiana,"Louisville, Kentucky",0,Tennessee
+1307,1967,Regional Third Place Game,0,Kansas,"Louisville, Kentucky",0,Louisville
+1308,1967,Regional Third Place Game,0,Texas-El Paso,"Louisville, Kentucky",0,Wyoming
+1309,1966,East,0,Texas-El Paso,"Raleigh, North Carolina",0,Wyoming
+1310,1966,East,0,Texas-El Paso,"Blacksburg, Virginia",0,Wyoming
+1311,1966,East,0,Texas-El Paso,"Blacksburg, Virginia",0,Wyoming
+1312,1966,East,0,Texas-El Paso,"Blacksburg, Virginia",0,Wyoming
+1313,1966,Mideast,0,Texas-El Paso,"Iowa City, Iowa",0,Wyoming
+1314,1966,Mideast,0,Texas-El Paso,"Kent, Ohio",0,Wyoming
+1315,1966,Mideast,0,Texas-El Paso,"Kent, Ohio",0,Wyoming
+1316,1966,Mideast,0,Texas-El Paso,"Kent, Ohio",0,Wyoming
+1317,1966,Midwest,0,Texas-El Paso,"Lubbock, Texas",0,Wyoming
+1318,1966,Midwest,0,Texas-El Paso,"Wichita, Kansas",0,Wyoming
+1319,1966,Midwest,0,Texas-El Paso,"Wichita, Kansas",0,Wyoming
+1320,1966,Midwest,0,Texas-El Paso,"Wichita, Kansas",0,Wyoming
+1321,1966,West,0,Texas-El Paso,"Los Angeles, California",0,Wyoming
+1322,1966,West,0,Texas-El Paso,"Wichita, Kansas",0,Wyoming
+1323,1966,West,0,Texas-El Paso,"Wichita, Kansas",0,Wyoming
+1324,1966,West,0,Texas-El Paso,"Wichita, Kansas",0,Wyoming
+1325,1966,West,0,Texas-El Paso,"College Park, Maryland",0,Wyoming
+1326,1966,West,0,Texas-El Paso,"College Park, Maryland",0,Wyoming
+1327,1966,National Third Place Game,0,Utah,"College Park, Maryland",0,Duke
+1328,1966,Regional Third Place Game,0,St,"College Park, Maryland",0,Davidson
+1329,1966,Regional Third Place Game,0,Western Kentucky,"College Park, Maryland",0,Dayton
+1330,1966,Regional Third Place Game,0,Southern Methodist,"College Park, Maryland",0,Cincinnati
+1331,1966,Regional Third Place Game,0,Houston,"College Park, Maryland",0,Pacific
+1332,1965,East,0,Houston,"College Park, Maryland",0,Pacific
+1333,1965,East,0,Houston,"Philadelphia, Pennsylvania",0,Pacific
+1334,1965,East,0,Houston,"Philadelphia, Pennsylvania",0,Pacific
+1335,1965,East,0,Houston,"Philadelphia, Pennsylvania",0,Pacific
+1336,1965,Mideast,0,Houston,"Lexington, Kentucky",0,Pacific
+1337,1965,Mideast,0,Houston,"Bowling Green, Kentucky",0,Pacific
+1338,1965,Mideast,0,Houston,"Bowling Green, Kentucky",0,Pacific
+1339,1965,Mideast,0,Houston,"Bowling Green, Kentucky",0,Pacific
+1340,1965,Midwest,0,Houston,"Manhattan, Kansas",0,Pacific
+1341,1965,Midwest,0,Houston,"Lubbock, Texas",0,Pacific
+1342,1965,Midwest,0,Houston,"Lubbock, Texas",0,Pacific
+1343,1965,Midwest,0,Houston,"Lubbock, Texas",0,Pacific
+1344,1965,West,0,Houston,"Provo, Utah",0,Pacific
+1345,1965,West,0,Houston,"Lubbock, Texas",0,Pacific
+1346,1965,West,0,Houston,"Lubbock, Texas",0,Pacific
+1347,1965,West,0,Houston,"Lubbock, Texas",0,Pacific
+1348,1965,West,0,Houston,"Portland, Oregon",0,Pacific
+1349,1965,West,0,Houston,"Portland, Oregon",0,Pacific
+1350,1965,National Third Place Game,0,Wichita State,"Portland, Oregon",0,Princeton
+1351,1965,Regional Third Place Game,0,North Carolina State,"Portland, Oregon",0,St
+1352,1965,Regional Third Place Game,0,Dayton,"Portland, Oregon",0,DePaul
+1353,1965,Regional Third Place Game,0,Southern Methodist,"Portland, Oregon",0,Houston
+1354,1965,Regional Third Place Game,0,Oklahoma City,"Portland, Oregon",0,Brigham Young
+1355,1964,East,0,Oklahoma City,"Raleigh, North Carolina",0,Brigham Young
+1356,1964,East,0,Oklahoma City,"Philadelphia, Pennsylvania",0,Brigham Young
+1357,1964,East,0,Oklahoma City,"Philadelphia, Pennsylvania",0,Brigham Young
+1358,1964,East,0,Oklahoma City,"Philadelphia, Pennsylvania",0,Brigham Young
+1359,1964,Mideast,0,Oklahoma City,"Minneapolis, Minnesota",0,Brigham Young
+1360,1964,Mideast,0,Oklahoma City,"Evanston, Illinois",0,Brigham Young
+1361,1964,Mideast,0,Oklahoma City,"Evanston, Illinois",0,Brigham Young
+1362,1964,Mideast,0,Oklahoma City,"Evanston, Illinois",0,Brigham Young
+1363,1964,Midwest,0,Oklahoma City,"Wichita, Kansas",0,Brigham Young
+1364,1964,Midwest,0,Oklahoma City,"Dallas, Texas",0,Brigham Young
+1365,1964,Midwest,0,Oklahoma City,"Dallas, Texas",0,Brigham Young
+1366,1964,Midwest,0,Oklahoma City,"Dallas, Texas",0,Brigham Young
+1367,1964,West,0,Oklahoma City,"Corvallis, Oregon",0,Brigham Young
+1368,1964,West,0,Oklahoma City,"Eugene, Oregon",0,Brigham Young
+1369,1964,West,0,Oklahoma City,"Eugene, Oregon",0,Brigham Young
+1370,1964,West,0,Oklahoma City,"Eugene, Oregon",0,Brigham Young
+1371,1964,West,0,Oklahoma City,"Kansas City, Missouri",0,Brigham Young
+1372,1964,West,0,Oklahoma City,"Kansas City, Missouri",0,Brigham Young
+1373,1964,National Third Place Game,0,Kansas State,"Kansas City, Missouri",0,Michigan
+1374,1964,Regional Third Place Game,0,Villanova,"Kansas City, Missouri",0,Princeton
+1375,1964,Regional Third Place Game,0,Loyola,"Kansas City, Missouri",0,Kentucky
+1376,1964,Regional Third Place Game,0,Texas-El Paso,"Kansas City, Missouri",0,Creighton
+1377,1964,Regional Third Place Game,0,Seattle,"Kansas City, Missouri",0,Utah State
+1378,1963,East,0,Seattle,"College Park, Maryland",0,Utah State
+1379,1963,East,0,Seattle,"Philadelphia, Pennsylvania",0,Utah State
+1380,1963,East,0,Seattle,"Philadelphia, Pennsylvania",0,Utah State
+1381,1963,East,0,Seattle,"Philadelphia, Pennsylvania",0,Utah State
+1382,1963,Mideast,0,Seattle,"East Lansing, Michigan",0,Utah State
+1383,1963,Mideast,0,Seattle,"Evanston, Illinois",0,Utah State
+1384,1963,Mideast,0,Seattle,"Evanston, Illinois",0,Utah State
+1385,1963,Mideast,0,Seattle,"Evanston, Illinois",0,Utah State
+1386,1963,Midwest,0,Seattle,"Lawrence, Kansas",0,Utah State
+1387,1963,Midwest,0,Seattle,"Lubbock, Texas",0,Utah State
+1388,1963,Midwest,0,Seattle,"Lubbock, Texas",0,Utah State
+1389,1963,Midwest,0,Seattle,"Lubbock, Texas",0,Utah State
+1390,1963,West,0,Seattle,"Provo, Utah",0,Utah State
+1391,1963,West,0,Seattle,"Eugene, Oregon",0,Utah State
+1392,1963,West,0,Seattle,"Eugene, Oregon",0,Utah State
+1393,1963,West,0,Seattle,"Eugene, Oregon",0,Utah State
+1394,1963,West,0,Seattle,"Louisville, Kentucky",0,Utah State
+1395,1963,West,0,Seattle,"Louisville, Kentucky",0,Utah State
+1396,1963,National Third Place Game,0,Oregon State,"Louisville, Kentucky",0,Duke
+1397,1963,Regional Third Place Game,0,West Virginia,"Louisville, Kentucky",0,New York
+1398,1963,Regional Third Place Game,0,Mississippi State,"Louisville, Kentucky",0,Bowling Green
+1399,1963,Regional Third Place Game,0,Texas,"Louisville, Kentucky",0,Oklahoma City
+1400,1963,Regional Third Place Game,0,San Francisco,"Louisville, Kentucky",0,UCLA
+1401,1962,East,0,San Francisco,"College Park, Maryland",0,UCLA
+1402,1962,East,0,San Francisco,"Philadelphia, Pennsylvania",0,UCLA
+1403,1962,East,0,San Francisco,"Philadelphia, Pennsylvania",0,UCLA
+1404,1962,East,0,San Francisco,"Philadelphia, Pennsylvania",0,UCLA
+1405,1962,Mideast,0,San Francisco,"Iowa City, Iowa",0,UCLA
+1406,1962,Mideast,0,San Francisco,"Lexington, Kentucky",0,UCLA
+1407,1962,Mideast,0,San Francisco,"Lexington, Kentucky",0,UCLA
+1408,1962,Mideast,0,San Francisco,"Lexington, Kentucky",0,UCLA
+1409,1962,Midwest,0,San Francisco,"Manhattan, Kansas",0,UCLA
+1410,1962,Midwest,0,San Francisco,"Dallas, Texas",0,UCLA
+1411,1962,Midwest,0,San Francisco,"Dallas, Texas",0,UCLA
+1412,1962,Midwest,0,San Francisco,"Dallas, Texas",0,UCLA
+1413,1962,West,0,San Francisco,"Provo, Utah",0,UCLA
+1414,1962,West,0,San Francisco,"Corvallis, Oregon",0,UCLA
+1415,1962,West,0,San Francisco,"Corvallis, Oregon",0,UCLA
+1416,1962,West,0,San Francisco,"Corvallis, Oregon",0,UCLA
+1417,1962,West,0,San Francisco,"Louisville, Kentucky",0,UCLA
+1418,1962,West,0,San Francisco,"Louisville, Kentucky",0,UCLA
+1419,1962,National Third Place Game,0,UCLA,"Louisville, Kentucky",0,Wake Forest
+1420,1962,Regional Third Place Game,0,New York,"Louisville, Kentucky",0,St
+1421,1962,Regional Third Place Game,0,Butler,"Louisville, Kentucky",0,Western Kentucky
+1422,1962,Regional Third Place Game,0,Creighton,"Louisville, Kentucky",0,Texas Tech
+1423,1962,Regional Third Place Game,0,Pepperdine,"Louisville, Kentucky",0,Utah State
+1424,1961,East,0,Pepperdine,"Charlotte, North Carolina",0,Utah State
+1425,1961,East,0,Pepperdine,"New York City, New York",0,Utah State
+1426,1961,East,0,Pepperdine,"New York City, New York",0,Utah State
+1427,1961,East,0,Pepperdine,"New York City, New York",0,Utah State
+1428,1961,Mideast,0,Pepperdine,"Louisville, Kentucky",0,Utah State
+1429,1961,Mideast,0,Pepperdine,"Louisville, Kentucky",0,Utah State
+1430,1961,Mideast,0,Pepperdine,"Louisville, Kentucky",0,Utah State
+1431,1961,Mideast,0,Pepperdine,"Louisville, Kentucky",0,Utah State
+1432,1961,Midwest,0,Pepperdine,"Lawrence, Kansas",0,Utah State
+1433,1961,Midwest,0,Pepperdine,"Houston, Texas",0,Utah State
+1434,1961,Midwest,0,Pepperdine,"Houston, Texas",0,Utah State
+1435,1961,Midwest,0,Pepperdine,"Houston, Texas",0,Utah State
+1436,1961,West,0,Pepperdine,"Portland, Oregon",0,Utah State
+1437,1961,West,0,Pepperdine,"Portland, Oregon",0,Utah State
+1438,1961,West,0,Pepperdine,"Portland, Oregon",0,Utah State
+1439,1961,West,0,Pepperdine,"Portland, Oregon",0,Utah State
+1440,1961,West,0,Pepperdine,"Kansas City, Missouri",0,Utah State
+1441,1961,West,0,Pepperdine,"Kansas City, Missouri",0,Utah State
+1442,1961,National Third Place Game,0,Utah,"Kansas City, Missouri",0,St
+1443,1961,Regional Third Place Game,0,St,"Kansas City, Missouri",0,Princeton
+1444,1961,Regional Third Place Game,0,Louisville,"Kansas City, Missouri",0,Morehead State
+1445,1961,Regional Third Place Game,0,Texas Tech,"Kansas City, Missouri",0,Houston
+1446,1961,Regional Third Place Game,0,Loyola Marymount,"Kansas City, Missouri",0,Southern California
+1447,1960,East,0,Loyola Marymount,"Charlotte, North Carolina",0,Southern California
+1448,1960,East,0,Loyola Marymount,"New York City, New York",0,Southern California
+1449,1960,East,0,Loyola Marymount,"New York City, New York",0,Southern California
+1450,1960,East,0,Loyola Marymount,"New York City, New York",0,Southern California
+1451,1960,Mideast,0,Loyola Marymount,"Louisville, Kentucky",0,Southern California
+1452,1960,Mideast,0,Loyola Marymount,"Lexington, Kentucky",0,Southern California
+1453,1960,Mideast,0,Loyola Marymount,"Lexington, Kentucky",0,Southern California
+1454,1960,Mideast,0,Loyola Marymount,"Lexington, Kentucky",0,Southern California
+1455,1960,Midwest,0,Loyola Marymount,"Manhattan, Kansas",0,Southern California
+1456,1960,Midwest,0,Loyola Marymount,"Chicago, Illinois",0,Southern California
+1457,1960,Midwest,0,Loyola Marymount,"Chicago, Illinois",0,Southern California
+1458,1960,Midwest,0,Loyola Marymount,"Chicago, Illinois",0,Southern California
+1459,1960,West,0,Loyola Marymount,"Seattle, Washington",0,Southern California
+1460,1960,West,0,Loyola Marymount,"San Francisco, California",0,Southern California
+1461,1960,West,0,Loyola Marymount,"Corvallis, Oregon",0,Southern California
+1462,1960,West,0,Loyola Marymount,"Provo, Utah",0,Southern California
+1463,1960,West,0,Loyola Marymount,"San Francisco, California",0,Southern California
+1464,1960,West,0,Loyola Marymount,"San Francisco, California",0,Southern California
+1465,1960,National Third Place Game,0,Cincinnati,"San Francisco, California",0,New York
+1466,1960,Regional Third Place Game,0,West Virginia,"San Francisco, California",0,St
+1467,1960,Regional Third Place Game,0,Western Kentucky,"San Francisco, California",0,Ohio
+1468,1960,Regional Third Place Game,0,DePaul,"San Francisco, California",0,Texas
+1469,1960,Regional Third Place Game,0,Utah,"San Francisco, California",0,Santa Clara
+1470,1959,East,0,Utah,"Charlotte, North Carolina",0,Santa Clara
+1471,1959,East,0,Utah,"New York City, New York",0,Santa Clara
+1472,1959,East,0,Utah,"New York City, New York",0,Santa Clara
+1473,1959,East,0,Utah,"New York City, New York",0,Santa Clara
+1474,1959,Mideast,0,Utah,"Evanston, Illinois",0,Santa Clara
+1475,1959,Mideast,0,Utah,"Lexington, Kentucky",0,Santa Clara
+1476,1959,Mideast,0,Utah,"Lexington, Kentucky",0,Santa Clara
+1477,1959,Mideast,0,Utah,"Lexington, Kentucky",0,Santa Clara
+1478,1959,Midwest,0,Utah,"Lawrence, Kansas",0,Santa Clara
+1479,1959,Midwest,0,Utah,"Portland, Oregon",0,Santa Clara
+1480,1959,Midwest,0,Utah,"Portland, Oregon",0,Santa Clara
+1481,1959,Midwest,0,Utah,"Portland, Oregon",0,Santa Clara
+1482,1959,West,0,Utah,"San Francisco, California",0,Santa Clara
+1483,1959,West,0,Utah,"Las Cruces, New Mexico",0,Santa Clara
+1484,1959,West,0,Utah,"Las Cruces, New Mexico",0,Santa Clara
+1485,1959,West,0,Utah,"Las Cruces, New Mexico",0,Santa Clara
+1486,1959,West,0,Utah,"Louisville, Kentucky",0,Santa Clara
+1487,1959,West,0,Utah,"Louisville, Kentucky",0,Santa Clara
+1488,1959,National Third Place Game,0,Cincinnati,"Louisville, Kentucky",0,Louisville
+1489,1959,Regional Third Place Game,0,Navy,"Louisville, Kentucky",0,St
+1490,1959,Regional Third Place Game,0,Kentucky,"Louisville, Kentucky",0,Marquette
+1491,1959,Regional Third Place Game,0,Texas Christian,"Louisville, Kentucky",0,DePaul
+1492,1959,Regional Third Place Game,0,Idaho State,"Louisville, Kentucky",0,Utah
+1493,1958,East,0,Idaho State,"Charlotte, North Carolina",0,Utah
+1494,1958,East,0,Idaho State,"New York City, New York",0,Utah
+1495,1958,East,0,Idaho State,"New York City, New York",0,Utah
+1496,1958,East,0,Idaho State,"New York City, New York",0,Utah
+1497,1958,Mideast,0,Idaho State,"Lexington, Kentucky",0,Utah
+1498,1958,Mideast,0,Idaho State,"Evanston, Illinois",0,Utah
+1499,1958,Mideast,0,Idaho State,"Evanston, Illinois",0,Utah
+1500,1958,Mideast,0,Idaho State,"Evanston, Illinois",0,Utah
+1501,1958,Midwest,0,Idaho State,"Lawrence, Kansas",0,Utah
+1502,1958,Midwest,0,Idaho State,"Stillwater, Oklahoma",0,Utah
+1503,1958,Midwest,0,Idaho State,"Stillwater, Oklahoma",0,Utah
+1504,1958,Midwest,0,Idaho State,"Stillwater, Oklahoma",0,Utah
+1505,1958,West,0,Idaho State,"San Francisco, California",0,Utah
+1506,1958,West,0,Idaho State,"Berkeley, California",0,Utah
+1507,1958,West,0,Idaho State,"Berkeley, California",0,Utah
+1508,1958,West,0,Idaho State,"Berkeley, California",0,Utah
+1509,1958,West,0,Idaho State,"Louisville, Kentucky",0,Utah
+1510,1958,West,0,Idaho State,"Louisville, Kentucky",0,Utah
+1511,1958,National Third Place Game,0,Kansas State,"Louisville, Kentucky",0,Temple
+1512,1958,Regional Third Place Game,0,Maryland,"Louisville, Kentucky",0,Manhattan
+1513,1958,Regional Third Place Game,0,Indiana,"Louisville, Kentucky",0,Miami
+1514,1958,Regional Third Place Game,0,Cincinnati,"Louisville, Kentucky",0,Arkansas
+1515,1958,Regional Third Place Game,0,San Francisco,"Louisville, Kentucky",0,Idaho State
+1516,1957,East,0,San Francisco,"Philadelphia, Pennsylvania",0,Idaho State
+1517,1957,East,0,San Francisco,"New York City, New York",0,Idaho State
+1518,1957,East,0,San Francisco,"New York City, New York",0,Idaho State
+1519,1957,East,0,San Francisco,"New York City, New York",0,Idaho State
+1520,1957,Mideast,0,San Francisco,"Lexington, Kentucky",0,Idaho State
+1521,1957,Mideast,0,San Francisco,"Columbus, Ohio",0,Idaho State
+1522,1957,Mideast,0,San Francisco,"Columbus, Ohio",0,Idaho State
+1523,1957,Mideast,0,San Francisco,"Columbus, Ohio",0,Idaho State
+1524,1957,Midwest,0,San Francisco,"Dallas, Texas",0,Idaho State
+1525,1957,Midwest,0,San Francisco,"Oklahoma City, Oklahoma",0,Idaho State
+1526,1957,Midwest,0,San Francisco,"Oklahoma City, Oklahoma",0,Idaho State
+1527,1957,Midwest,0,San Francisco,"Oklahoma City, Oklahoma",0,Idaho State
+1528,1957,West,0,San Francisco,"Corvallis, Oregon",0,Idaho State
+1529,1957,West,0,San Francisco,"Corvallis, Oregon",0,Idaho State
+1530,1957,West,0,San Francisco,"Pocatello, Idaho",0,Idaho State
+1531,1957,West,0,San Francisco,"Pocatello, Idaho",0,Idaho State
+1532,1957,West,0,San Francisco,"Kansas City, Missouri",0,Idaho State
+1533,1957,West,0,San Francisco,"Kansas City, Missouri",0,Idaho State
+1534,1957,National Third Place Game,0,San Francisco,"Kansas City, Missouri",0,Michigan State
+1535,1957,Regional Third Place Game,0,Canisius,"Kansas City, Missouri",0,Lafayette
+1536,1957,Regional Third Place Game,0,Notre Dame,"Kansas City, Missouri",0,Pittsburgh
+1537,1957,Regional Third Place Game,0,Southern Methodist,"Kansas City, Missouri",0,St
+1538,1957,Regional Third Place Game,0,Brigham Young,"Kansas City, Missouri",0,Idaho State
+1539,1956,East,0,Brigham Young,"New York City, New York",0,Idaho State
+1540,1956,East,0,Brigham Young,"New York City, New York",0,Idaho State
+1541,1956,East,0,Brigham Young,"New York City, New York",0,Idaho State
+1542,1956,East,0,Brigham Young,"New York City, New York",0,Idaho State
+1543,1956,Midwest,0,Brigham Young,"Iowa City, Iowa",0,Idaho State
+1544,1956,Midwest,0,Brigham Young,"Fort Wayne, Indiana",0,Idaho State
+1545,1956,Midwest,0,Brigham Young,"Fort Wayne, Indiana",0,Idaho State
+1546,1956,Midwest,0,Brigham Young,"Fort Wayne, Indiana",0,Idaho State
+1547,1956,West,0,Brigham Young,"Lawrence, Kansas",0,Idaho State
+1548,1956,West,0,Brigham Young,"Wichita, Kansas",0,Idaho State
+1549,1956,West,0,Brigham Young,"Wichita, Kansas",0,Idaho State
+1550,1956,West,0,Brigham Young,"Wichita, Kansas",0,Idaho State
+1551,1956,Far West,0,Brigham Young,"Corvallis, Oregon",0,Idaho State
+1552,1956,Far West,0,Brigham Young,"Seattle, Washington",0,Idaho State
+1553,1956,Far West,0,Brigham Young,"Seattle, Washington",0,Idaho State
+1554,1956,Far West,0,Brigham Young,"Seattle, Washington",0,Idaho State
+1555,1956,Far West,0,Brigham Young,"Evanston, Illinois",0,Idaho State
+1556,1956,Far West,0,Brigham Young,"Evanston, Illinois",0,Idaho State
+1557,1956,National Third Place Game,0,Temple,"Evanston, Illinois",0,Southern Methodist
+1558,1956,Regional Third Place Game,0,Kansas State,"Evanston, Illinois",0,Houston
+1559,1956,Regional Third Place Game,0,UCLA,"Evanston, Illinois",0,Seattle
+1560,1956,Regional Third Place Game,0,Dartmouth,"Evanston, Illinois",0,Connecticut
+1561,1956,Regional Third Place Game,0,Morehead State,"Evanston, Illinois",0,Wayne State
+1562,1955,East,0,Morehead State,"Lexington, Kentucky",0,Wayne State
+1563,1955,East,0,Morehead State,"Lexington, Kentucky",0,Wayne State
+1564,1955,East,0,Morehead State,"Lexington, Kentucky",0,Wayne State
+1565,1955,East,0,Morehead State,"Lexington, Kentucky",0,Wayne State
+1566,1955,East,0,Morehead State,"New York City, New York",0,Wayne State
+1567,1955,East,0,Morehead State,"New York City, New York",0,Wayne State
+1568,1955,East,0,Morehead State,"New York City, New York",0,Wayne State
+1569,1955,East,0,Morehead State,"New York City, New York",0,Wayne State
+1570,1955,West,0,Morehead State,"El Reno, Oklahoma",0,Wayne State
+1571,1955,West,0,Morehead State,"El Reno, Oklahoma",0,Wayne State
+1572,1955,West,0,Morehead State,"El Reno, Oklahoma",0,Wayne State
+1573,1955,West,0,Morehead State,"El Reno, Oklahoma",0,Wayne State
+1574,1955,West,0,Morehead State,"San Francisco, California",0,Wayne State
+1575,1955,West,0,Morehead State,"San Francisco, California",0,Wayne State
+1576,1955,West,0,Morehead State,"San Francisco, California",0,Wayne State
+1577,1955,West,0,Morehead State,"San Francisco, California",0,Wayne State
+1578,1955,West,0,Morehead State,"Kansas City, Missouri",0,Wayne State
+1579,1955,West,0,Morehead State,"Kansas City, Missouri",0,Wayne State
+1580,1955,National Third Place Game,0,Colorado,"Kansas City, Missouri",0,Iowa
+1581,1955,Regional Third Place Game,0,Princeton,"Kansas City, Missouri",0,Villanova
+1582,1955,Regional Third Place Game,0,Seattle,"Kansas City, Missouri",0,Utah
+1583,1955,Regional Third Place Game,0,,"Kansas City, Missouri",0,
+1584,1955,Regional Third Place Game,0,,"Kansas City, Missouri",0,
+1585,1954,East,0,,"Fort Wayne, Indiana",0,
+1586,1954,East,0,,"Fort Wayne, Indiana",0,
+1587,1954,East,0,,"Fort Wayne, Indiana",0,
+1588,1954,East,0,,"Fort Wayne, Indiana",0,
+1589,1954,East,0,,"Buffalo, New York",0,
+1590,1954,East,0,,"Buffalo, New York",0,
+1591,1954,East,0,,"Durham, North Carolina",0,
+1592,1954,East,0,,"Buffalo, New York",0,
+1593,1954,West,0,,"Peoria, Illinois",0,
+1594,1954,West,0,,"Peoria, Illinois",0,
+1595,1954,West,0,,"Peoria, Illinois",0,
+1596,1954,West,0,,"Peoria, Illinois",0,
+1597,1954,West,0,,"Corvallis, Oregon",0,
+1598,1954,West,0,,"Corvallis, Oregon",0,
+1599,1954,West,0,,"Corvallis, Oregon",0,
+1600,1954,West,0,,"Corvallis, Oregon",0,
+1601,1954,West,0,,"Kansas City, Missouri",0,
+1602,1954,West,0,,"Kansas City, Missouri",0,
+1603,1954,National Third Place Game,0,Southern California,"Kansas City, Missouri",0,Pennsylvania State
+1604,1954,Regional Third Place Game,0,Cornell,"Kansas City, Missouri",0,North Carolina State
+1605,1954,Regional Third Place Game,0,Colorado,"Kansas City, Missouri",0,Rice
+1606,1954,Regional Third Place Game,0,,"Kansas City, Missouri",0,
+1607,1954,Regional Third Place Game,0,,"Kansas City, Missouri",0,
+1608,1953,East,0,,"Philadelphia, Pennsylvania",0,
+1609,1953,East,0,,"Philadelphia, Pennsylvania",0,
+1610,1953,East,0,,"Philadelphia, Pennsylvania",0,
+1611,1953,East,0,,"Philadelphia, Pennsylvania",0,
+1612,1953,East,0,,"Fort Wayne, Indiana",0,
+1613,1953,East,0,,"Fort Wayne, Indiana",0,
+1614,1953,East,0,,"Fort Wayne, Indiana",0,
+1615,1953,East,0,,"Fort Wayne, Indiana",0,
+1616,1953,West,0,,"Seattle, Washington",0,
+1617,1953,West,0,,"Seattle, Washington",0,
+1618,1953,West,0,,"Palo Alto, California",0,
+1619,1953,West,0,,"Palo Alto, California",0,
+1620,1953,West,0,,"Manhattan, Kansas",0,
+1621,1953,West,0,,"Manhattan, Kansas",0,
+1622,1953,West,0,,"Manhattan, Kansas",0,
+1623,1953,West,0,,"Manhattan, Kansas",0,
+1624,1953,West,0,,"Kansas City, Missouri",0,
+1625,1953,West,0,,"Kansas City, Missouri",0,
+1626,1953,National Third Place Game,0,Washington,"Kansas City, Missouri",0,Louisiana State
+1627,1953,Regional Third Place Game,0,Lebanon Valley,"Kansas City, Missouri",0,Wake Forest
+1628,1953,Regional Third Place Game,0,Oklahoma City,"Kansas City, Missouri",0,Texas Christian
+1629,1953,Regional Third Place Game,0,,"Kansas City, Missouri",0,
+1630,1953,Regional Third Place Game,0,,"Kansas City, Missouri",0,
+1631,1952,East,0,,"Raleigh, North Carolina",0,
+1632,1952,East,0,,"Raleigh, North Carolina",0,
+1633,1952,East,0,,"Chicago, Illinois",0,
+1634,1952,East,0,,"Chicago, Illinois",0,
+1635,1952,East,0,,"Kansas City, Missouri",0,
+1636,1952,East,0,,"Kansas City, Missouri",0,
+1637,1952,East,0,,"Corvallis, Oregon",0,
+1638,1952,East,0,,"Corvallis, Oregon",0,
+1639,1952,National Third Place Game,0,Santa Clara,"Corvallis, Oregon",0,Illinois
+1640,1952,East Region Third Place Game,0,Pennsylvania State,"Corvallis, Oregon",0,North Carolina State
+1641,1952,West Region Third Place Game,0,New Mexico State,"Corvallis, Oregon",0,Texas Christian
+1642,1952, Region Third Place Game,0,,"Corvallis, Oregon",0,
+1643,1952, Region Third Place Game,0,,"Corvallis, Oregon",0,
+1644,1951,East,0,,"New York City, New York",0,
+1645,1951,East,0,,"Raleigh, North Carolina",0,
+1646,1951,East,0,,"Raleigh, North Carolina",0,
+1647,1951,East,0,,"New York City, New York",0,
+1648,1951,East,0,,"Kansas City, Missouri",0,
+1649,1951,East,0,,"Kansas City, Missouri",0,
+1650,1951,East,0,,"Kansas City, Missouri",0,
+1651,1951,East,0,,"Kansas City, Missouri",0,
+1652,1951,National Third Place Game,0,Oklahoma State,"Kansas City, Missouri",0,Illinois
+1653,1951,East Region Third Place Game,0,St,"Kansas City, Missouri",0,North Carolina State
+1654,1951,West Region Third Place Game,0,Washington,"Kansas City, Missouri",0,Brigham Young
+1655,1951, Region Third Place Game,0,,"Kansas City, Missouri",0,
+1656,1951, Region Third Place Game,0,,"Kansas City, Missouri",0,
+1657,1950,East,0,,"New York City, New York",0,
+1658,1950,East,0,,"New York City, New York",0,
+1659,1950,East,0,,"Kansas City, Missouri",0,
+1660,1950,East,0,,"Kansas City, Missouri",0,
+1661,1950,National Third Place Game,0,Baylor,"Kansas City, Missouri",0,North Carolina State
+1662,1950,East Region Third Place Game,0,Ohio State,"Kansas City, Missouri",0,Holy Cross
+1663,1950,West Region Third Place Game,0,Brigham Young,"Kansas City, Missouri",0,UCLA
+1664,1950, Region Third Place Game,0,,"Kansas City, Missouri",0,
+1665,1950, Region Third Place Game,0,,"Kansas City, Missouri",0,
+1666,1949,East,0,,"New York City, New York",0,
+1667,1949,East,0,,"New York City, New York",0,
+1668,1949,East,0,,"Kansas City, Missouri",0,
+1669,1949,East,0,,"Kansas City, Missouri",0,
+1670,1949,National Third Place Game,0,Oregon State,"Kansas City, Missouri",0,Illinois
+1671,1949,East Region Third Place Game,0,Villanova,"Kansas City, Missouri",0,Yale
+1672,1949,West Region Third Place Game,0,Arkansas,"Kansas City, Missouri",0,Wyoming
+1673,1949, Region Third Place Game,0,,"Kansas City, Missouri",0,
+1674,1949, Region Third Place Game,0,,"Kansas City, Missouri",0,
+1675,1948,East,0,,"New York City, New York",0,
+1676,1948,East,0,,"New York City, New York",0,
+1677,1948,East,0,,"Kansas City, Missouri",0,
+1678,1948,East,0,,"Kansas City, Missouri",0,
+1679,1948,National Third Place Game,0,Kansas State,"Kansas City, Missouri",0,Holy Cross
+1680,1948,East Region Third Place Game,0,Michigan,"Kansas City, Missouri",0,Columbia
+1681,1948,West Region Third Place Game,0,Washington,"Kansas City, Missouri",0,Wyoming
+1682,1948, Region Third Place Game,0,,"Kansas City, Missouri",0,
+1683,1948, Region Third Place Game,0,,"Kansas City, Missouri",0,
+1684,1947,East,0,,"New York City, New York",0,
+1685,1947,East,0,,"New York City, New York",0,
+1686,1947,East,0,,"Kansas City, Missouri",0,
+1687,1947,East,0,,"Kansas City, Missouri",0,
+1688,1947,National Third Place Game,0,Texas,"Kansas City, Missouri",0,CCNY
+1689,1947,East Region Third Place Game,0,Wisconsin,"Kansas City, Missouri",0,Navy
+1690,1947,West Region Third Place Game,0,Oregon State,"Kansas City, Missouri",0,Wyoming
+1691,1947, Region Third Place Game,0,,"Kansas City, Missouri",0,
+1692,1947, Region Third Place Game,0,,"Kansas City, Missouri",0,
+1693,1946,East,0,,"New York City, New York",0,
+1694,1946,East,0,,"New York City, New York",0,
+1695,1946,East,0,,"Kansas City, Missouri",0,
+1696,1946,East,0,,"Kansas City, Missouri",0,
+1697,1946,National Third Place Game,0,California,"Kansas City, Missouri",0,Ohio State
+1698,1946,East Region Third Place Game,0,New York,"Kansas City, Missouri",0,Harvard
+1699,1946,West Region Third Place Game,0,Colorado,"Kansas City, Missouri",0,Baylor
+1700,1946, Region Third Place Game,0,,"Kansas City, Missouri",0,
+1701,1946, Region Third Place Game,0,,"Kansas City, Missouri",0,
+1702,1945,East,0,,"New York City, New York",0,
+1703,1945,East,0,,"New York City, New York",0,
+1704,1945,East,0,,"Kansas City, Missouri",0,
+1705,1945,East,0,,"Kansas City, Missouri",0,
+1706,1945,National Third Place Game,0,,"Kansas City, Missouri",0,
+1707,1945,East Region Third Place Game,0,Kentucky,"Kansas City, Missouri",0,Tufts
+1708,1945,West Region Third Place Game,0,Oregon,"Kansas City, Missouri",0,Utah
+1709,1945, Region Third Place Game,0,,"Kansas City, Missouri",0,
+1710,1945, Region Third Place Game,0,,"Kansas City, Missouri",0,
+1711,1944,East,0,,"New York City, New York",0,
+1712,1944,East,0,,"New York City, New York",0,
+1713,1944,East,0,,"Kansas City, Missouri",0,
+1714,1944,East,0,,"Kansas City, Missouri",0,
+1715,1944,National Third Place Game,0,,"Kansas City, Missouri",0,
+1716,1944,East Region Third Place Game,0,Temple,"Kansas City, Missouri",0,Catholic
+1717,1944,West Region Third Place Game,0,Missouri,"Kansas City, Missouri",0,Pepperdine
+1718,1944, Region Third Place Game,0,,"Kansas City, Missouri",0,
+1719,1944, Region Third Place Game,0,,"Kansas City, Missouri",0,
+1720,1943,East,0,,"New York City, New York",0,
+1721,1943,East,0,,"New York City, New York",0,
+1722,1943,East,0,,"Kansas City, Missouri",0,
+1723,1943,East,0,,"Kansas City, Missouri",0,
+1724,1943,National Third Place Game,0,,"Kansas City, Missouri",0,
+1725,1943,East Region Third Place Game,0,Dartmouth,"Kansas City, Missouri",0,New York
+1726,1943,West Region Third Place Game,0,Oklahoma,"Kansas City, Missouri",0,Washington
+1727,1943, Region Third Place Game,0,,"Kansas City, Missouri",0,
+1728,1943, Region Third Place Game,0,,"Kansas City, Missouri",0,
+1729,1942,East,0,,"New Orleans, Louisiana",0,
+1730,1942,East,0,,"New Orleans, Louisiana",0,
+1731,1942,East,0,,"Kansas City, Missouri",0,
+1732,1942,East,0,,"Kansas City, Missouri",0,
+1733,1942,National Third Place Game,0,,"Kansas City, Missouri",0,
+1734,1942,East Region Third Place Game,0,Pennsylvania State,"Kansas City, Missouri",0,Illinois
+1735,1942,West Region Third Place Game,0,Kansas,"Kansas City, Missouri",0,Rice
+1736,1942, Region Third Place Game,0,,"Kansas City, Missouri",0,
+1737,1942, Region Third Place Game,0,,"Kansas City, Missouri",0,
+1738,1941,East,0,,"Madison, Wisconsin",0,
+1739,1941,East,0,,"Madison, Wisconsin",0,
+1740,1941,East,0,,"Kansas City, Missouri",0,
+1741,1941,East,0,,"Kansas City, Missouri",0,
+1742,1941,National Third Place Game,0,,"Kansas City, Missouri",0,
+1743,1941,East Region Third Place Game,0,Dartmouth,"Kansas City, Missouri",0,North Carolina
+1744,1941,West Region Third Place Game,0,Creighton,"Kansas City, Missouri",0,Wyoming
+1745,1941, Region Third Place Game,0,,"Kansas City, Missouri",0,
+1746,1941, Region Third Place Game,0,,"Kansas City, Missouri",0,
+1747,1940,East,0,,"Indianapolis, Indiana",0,
+1748,1940,East,0,,"Indianapolis, Indiana",0,
+1749,1940,East,0,,"Kansas City, Missouri",0,
+1750,1940,East,0,,"Kansas City, Missouri",0,
+1751,1940,National Third Place Game,0,,"Kansas City, Missouri",0,
+1752,1940,West Region Third Place Game,0,Rice,"Kansas City, Missouri",0,Colorado
+1753,1940, Region Third Place Game,0,,"Kansas City, Missouri",0,
+1754,1940, Region Third Place Game,0,,"Kansas City, Missouri",0,
+1755,1940, Region Third Place Game,0,,"Kansas City, Missouri",0,
+1756,1939,East,0,,"Philadelphia, Pennsylvania",0,
+1757,1939,East,0,,"Philadelphia, Pennsylvania",0,
+1758,1939,East,0,,"San Francisco, California",0,
+1759,1939,East,0,,"San Francisco, California",0,
+1760,1939,National Third Place Game,0,,"San Francisco, California",0,
+1761,1939,West Region Third Place Game,0,Utah State,"San Francisco, California",0,Texas
+1762,1939, Region Third Place Game,0,,"San Francisco, California",0,
+1763,1939, Region Third Place Game,0,,"San Francisco, California",0,
+1764,1939, Region Third Place Game,0,,"San Francisco, California",0,
