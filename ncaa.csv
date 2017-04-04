@@ -59,9 +59,9 @@
 57,2016,midwest,3,1,Virginia,"Chicago, IL",4,Iowa State,1
 58,2016,midwest,3,11,Gonzaga,"Chicago, IL",10,Syracuse,10
 59,2016,midwest,4,1,Virginia,"Chicago, IL",10,Syracuse,10
-60,2016,final four,1,2,Villanova,"Houston, TX",2,Oklahoma,2
-61,2016,final four,1,10,Syracuse,"Houston, TX",1,UNC,1
-62,2016,final four,2,2,Villanova,"Houston, TX",1,UNC,2
+60,2016,final four,5,2,Villanova,"Houston, TX",2,Oklahoma,2
+61,2016,final four,5,10,Syracuse,"Houston, TX",1,UNC,1
+62,2016,final four,6,2,Villanova,"Houston, TX",1,UNC,2
 63,2015,east,1,1,Villanova,"Pittsburgh, PA",16,Lafayette,1
 64,2015,east,1,8,North Carolina State,"Pittsburgh, PA",9,LSU,8
 65,2015,east,1,5,Northern Iowa,"Seattle, WA",12,Wyoming,5
@@ -122,9 +122,9 @@
 120,2015,west,3,1,Wisconsin,"Los Angeles, CA",4,UNC,1
 121,2015,west,3,6,Xavier,"Los Angeles, CA",2,Arizona,2
 122,2015,west,4,1,Wisconsin,"Los Angeles, CA",2,Arizona,1
-123,2015,final four,1,1,Duke,"Indianapolis, IN",7,Michigan State,1
-124,2015,final four,1,1,Kentucky,"Indianapolis, IN",1,Wisconsin,1
-125,2015,final four,2,1,Duke,"Indianapolis, IN",1,Wisconsin,1
+123,2015,final four,5,1,Duke,"Indianapolis, IN",7,Michigan State,1
+124,2015,final four,5,1,Kentucky,"Indianapolis, IN",1,Wisconsin,1
+125,2015,final four,6,1,Duke,"Indianapolis, IN",1,Wisconsin,1
 126,2014,midwest,1,1,Wichita State,"St. Louis, MO",16,Cal Poly,1
 127,2014,midwest,1,8,Kentucky,"St. Louis, MO",9,Kansas State,8
 128,2014,midwest,1,5,Saint Louis,"Orlando, FL",12,North Carolina State,5
@@ -185,9 +185,9 @@
 183,2014,south,3,1,Florida,"Memphis, TN",4,UCLA,1
 184,2014,south,3,11,Dayton,"Memphis, TN",10,Stanford,11
 185,2014,south,4,1,Florida,"Memphis, TN",11,Dayton,1
-186,2014,final four,1,7,UConn,"Arlington, TX",1,Florida,7
-187,2014,final four,1,2,Wisconsin,"Arlington, TX",8,Kentucky,8
-188,2014,final four,2,7,UConn,"Arlington, TX",8,Kentucky,7
+186,2014,final four,5,7,UConn,"Arlington, TX",1,Florida,7
+187,2014,final four,5,2,Wisconsin,"Arlington, TX",8,Kentucky,8
+188,2014,final four,6,7,UConn,"Arlington, TX",8,Kentucky,7
 189,2013,east,1,1,Indiana,"Dayton, OH",16,James Madison,1
 190,2013,east,1,8,North Carolina State,"Dayton, OH",9,Temple,9
 191,2013,east,1,5,UNLV,"San Jose, CA",12,University of California,12
@@ -248,9 +248,9 @@
 246,2013,west,3,9,Wichita State,"Los Angeles, CA",13,La Salle,9
 247,2013,west,3,6,Arizona,"Los Angeles, CA",2,Ohio State,2
 248,2013,west,4,9,Wichita State,"Los Angeles, CA",2,Ohio State,9
-249,2013,final four,1,1,Louisville,"Atlanta, GA",9,Wichita State,1
-250,2013,final four,1,4,Syracuse,"Atlanta, GA",4,Michigan,4
-251,2013,final four,2,1,Louisville,"Atlanta, GA",4,Michigan,1
+249,2013,final four,5,1,Louisville,"Atlanta, GA",9,Wichita State,1
+250,2013,final four,5,4,Syracuse,"Atlanta, GA",4,Michigan,4
+251,2013,final four,6,1,Louisville,"Atlanta, GA",4,Michigan,1
 252,2012,east,1,1,Syracuse,"Pittsburgh, PA",16,North Carolina-Asheville,1
 253,2012,east,1,8,Kansas State,"Pittsburgh, PA",9,Southern Miss,8
 254,2012,east,1,5,Vanderbilt,"Albuquerque, NM",12,Harvard,5
@@ -311,9 +311,9 @@
 309,2012,west,3,1,Michigan State,"Phoenix, AZ",4,Louisville,4
 310,2012,west,3,3,Marquette,"Phoenix, AZ",7,Florida,7
 311,2012,west,4,4,Louisville,"Phoenix, AZ",7,Florida,4
-312,2012,final four,1,1,Kentucky,"New Orleans, LA",4,Louisville,1
-313,2012,final four,1,2,Ohio State,"New Orleans, LA",2,Kansas,2
-314,2012,final four,2,1,Kentucky,"New Orleans, LA",2,Kansas,1
+312,2012,final four,5,1,Kentucky,"New Orleans, LA",4,Louisville,1
+313,2012,final four,5,2,Ohio State,"New Orleans, LA",2,Kansas,2
+314,2012,final four,6,1,Kentucky,"New Orleans, LA",2,Kansas,1
 315,2011,east,1,1,Ohio State,"Cleveland, OH",16,UTSA,1
 316,2011,east,1,8,George Mason,"Cleveland, OH",9,Villanova,8
 317,2011,east,1,5,West Virginia,"Tampa, FL",12,Clemson,5
@@ -374,9 +374,9 @@
 372,2011,west,3,1,Duke,"Anaheim, CA",5,Arizona,5
 373,2011,west,3,3,UConn,"Anaheim, CA",2,San Diego State,3
 374,2011,west,4,5,Arizona,"Anaheim, CA",3,UConn,3
-375,2011,final four,1,3,UConn,"Houston, TX",4,Kentucky,3
-376,2011,final four,1,11,VCU,"Houston, TX",8,Butler,8
-377,2011,final four,2,3,UConn,"Houston, TX",8,Butler,3
+375,2011,final four,5,3,UConn,"Houston, TX",4,Kentucky,3
+376,2011,final four,5,11,VCU,"Houston, TX",8,Butler,8
+377,2011,final four,6,3,UConn,"Houston, TX",8,Butler,3
 378,2010,south,1,1,Duke,"Jacksonville, FL",16,Arkansas-Pine Bluff,1
 379,2010,south,1,8,University of California,"Jacksonville, FL",9,Louisville,8
 380,2010,south,1,5,Texas A&M;,"Spokane, WA",12,Utah State,5
@@ -437,9 +437,9 @@
 435,2010,west,3,1,Syracuse,"Salt Lake City, UT",5,Butler,5
 436,2010,west,3,6,Xavier,"Salt Lake City, UT",2,Kansas State,2
 437,2010,west,4,5,Butler,"Salt Lake City, UT",2,Kansas State,5
-438,2010,final four,1,1,Duke,"Indianapolis, IN",2,West Virginia,1
-439,2010,final four,1,5,Michigan State,"Indianapolis, IN",5,Butler,5
-440,2010,final four,2,1,Duke,"Indianapolis, IN",5,Butler,1
+438,2010,final four,5,1,Duke,"Indianapolis, IN",2,West Virginia,1
+439,2010,final four,5,5,Michigan State,"Indianapolis, IN",5,Butler,5
+440,2010,final four,6,1,Duke,"Indianapolis, IN",5,Butler,1
 441,2009,midwest,1,1,Louisville,"Dayton, OH",16,Morehead State,1
 442,2009,midwest,1,8,Ohio State,"Dayton, OH",9,Siena,9
 443,2009,midwest,1,5,Utah,"Miami, FL",12,Arizona,12
@@ -500,9 +500,9 @@
 498,2009,west,3,1,UConn,"Glendale, AZ",5,Purdue,1
 499,2009,west,3,3,Missouri,"Glendale, AZ",2,Memphis,3
 500,2009,west,4,1,UConn,"Glendale, AZ",3,Missouri,1
-501,2009,final four,1,1,UNC,"Detroit, MI",3,Villanova,1
-502,2009,final four,1,1,UConn,"Detroit, MI",2,Michigan State,2
-503,2009,final four,2,1,UNC,"Detroit, MI",2,Michigan State,1
+501,2009,final four,5,1,UNC,"Detroit, MI",3,Villanova,1
+502,2009,final four,5,1,UConn,"Detroit, MI",2,Michigan State,2
+503,2009,final four,6,1,UNC,"Detroit, MI",2,Michigan State,1
 504,2008,east,1,1,UNC,"Raleigh, NC",16,Mount St. Mary's,1
 505,2008,east,1,8,Indiana,"Raleigh, NC",9,Arkansas,9
 506,2008,east,1,5,Notre Dame,"Denver, CO",12,George Mason,5
@@ -563,9 +563,9 @@
 561,2008,west,3,1,UCLA,"Phoenix, AZ",12,Western Kentucky,1
 562,2008,west,3,3,Xavier,"Phoenix, AZ",7,West Virginia,3
 563,2008,west,4,1,UCLA,"Phoenix, AZ",3,Xavier,1
-564,2008,final four,1,1,Kansas,"San Antonio, TX",1,UNC,1
-565,2008,final four,1,1,UCLA,"San Antonio, TX",1,Memphis,1
-566,2008,final four,2,1,Kansas,"San Antonio, TX",1,Memphis,1
+564,2008,final four,5,1,Kansas,"San Antonio, TX",1,UNC,1
+565,2008,final four,5,1,UCLA,"San Antonio, TX",1,Memphis,1
+566,2008,final four,6,1,Kansas,"San Antonio, TX",1,Memphis,1
 567,2007,west,1,1,Kansas,"Chicago, IL",16,Niagara,1
 568,2007,west,1,8,Kentucky,"Chicago, IL",9,Villanova,8
 569,2007,west,1,5,Virginia Tech,"Columbus, OH",12,Illinois,5
@@ -626,9 +626,9 @@
 624,2007,south,3,1,Ohio State,"San Antonio, TX",5,Tennessee,1
 625,2007,south,3,3,Texas A&M;,"San Antonio, TX",2,Memphis,2
 626,2007,south,4,1,Ohio State,"San Antonio, TX",2,Memphis,1
-627,2007,final four,1,1,Florida,"Atlanta, GA",2,UCLA,1
-628,2007,final four,1,2,Georgetown,"Atlanta, GA",1,Ohio State,1
-629,2007,final four,2,1,Florida,"Atlanta, GA",1,Ohio State,1
+627,2007,final four,5,1,Florida,"Atlanta, GA",2,UCLA,1
+628,2007,final four,5,2,Georgetown,"Atlanta, GA",1,Ohio State,1
+629,2007,final four,6,1,Florida,"Atlanta, GA",1,Ohio State,1
 630,2006,minneapolis,1,1,Villanova,"Philadelphia, PA",16,Monmouth,1
 631,2006,minneapolis,1,8,Arizona,"Philadelphia, PA",9,Wisconsin,8
 632,2006,minneapolis,1,5,Nevada,"Salt Lake City, UT",12,Montana,12
@@ -689,9 +689,9 @@
 687,2006,washington,3,1,UConn,"Washington, DC",5,Washington,1
 688,2006,washington,3,11,George Mason,"Washington, DC",7,Wichita State,11
 689,2006,washington,4,1,UConn,"Washington, DC",11,George Mason,11
-690,2006,final four,1,3,Florida,"Indianapolis, IN",11,George Mason,3
-691,2006,final four,1,4,LSU,"Indianapolis, IN",2,UCLA,2
-692,2006,final four,2,3,Florida,"Indianapolis, IN",2,UCLA,3
+690,2006,final four,5,3,Florida,"Indianapolis, IN",11,George Mason,3
+691,2006,final four,5,4,LSU,"Indianapolis, IN",2,UCLA,2
+692,2006,final four,6,3,Florida,"Indianapolis, IN",2,UCLA,3
 693,2005,syracuse,1,1,UNC,"Charlotte, NC",16,Oakland,1
 694,2005,syracuse,1,8,Minnesota,"Charlotte, NC",9,Iowa State,9
 695,2005,syracuse,1,5,Villanova,"Nashville, TN",12,New Mexico,5
@@ -752,9 +752,9 @@
 750,2005,chicago,3,1,Illinois,"Chicago, IL",12,Milwaukee,1
 751,2005,chicago,3,3,Arizona,"Chicago, IL",2,Oklahoma State,3
 752,2005,chicago,4,1,Illinois,"Chicago, IL",3,Arizona,1
-753,2005,final four,1,1,UNC,"St. Louis, MO",5,Michigan State,1
-754,2005,final four,1,4,Louisville,"St. Louis, MO",1,Illinois,1
-755,2005,final four,2,1,UNC,"St. Louis, MO",1,Illinois,1
+753,2005,final four,5,1,UNC,"St. Louis, MO",5,Michigan State,1
+754,2005,final four,5,4,Louisville,"St. Louis, MO",1,Illinois,1
+755,2005,final four,6,1,UNC,"St. Louis, MO",1,Illinois,1
 756,2004,atlanta,1,1,Duke,"Raleigh, NC",16,Alabama State,1
 757,2004,atlanta,1,8,Seton Hall,"Raleigh, NC",9,Arizona,8
 758,2004,atlanta,1,5,Illinois,"Columbus, OH",12,Murray State,5
@@ -785,9 +785,9 @@
 783,2004,phoenix,3,8,Alabama,"Phoenix, AZ",5,Syracuse,8
 784,2004,phoenix,3,6,Vanderbilt,"Phoenix, AZ",2,UConn,2
 785,2004,phoenix,4,8,Alabama,"Phoenix, AZ",2,UConn,2
-786,2004,final four,1,2,UConn,"San Antonio, TX",1,Duke,2
-787,2004,final four,1,2,Oklahoma State,"San Antonio, TX",3,Georgia Tech,3
-788,2004,final four,2,2,UConn,"San Antonio, TX",3,Georgia Tech,2
+786,2004,final four,5,2,UConn,"San Antonio, TX",1,Duke,2
+787,2004,final four,5,2,Oklahoma State,"San Antonio, TX",3,Georgia Tech,3
+788,2004,final four,6,2,UConn,"San Antonio, TX",3,Georgia Tech,2
 789,2003,south,1,1,Texas,"Birmingham, AL",16,North Carolina-Asheville,1
 790,2003,south,1,8,LSU,"Birmingham, AL",9,Purdue,9
 791,2003,south,1,5,UConn,"Spokane, WA",12,BYU,5
@@ -848,9 +848,9 @@
 846,2003,west,3,1,Arizona,"Anaheim, CA",5,Notre Dame,1
 847,2003,west,3,3,Duke,"Anaheim, CA",2,Kansas,2
 848,2003,west,4,1,Arizona,"Anaheim, CA",2,Kansas,2
-849,2003,final four,1,3,Syracuse,"New Orleans, LA",1,Texas,3
-850,2003,final four,1,3,Marquette,"New Orleans, LA",2,Kansas,2
-851,2003,final four,2,3,Syracuse,"New Orleans, LA",2,Kansas,3
+849,2003,final four,5,3,Syracuse,"New Orleans, LA",1,Texas,3
+850,2003,final four,5,3,Marquette,"New Orleans, LA",2,Kansas,2
+851,2003,final four,6,3,Syracuse,"New Orleans, LA",2,Kansas,3
 852,2002,east,1,1,Maryland,"Washington, DC",16,Siena,1
 853,2002,east,1,8,Wisconsin,"Washington, DC",9,St. John's (NY),8
 854,2002,east,1,5,Marquette,"St. Louis, MO",12,Tulsa,12
@@ -911,9 +911,9 @@
 909,2002,west,3,8,UCLA,"San Jose, CA",12,Missouri,12
 910,2002,west,3,3,Arizona,"San Jose, CA",2,Oklahoma,2
 911,2002,west,4,12,Missouri,"San Jose, CA",2,Oklahoma,2
-912,2002,final four,1,1,Maryland,"Atlanta, GA",1,Kansas,1
-913,2002,final four,1,2,Oklahoma,"Atlanta, GA",5,Indiana,5
-914,2002,final four,2,1,Maryland,"Atlanta, GA",5,Indiana,1
+912,2002,final four,5,1,Maryland,"Atlanta, GA",1,Kansas,1
+913,2002,final four,5,2,Oklahoma,"Atlanta, GA",5,Indiana,5
+914,2002,final four,6,1,Maryland,"Atlanta, GA",5,Indiana,1
 915,2001,midwest,1,1,Illinois,"Dayton, OH",16,Northwestern State,1
 916,2001,midwest,1,8,Tennessee,"Dayton, OH",9,Charlotte,9
 917,2001,midwest,1,5,Syracuse,"Dayton, OH",12,Hawaii,5
@@ -974,9 +974,9 @@
 972,2001,west,3,1,Stanford,"Anaheim, CA",5,Cincinnati,1
 973,2001,west,3,3,Maryland,"Anaheim, CA",10,Georgetown,3
 974,2001,west,4,1,Stanford,"Anaheim, CA",3,Maryland,3
-975,2001,final four,1,1,Duke,"Minneapolis, MN",3,Maryland,1
-976,2001,final four,1,1,Michigan State,"Minneapolis, MN",2,Arizona,2
-977,2001,final four,2,1,Duke,"Minneapolis, MN",2,Arizona,1
+975,2001,final four,5,1,Duke,"Minneapolis, MN",3,Maryland,1
+976,2001,final four,5,1,Michigan State,"Minneapolis, MN",2,Arizona,2
+977,2001,final four,6,1,Duke,"Minneapolis, MN",2,Arizona,1
 978,2000,east,1,1,Duke,"Winston-Salem, NC",16,Lamar,1
 979,2000,east,1,8,Kansas,"Winston-Salem, NC",9,DePaul,8
 980,2000,east,1,5,Florida,"Winston-Salem, NC",12,Butler,5
@@ -1037,9 +1037,9 @@
 1035,2000,west,3,8,Wisconsin,"Albuquerque, NM",4,LSU,8
 1036,2000,west,3,6,Purdue,"Albuquerque, NM",10,Gonzaga,6
 1037,2000,west,4,8,Wisconsin,"Albuquerque, NM",6,Purdue,8
-1038,2000,final four,1,1,Michigan State,"Indianapolis, IN",8,Wisconsin,1
-1039,2000,final four,1,8,UNC,"Indianapolis, IN",5,Florida,5
-1040,2000,final four,2,1,Michigan State,"Indianapolis, IN",5,Florida,1
+1038,2000,final four,5,1,Michigan State,"Indianapolis, IN",8,Wisconsin,1
+1039,2000,final four,5,8,UNC,"Indianapolis, IN",5,Florida,5
+1040,2000,final four,6,1,Michigan State,"Indianapolis, IN",5,Florida,1
 1041,1999,east,1,1,Duke,"Charlotte, NC",16,Florida A&M;,1
 1042,1999,east,1,8,College of Charleston,"Charlotte, NC",9,Tulsa,9
 1043,1999,east,1,5,Wisconsin,"Charlotte, NC",12,Missouri State,12
@@ -1100,9 +1100,9 @@
 1098,1999,west,3,1,UConn,"Phoenix, AZ",5,Iowa,1
 1099,1999,west,3,6,Florida,"Phoenix, AZ",10,Gonzaga,10
 1100,1999,west,4,1,UConn,"Phoenix, AZ",10,Gonzaga,1
-1101,1999,final four,1,1,UConn,"St. Petersburg, FL",4,Ohio State,1
-1102,1999,final four,1,1,Michigan State,"St. Petersburg, FL",1,Duke,1
-1103,1999,final four,2,1,UConn,"St. Petersburg, FL",1,Duke,1
+1101,1999,final four,5,1,UConn,"St. Petersburg, FL",4,Ohio State,1
+1102,1999,final four,5,1,Michigan State,"St. Petersburg, FL",1,Duke,1
+1103,1999,final four,6,1,UConn,"St. Petersburg, FL",1,Duke,1
 1104,1998,east,1,1,UNC,"Hartford, CT",16,Navy,1
 1105,1998,east,1,8,Charlotte,"Hartford, CT",9,UIC,8
 1106,1998,east,1,5,Princeton,"Hartford, CT",12,UNLV,5
@@ -1163,9 +1163,9 @@
 1161,1998,west,3,1,Arizona,"Anaheim, CA",4,Maryland,1
 1162,1998,west,3,3,Utah,"Anaheim, CA",10,West Virginia,3
 1163,1998,west,4,1,Arizona,"Anaheim, CA",3,Utah,3
-1164,1998,final four,1,2,Kentucky,"San Antonio, TX",3,Stanford,2
-1165,1998,final four,1,1,UNC,"San Antonio, TX",3,Utah,3
-1166,1998,final four,2,2,Kentucky,"San Antonio, TX",3,Utah,2
+1164,1998,final four,5,2,Kentucky,"San Antonio, TX",3,Stanford,2
+1165,1998,final four,5,1,UNC,"San Antonio, TX",3,Utah,3
+1166,1998,final four,6,2,Kentucky,"San Antonio, TX",3,Utah,2
 1167,1997,east,1,1,UNC,"Winston-Salem, NC",16,Fairfield,1
 1168,1997,east,1,8,Indiana,"Winston-Salem, NC",9,Colorado,9
 1169,1997,east,1,5,University of California,"Winston-Salem, NC",12,Princeton,5
@@ -1226,9 +1226,9 @@
 1224,1997,west,3,1,Kentucky,"San Jose, CA",4,St. Joseph's,1
 1225,1997,west,3,6,Stanford,"San Jose, CA",2,Utah,2
 1226,1997,west,4,1,Kentucky,"San Jose, CA",2,Utah,1
-1227,1997,final four,1,4,Arizona,"Indianapolis, IN",1,UNC,4
-1228,1997,final four,1,1,Minnesota,"Indianapolis, IN",1,Kentucky,1
-1229,1997,final four,2,4,Arizona,"Indianapolis, IN",1,Kentucky,4
+1227,1997,final four,5,4,Arizona,"Indianapolis, IN",1,UNC,4
+1228,1997,final four,5,1,Minnesota,"Indianapolis, IN",1,Kentucky,1
+1229,1997,final four,6,4,Arizona,"Indianapolis, IN",1,Kentucky,4
 1230,1996,east,1,1,UMass,"Providence, RI",16,UCF,1
 1231,1996,east,1,8,Bradley,"Providence, RI",9,Stanford,9
 1232,1996,east,1,5,Penn State,"Providence, RI",12,Arkansas,12
@@ -1289,9 +1289,9 @@
 1287,1996,west,3,8,Georgia,"Denver, CO",4,Syracuse,4
 1288,1996,west,3,3,Arizona,"Denver, CO",2,Kansas,2
 1289,1996,west,4,4,Syracuse,"Denver, CO",2,Kansas,4
-1290,1996,final four,1,1,Kentucky,"East Rutherford, NJ",1,UMass,1
-1291,1996,final four,1,5,Mississippi State,"East Rutherford, NJ",4,Syracuse,4
-1292,1996,final four,2,1,Kentucky,"East Rutherford, NJ",4,Syracuse,1
+1290,1996,final four,5,1,Kentucky,"East Rutherford, NJ",1,UMass,1
+1291,1996,final four,5,5,Mississippi State,"East Rutherford, NJ",4,Syracuse,4
+1292,1996,final four,6,1,Kentucky,"East Rutherford, NJ",4,Syracuse,1
 1293,1995,east,1,1,Wake Forest,"Baltimore, MD",16,North Carolina A&T;,1
 1294,1995,east,1,8,Minnesota,"Baltimore, MD",9,Saint Louis,9
 1295,1995,east,1,5,Alabama,"Baltimore, MD",12,Penn,5
@@ -1352,9 +1352,9 @@
 1350,1995,west,3,1,UCLA,"Oakland, CA",5,Mississippi State,1
 1351,1995,west,3,3,Maryland,"Oakland, CA",2,UConn,2
 1352,1995,west,4,1,UCLA,"Oakland, CA",2,UConn,1
-1353,1995,final four,1,1,UCLA,"Seattle, WA",4,Oklahoma State,1
-1354,1995,final four,1,2,UNC,"Seattle, WA",2,Arkansas,2
-1355,1995,final four,2,1,UCLA,"Seattle, WA",2,Arkansas,1
+1353,1995,final four,5,1,UCLA,"Seattle, WA",4,Oklahoma State,1
+1354,1995,final four,5,2,UNC,"Seattle, WA",2,Arkansas,2
+1355,1995,final four,6,1,UCLA,"Seattle, WA",2,Arkansas,1
 1356,1994,east,1,1,UNC,"Landover, MD",16,Liberty,1
 1357,1994,east,1,8,Washington State,"Landover, MD",9,Boston College,9
 1358,1994,east,1,5,Indiana,"Landover, MD",12,Ohio,5
@@ -1415,9 +1415,9 @@
 1413,1994,west,3,1,Missouri,"Los Angeles, CA",4,Syracuse,1
 1414,1994,west,3,3,Louisville,"Los Angeles, CA",2,Arizona,2
 1415,1994,west,4,1,Missouri,"Los Angeles, CA",2,Arizona,2
-1416,1994,final four,1,1,Arkansas,"Charlotte, NC",2,Arizona,1
-1417,1994,final four,1,3,Florida,"Charlotte, NC",2,Duke,2
-1418,1994,final four,2,1,Arkansas,"Charlotte, NC",2,Duke,1
+1416,1994,final four,5,1,Arkansas,"Charlotte, NC",2,Arizona,1
+1417,1994,final four,5,3,Florida,"Charlotte, NC",2,Duke,2
+1418,1994,final four,6,1,Arkansas,"Charlotte, NC",2,Duke,1
 1419,1993,east,1,1,UNC,"Winston-Salem, NC",16,East Carolina,1
 1420,1993,east,1,8,Rhode Island,"Winston-Salem, NC",9,Purdue,8
 1421,1993,east,1,5,St. John's (NY),"Winston-Salem, NC",12,Texas Tech,5
@@ -1478,9 +1478,9 @@
 1476,1993,west,3,1,Michigan,"Seattle, WA",12,George Washington,1
 1477,1993,west,3,3,Vanderbilt,"Seattle, WA",7,Temple,7
 1478,1993,west,4,1,Michigan,"Seattle, WA",7,Temple,1
-1479,1993,final four,1,1,UNC,"New Orleans, LA",2,Kansas,1
-1480,1993,final four,1,1,Kentucky,"New Orleans, LA",1,Michigan,1
-1481,1993,final four,2,1,UNC,"New Orleans, LA",1,Michigan,1
+1479,1993,final four,5,1,UNC,"New Orleans, LA",2,Kansas,1
+1480,1993,final four,5,1,Kentucky,"New Orleans, LA",1,Michigan,1
+1481,1993,final four,6,1,UNC,"New Orleans, LA",1,Michigan,1
 1482,1992,east,1,1,Duke,"Greensboro, NC",16,Campbell,1
 1483,1992,east,1,8,Texas,"Greensboro, NC",9,Iowa,9
 1484,1992,east,1,5,Missouri,"Greensboro, NC",12,West Virginia,5
@@ -1541,9 +1541,9 @@
 1539,1992,west,3,1,UCLA,"Albuquerque, NM",12,New Mexico State,1
 1540,1992,west,3,3,Florida State,"Albuquerque, NM",2,Indiana,2
 1541,1992,west,4,1,UCLA,"Albuquerque, NM",2,Indiana,2
-1542,1992,final four,1,1,Duke,"Minneapolis, MN",2,Indiana,1
-1543,1992,final four,1,4,Cincinnati,"Minneapolis, MN",6,Michigan,6
-1544,1992,final four,2,1,Duke,"Minneapolis, MN",6,Michigan,1
+1542,1992,final four,5,1,Duke,"Minneapolis, MN",2,Indiana,1
+1543,1992,final four,5,4,Cincinnati,"Minneapolis, MN",6,Michigan,6
+1544,1992,final four,6,1,Duke,"Minneapolis, MN",6,Michigan,1
 1545,1991,east,1,1,UNC,"Syracuse, NY",16,Northeastern,1
 1546,1991,east,1,8,Princeton,"Syracuse, NY",9,Villanova,9
 1547,1991,east,1,5,Mississippi State,"Syracuse, NY",12,Eastern Michigan,12
@@ -1604,9 +1604,9 @@
 1602,1991,west,3,1,UNLV,"Seattle, WA",4,Utah,1
 1603,1991,west,3,3,Seton Hall,"Seattle, WA",2,Arizona,3
 1604,1991,west,4,1,UNLV,"Seattle, WA",3,Seton Hall,1
-1605,1991,final four,1,2,Duke,"Indianapolis, IN",1,UNLV,2
-1606,1991,final four,1,1,UNC,"Indianapolis, IN",3,Kansas,3
-1607,1991,final four,2,2,Duke,"Indianapolis, IN",3,Kansas,2
+1605,1991,final four,5,2,Duke,"Indianapolis, IN",1,UNLV,2
+1606,1991,final four,5,1,UNC,"Indianapolis, IN",3,Kansas,3
+1607,1991,final four,6,2,Duke,"Indianapolis, IN",3,Kansas,2
 1608,1990,east,1,1,UConn,"Hartford, CT",16,Boston University,1
 1609,1990,east,1,8,Indiana,"Hartford, CT",9,University of California,9
 1610,1990,east,1,5,Clemson,"Hartford, CT",12,BYU,5
@@ -1667,9 +1667,9 @@
 1665,1990,west,3,1,UNLV,"Oakland, CA",12,Ball State,1
 1666,1990,west,3,11,Loyola Marymount,"Oakland, CA",7,Alabama,11
 1667,1990,west,4,1,UNLV,"Oakland, CA",11,Loyola Marymount,1
-1668,1990,final four,1,1,UNLV,"Denver, CO",4,Georgia Tech,1
-1669,1990,final four,1,4,Arkansas,"Denver, CO",3,Duke,3
-1670,1990,final four,2,1,UNLV,"Denver, CO",3,Duke,1
+1668,1990,final four,5,1,UNLV,"Denver, CO",4,Georgia Tech,1
+1669,1990,final four,5,4,Arkansas,"Denver, CO",3,Duke,3
+1670,1990,final four,6,1,UNLV,"Denver, CO",3,Duke,1
 1671,1989,east,1,1,Georgetown,"Providence, RI",16,Princeton,1
 1672,1989,east,1,8,Vanderbilt,"Providence, RI",9,Notre Dame,9
 1673,1989,east,1,5,North Carolina State,"Providence, RI",12,South Carolina,5
@@ -1730,9 +1730,9 @@
 1728,1989,west,3,1,Arizona,"Denver, CO",4,UNLV,4
 1729,1989,west,3,3,Seton Hall,"Denver, CO",2,Indiana,3
 1730,1989,west,4,4,UNLV,"Denver, CO",3,Seton Hall,3
-1731,1989,final four,1,3,Michigan,"Seattle, WA",1,Illinois,3
-1732,1989,final four,1,2,Duke,"Seattle, WA",3,Seton Hall,3
-1733,1989,final four,2,3,Michigan,"Seattle, WA",3,Seton Hall,3
+1731,1989,final four,5,3,Michigan,"Seattle, WA",1,Illinois,3
+1732,1989,final four,5,2,Duke,"Seattle, WA",3,Seton Hall,3
+1733,1989,final four,6,3,Michigan,"Seattle, WA",3,Seton Hall,3
 1734,1988,east,1,1,Temple,"Hartford, CT",16,Lehigh,1
 1735,1988,east,1,8,Georgetown,"Hartford, CT",9,LSU,8
 1736,1988,east,1,5,Georgia Tech,"Hartford, CT",12,Iowa State,5
@@ -1793,9 +1793,9 @@
 1791,1988,west,3,1,Arizona,"Seattle, WA",5,Iowa,1
 1792,1988,west,3,3,Michigan,"Seattle, WA",2,UNC,2
 1793,1988,west,4,1,Arizona,"Seattle, WA",2,UNC,1
-1794,1988,final four,1,6,Kansas,"Kansas City, MO",2,Duke,6
-1795,1988,final four,1,1,Arizona,"Kansas City, MO",1,Oklahoma,1
-1796,1988,final four,2,6,Kansas,"Kansas City, MO",1,Oklahoma,6
+1794,1988,final four,5,6,Kansas,"Kansas City, MO",2,Duke,6
+1795,1988,final four,5,1,Arizona,"Kansas City, MO",1,Oklahoma,1
+1796,1988,final four,6,6,Kansas,"Kansas City, MO",1,Oklahoma,6
 1797,1987,east,1,1,UNC,"Charlotte, NC",16,Penn,1
 1798,1987,east,1,8,Navy,"Charlotte, NC",9,Michigan,9
 1799,1987,east,1,5,Notre Dame,"Charlotte, NC",12,Middle Tennessee,5
@@ -1856,9 +1856,9 @@
 1854,1987,west,3,1,UNLV,"Seattle, WA",12,Wyoming,1
 1855,1987,west,3,6,Oklahoma,"Seattle, WA",2,Iowa,2
 1856,1987,west,4,1,UNLV,"Seattle, WA",2,Iowa,1
-1857,1987,final four,1,1,Indiana,"New Orleans, LA",1,UNLV,1
-1858,1987,final four,1,6,Providence,"New Orleans, LA",2,Syracuse,2
-1859,1987,final four,2,1,Indiana,"New Orleans, LA",2,Syracuse,1
+1857,1987,final four,5,1,Indiana,"New Orleans, LA",1,UNLV,1
+1858,1987,final four,5,6,Providence,"New Orleans, LA",2,Syracuse,2
+1859,1987,final four,6,1,Indiana,"New Orleans, LA",2,Syracuse,1
 1860,1986,east,1,1,Duke,"Greensboro, NC",16,Mississippi Valley State,1
 1861,1986,east,1,8,Old Dominion,"Greensboro, NC",9,West Virginia,8
 1862,1986,east,1,5,Virginia,"Greensboro, NC",12,DePaul,12
@@ -1919,9 +1919,9 @@
 1917,1986,west,3,8,Auburn,"Houston, TX",4,UNLV,8
 1918,1986,west,3,3,UNC,"Houston, TX",2,Louisville,2
 1919,1986,west,4,8,Auburn,"Houston, TX",2,Louisville,2
-1920,1986,final four,1,2,Louisville,"Dallas, TX",11,LSU,2
-1921,1986,final four,1,1,Kansas,"Dallas, TX",1,Duke,1
-1922,1986,final four,2,2,Louisville,"Dallas, TX",1,Duke,2
+1920,1986,final four,5,2,Louisville,"Dallas, TX",11,LSU,2
+1921,1986,final four,5,1,Kansas,"Dallas, TX",1,Duke,1
+1922,1986,final four,6,2,Louisville,"Dallas, TX",1,Duke,2
 1923,1985,east,1,1,Georgetown,"Hartford, CT",16,Lehigh,1
 1924,1985,east,1,8,Temple,"Hartford, CT",9,Virginia Tech,8
 1925,1985,east,1,5,SMU,"Hartford, CT",12,Old Dominion,5
@@ -1982,9 +1982,9 @@
 1980,1985,west,3,1,St. John's (NY),"Denver, CO",12,Kentucky,1
 1981,1985,west,3,3,North Carolina State,"Denver, CO",7,Alabama,3
 1982,1985,west,4,1,St. John's (NY),"Denver, CO",3,North Carolina State,1
-1983,1985,final four,1,8,Villanova,"Lexington, KY",2,Memphis,8
-1984,1985,final four,1,1,St. John's (NY),"Lexington, KY",1,Georgetown,1
-1985,1985,final four,2,8,Villanova,"Lexington, KY",1,Georgetown,8
+1983,1985,final four,5,8,Villanova,"Lexington, KY",2,Memphis,8
+1984,1985,final four,5,1,St. John's (NY),"Lexington, KY",1,Georgetown,1
+1985,1985,final four,6,8,Villanova,"Lexington, KY",1,Georgetown,8
 1986,1984,east,1,8,Temple,"Charlotte, NC",9,St. John's (NY),8
 1987,1984,east,1,5,Auburn,"Charlotte, NC",12,Richmond,12
 1988,1984,east,1,6,VCU,"East Rutherford, NJ",11,Northeastern,6
@@ -2029,9 +2029,9 @@
 2027,1984,west,3,1,Georgetown,"Los Angeles, CA",5,UNLV,1
 2028,1984,west,3,6,Washington,"Los Angeles, CA",10,Dayton,10
 2029,1984,west,4,1,Georgetown,"Los Angeles, CA",10,Dayton,1
-2030,1984,final four,1,1,Georgetown,"Seattle, WA",1,Kentucky,1
-2031,1984,final four,1,7,Virginia,"Seattle, WA",2,Houston,2
-2032,1984,final four,2,1,Georgetown,"Seattle, WA",2,Houston,1
+2030,1984,final four,5,1,Georgetown,"Seattle, WA",1,Kentucky,1
+2031,1984,final four,5,7,Virginia,"Seattle, WA",2,Houston,2
+2032,1984,final four,6,1,Georgetown,"Seattle, WA",2,Houston,1
 2033,1983,east,1,8,Louisiana-Lafayette,"Hartford, CT",9,Rutgers,9
 2034,1983,east,1,5,VCU,"Greensboro, NC",12,La Salle,5
 2035,1983,east,1,6,Syracuse,"Hartford, CT",11,Morehead State,6
@@ -2076,9 +2076,9 @@
 2074,1983,west,3,1,Virginia,"Ogden, UT",4,Boston College,1
 2075,1983,west,3,6,North Carolina State,"Ogden, UT",10,Utah,6
 2076,1983,west,4,1,Virginia,"Ogden, UT",6,North Carolina State,6
-2077,1983,final four,1,6,North Carolina State,"Albuquerque, NM",4,Georgia,6
-2078,1983,final four,1,1,Louisville,"Albuquerque, NM",1,Houston,1
-2079,1983,final four,2,6,North Carolina State,"Albuquerque, NM",1,Houston,6
+2077,1983,final four,5,6,North Carolina State,"Albuquerque, NM",4,Georgia,6
+2078,1983,final four,5,1,Louisville,"Albuquerque, NM",1,Houston,1
+2079,1983,final four,6,6,North Carolina State,"Albuquerque, NM",1,Houston,6
 2080,1982,east,1,8,Ohio State,"Charlotte, NC",9,James Madison,9
 2081,1982,east,1,5,St. John's (NY),"Uniondale, NY",12,Penn,5
 2082,1982,east,1,6,St. Joseph's,"Uniondale, NY",11,Northeastern,11
@@ -2123,9 +2123,9 @@
 2121,1982,west,3,1,Georgetown,"Provo, UT",4,Fresno State,1
 2122,1982,west,3,3,Idaho,"Provo, UT",2,Oregon State,2
 2123,1982,west,4,1,Georgetown,"Provo, UT",2,Oregon State,1
-2124,1982,final four,1,1,UNC,"New Orleans, LA",6,Houston,1
-2125,1982,final four,1,3,Louisville,"New Orleans, LA",1,Georgetown,1
-2126,1982,final four,2,1,UNC,"New Orleans, LA",1,Georgetown,1
+2124,1982,final four,5,1,UNC,"New Orleans, LA",6,Houston,1
+2125,1982,final four,5,3,Louisville,"New Orleans, LA",1,Georgetown,1
+2126,1982,final four,6,1,UNC,"New Orleans, LA",1,Georgetown,1
 2127,1981,east,1,8,Houston,"Charlotte, NC",9,Villanova,9
 2128,1981,east,1,5,VCU,"Charlotte, NC",12,LIU-Brooklyn,5
 2129,1981,east,1,6,BYU,"Providence, RI",11,Princeton,6
@@ -2170,9 +2170,9 @@
 2168,1981,west,3,8,Kansas State,"Salt Lake City, UT",4,Illinois,8
 2169,1981,west,3,3,Utah,"Salt Lake City, UT",2,UNC,2
 2170,1981,west,4,8,Kansas State,"Salt Lake City, UT",2,UNC,2
-2171,1981,final four,1,3,Indiana,"Philadelphia, PA",1,LSU,3
-2172,1981,final four,1,1,Virginia,"Philadelphia, PA",2,UNC,2
-2173,1981,final four,2,3,Indiana,"Philadelphia, PA",2,UNC,3
+2171,1981,final four,5,3,Indiana,"Philadelphia, PA",1,LSU,3
+2172,1981,final four,5,1,Virginia,"Philadelphia, PA",2,UNC,2
+2173,1981,final four,6,3,Indiana,"Philadelphia, PA",2,UNC,3
 2174,1980,east,1,8,Villanova,"Providence, RI",9,Marquette,8
 2175,1980,east,1,5,Iowa,"Greensboro, NC",12,VCU,5
 2176,1980,east,1,6,Iona,"Providence, RI",11,Holy Cross,6
@@ -2217,9 +2217,9 @@
 2215,1980,west,3,8,UCLA,"Tucson, AZ",4,Ohio State,8
 2216,1980,west,3,6,Clemson,"Tucson, AZ",10,Lamar,6
 2217,1980,west,4,8,UCLA,"Tucson, AZ",6,Clemson,8
-2218,1980,final four,1,2,Louisville,"Indianapolis, IN",5,Iowa,2
-2219,1980,final four,1,6,Purdue,"Indianapolis, IN",8,UCLA,8
-2220,1980,final four,2,2,Louisville,"Indianapolis, IN",8,UCLA,2
+2218,1980,final four,5,2,Louisville,"Indianapolis, IN",5,Iowa,2
+2219,1980,final four,5,6,Purdue,"Indianapolis, IN",8,UCLA,8
+2220,1980,final four,6,2,Louisville,"Indianapolis, IN",8,UCLA,2
 2221,1979,east,1,8,Iona,"Raleigh, NC",9,Penn,9
 2222,1979,east,1,7,Temple,"Raleigh, NC",10,St. John's (NY),10
 2223,1979,east,2,1,UNC,"Raleigh, NC",9,Penn,9
@@ -2256,9 +2256,9 @@
 2254,1979,west,3,1,UCLA,"Provo, UT",4,San Francisco,1
 2255,1979,west,3,3,Marquette,"Provo, UT",2,DePaul,2
 2256,1979,west,4,1,UCLA,"Provo, UT",2,DePaul,2
-2257,1979,final four,1,2,Michigan State,"Salt Lake City, UT",9,Penn,2
-2258,1979,final four,1,2,DePaul,"Salt Lake City, UT",1,Indiana State,1
-2259,1979,final four,2,2,Michigan State,"Salt Lake City, UT",1,Indiana State,2
+2257,1979,final four,5,2,Michigan State,"Salt Lake City, UT",9,Penn,2
+2258,1979,final four,5,2,DePaul,"Salt Lake City, UT",1,Indiana State,1
+2259,1979,final four,6,2,Michigan State,"Salt Lake City, UT",1,Indiana State,2
 2260,1978,east,1,,Duke,"Charlotte, NC",,Rhode Island,
 2261,1978,east,1,,Penn,"Philadelphia, PA",,St. Bonaventure,
 2262,1978,east,1,,Indiana,"Charlotte, NC",,Furman,
@@ -2287,9 +2287,9 @@
 2285,1978,west,2,,Arkansas,"Albuquerque, NM",,UCLA,
 2286,1978,west,2,,San Francisco,"Albuquerque, NM",,Cal State Fullerton,
 2287,1978,west,3,,Arkansas,"Albuquerque, NM",,Cal State Fullerton,
-2288,1978,final four,1,,Kentucky,"St. Louis, MO",,Arkansas,
-2289,1978,final four,1,,Notre Dame,"St. Louis, MO",,Duke,
-2290,1978,final four,2,,Kentucky,"St. Louis, MO",,Duke,
+2288,1978,final four,5,,Kentucky,"St. Louis, MO",,Arkansas,
+2289,1978,final four,5,,Notre Dame,"St. Louis, MO",,Duke,
+2290,1978,final four,6,,Kentucky,"St. Louis, MO",,Duke,
 2291,1977,east,1,,UNC,"Philadelphia, PA",,Purdue,
 2292,1977,east,1,,Notre Dame,"Raleigh, NC",,Hofstra,
 2293,1977,east,1,,Virginia Military Institute,"Raleigh, NC",,Duquesne,
@@ -2318,9 +2318,9 @@
 2316,1977,west,2,,UNLV,"Provo, UT",,Utah,
 2317,1977,west,2,,UCLA,"Provo, UT",,Idaho State,
 2318,1977,west,3,,UNLV,"Provo, UT",,Idaho State,
-2319,1977,final four,1,,Marquette,"Atlanta, GA",,Charlotte,
-2320,1977,final four,1,,UNLV,"Atlanta, GA",,UNC,
-2321,1977,final four,2,,Marquette,"Atlanta, GA",,UNC,
+2319,1977,final four,5,,Marquette,"Atlanta, GA",,Charlotte,
+2320,1977,final four,5,,UNLV,"Atlanta, GA",,UNC,
+2321,1977,final four,6,,Marquette,"Atlanta, GA",,UNC,
 2322,1976,east,1,,Rutgers,"Providence, RI",,Princeton,
 2323,1976,east,1,,UConn,"Providence, RI",,Hofstra,
 2324,1976,east,1,,DePaul,"Charlotte, NC",,Virginia,
@@ -2349,9 +2349,9 @@
 2347,1976,west,2,,UCLA,"Los Angeles, CA",,Pepperdine,
 2348,1976,west,2,,UNLV,"Los Angeles, CA",,Arizona,
 2349,1976,west,3,,UCLA,"Los Angeles, CA",,Arizona,
-2350,1976,final four,1,,Indiana,"Philadelphia, PA",,UCLA,
-2351,1976,final four,1,,Rutgers,"Philadelphia, PA",,Michigan,
-2352,1976,final four,2,,Indiana,"Philadelphia, PA",,Michigan,
+2350,1976,final four,5,,Indiana,"Philadelphia, PA",,UCLA,
+2351,1976,final four,5,,Rutgers,"Philadelphia, PA",,Michigan,
+2352,1976,final four,6,,Indiana,"Philadelphia, PA",,Michigan,
 2353,1975,east,1,,Syracuse,"Philadelphia, PA",,La Salle,
 2354,1975,east,1,,UNC,"Charlotte, NC",,New Mexico State,
 2355,1975,east,1,,Boston College,"Charlotte, NC",,Furman,
@@ -2380,9 +2380,9 @@
 2378,1975,west,2,,UCLA,"Portland, OR",,Montana,
 2379,1975,west,2,,UNLV,"Portland, OR",,Arizona State,
 2380,1975,west,3,,UCLA,"Portland, OR",,Arizona State,
-2381,1975,final four,1,,UCLA,"San Diego, CA",,Louisville,
-2382,1975,final four,1,,Syracuse,"San Diego, CA",,Kentucky,
-2383,1975,final four,2,,UCLA,"San Diego, CA",,Kentucky,
+2381,1975,final four,5,,UCLA,"San Diego, CA",,Louisville,
+2382,1975,final four,5,,Syracuse,"San Diego, CA",,Kentucky,
+2383,1975,final four,6,,UCLA,"San Diego, CA",,Kentucky,
 2384,1974,east,1,,Providence,"Jamaica, NY",,Penn,
 2385,1974,east,1,,Furman,"Philadelphia, PA",,South Carolina,
 2386,1974,east,1,,Pitt,"Morgantown, WV",,St. Joseph's,
@@ -2404,9 +2404,9 @@
 2402,1974,west,2,,UCLA,"Tucson, AZ",,Dayton,
 2403,1974,west,2,,New Mexico,"Tucson, AZ",,San Francisco,
 2404,1974,west,3,,UCLA,"Tucson, AZ",,San Francisco,
-2405,1974,final four,1,,North Carolina State,"Greensboro, NC",,UCLA,
-2406,1974,final four,1,,Kansas,"Greensboro, NC",,Marquette,
-2407,1974,final four,2,,North Carolina State,"Greensboro, NC",,Marquette,
+2405,1974,final four,5,,North Carolina State,"Greensboro, NC",,UCLA,
+2406,1974,final four,5,,Kansas,"Greensboro, NC",,Marquette,
+2407,1974,final four,6,,North Carolina State,"Greensboro, NC",,Marquette,
 2408,1973,east,1,,Providence,"Williamsburg, VA",,St. Joseph's,
 2409,1973,east,1,,Penn,"Jamaica, NY",,St. John's (NY),
 2410,1973,east,1,,Syracuse,"Philadelphia, PA",,Furman,
@@ -2428,9 +2428,9 @@
 2426,1973,west,2,,UCLA,"Los Angeles, CA",,Arizona State,
 2427,1973,west,2,,Long Beach State,"Los Angeles, CA",,San Francisco,
 2428,1973,west,3,,UCLA,"Los Angeles, CA",,San Francisco,
-2429,1973,final four,1,,UCLA,"St. Louis, MO",,Indiana,
-2430,1973,final four,1,,Providence,"St. Louis, MO",,Memphis,
-2431,1973,final four,2,,UCLA,"St. Louis, MO",,Memphis,
+2429,1973,final four,5,,UCLA,"St. Louis, MO",,Indiana,
+2430,1973,final four,5,,Providence,"St. Louis, MO",,Memphis,
+2431,1973,final four,6,,UCLA,"St. Louis, MO",,Memphis,
 2432,1972,east,1,,South Carolina,"Williamsburg, PA",,Temple,
 2433,1972,east,1,,Villanova,"Princeton, NJ",,East Carolina,
 2434,1972,east,1,,Penn,"Jamaica, NY",,Providence,
@@ -2452,9 +2452,9 @@
 2450,1972,west,2,,UCLA,"Provo, UT",,Weber State,
 2451,1972,west,2,,San Francisco,"Provo, UT",,Long Beach State,
 2452,1972,west,3,,UCLA,"Provo, UT",,Long Beach State,
-2453,1972,final four,1,,UCLA,"Los Angeles, CA",,Louisville,
-2454,1972,final four,1,,UNC,"Los Angeles, CA",,Florida State,
-2455,1972,final four,2,,UCLA,"Los Angeles, CA",,Florida State,
+2453,1972,final four,5,,UCLA,"Los Angeles, CA",,Louisville,
+2454,1972,final four,5,,UNC,"Los Angeles, CA",,Florida State,
+2455,1972,final four,6,,UCLA,"Los Angeles, CA",,Florida State,
 2456,1971,east,1,,Villanova,"Philadelphia, PA",,St. Joseph's,
 2457,1971,east,1,,Fordham,"Jamaica, NY",,Furman,
 2458,1971,east,1,,Penn,"Morgantown, NY",,Duquesne,
@@ -2476,9 +2476,9 @@
 2474,1971,west,2,,UCLA,"Salt Lake City, UT",,BYU,
 2475,1971,west,2,,Pacific,"Salt Lake City, UT",,Long Beach State,
 2476,1971,west,3,,UCLA,"Salt Lake City, UT",,Long Beach State,
-2477,1971,final four,1,,UCLA,"Houston, TX",,Kansas,
-2478,1971,final four,1,,Western Kentucky,"Houston, TX",,Villanova,
-2479,1971,final four,2,,UCLA,"Houston, TX",,Villanova,
+2477,1971,final four,5,,UCLA,"Houston, TX",,Kansas,
+2478,1971,final four,5,,Western Kentucky,"Houston, TX",,Villanova,
+2479,1971,final four,6,,UCLA,"Houston, TX",,Villanova,
 2480,1970,east,1,,St. Bonaventure,"Jamaica, NY",,Davidson,
 2481,1970,east,1,,Niagara,"Princeton, NJ",,Penn,
 2482,1970,east,1,,Villanova,"Philadelphia, PA",,Temple,
@@ -2500,9 +2500,9 @@
 2498,1970,west,2,,UCLA,"Seattle, WA",,Long Beach State,
 2499,1970,west,2,,Santa Clara,"Seattle, WA",,Utah State,
 2500,1970,west,3,,UCLA,"Seattle, WA",,Utah State,
-2501,1970,final four,1,,UCLA,"College Park, MD",,New Mexico State,
-2502,1970,final four,1,,St. Bonaventure,"College Park, MD",,Jacksonville,
-2503,1970,final four,2,,UCLA,"College Park, MD",,Jacksonville,
+2501,1970,final four,5,,UCLA,"College Park, MD",,New Mexico State,
+2502,1970,final four,5,,St. Bonaventure,"College Park, MD",,Jacksonville,
+2503,1970,final four,6,,UCLA,"College Park, MD",,Jacksonville,
 2504,1969,east,1,,Duquesne,"Kingston, RI",,St. Joseph's,
 2505,1969,east,1,,St. John's (NY),"Raleigh, NC",,Princeton,
 2506,1969,east,1,,Davidson,"Raleigh, NC",,Villanova,
@@ -2524,9 +2524,9 @@
 2522,1969,west,2,,UCLA,"Los Angeles, CA",,New Mexico State,
 2523,1969,west,2,,Weber State,"Los Angeles, CA",,Santa Clara,
 2524,1969,west,3,,UCLA,"Los Angeles, CA",,Santa Clara,
-2525,1969,final four,1,,UCLA,"Louisville, KY",,Drake,
-2526,1969,final four,1,,UNC,"Louisville, KY",,Purdue,
-2527,1969,final four,2,,UCLA,"Louisville, KY",,Purdue,
+2525,1969,final four,5,,UCLA,"Louisville, KY",,Drake,
+2526,1969,final four,5,,UNC,"Louisville, KY",,Purdue,
+2527,1969,final four,6,,UCLA,"Louisville, KY",,Purdue,
 2528,1968,east,1,,St. Bonaventure,"Kingston, RI",,Boston College,
 2529,1968,east,1,,Columbia,"College Park, MD",,La Salle,
 2530,1968,east,1,,Davidson,"College Park, MD",,St. John's (NY),
@@ -2546,9 +2546,9 @@
 2544,1968,west,2,,UCLA,"Albuquerque, NM",,New Mexico State,
 2545,1968,west,2,,New Mexico,"Albuquerque, NM",,Santa Clara,
 2546,1968,west,3,,UCLA,"Albuquerque, NM",,Santa Clara,
-2547,1968,final four,1,,UCLA,"Los Angeles, CA",,Houston,
-2548,1968,final four,1,,Ohio State,"Los Angeles, CA",,UNC,
-2549,1968,final four,2,,UCLA,"Los Angeles, CA",,UNC,
+2547,1968,final four,5,,UCLA,"Los Angeles, CA",,Houston,
+2548,1968,final four,5,,Ohio State,"Los Angeles, CA",,UNC,
+2549,1968,final four,6,,UCLA,"Los Angeles, CA",,UNC,
 2550,1967,east,1,,Princeton,"Blacksburg, VA",,West Virginia,
 2551,1967,east,1,,St. John's (NY),"Blacksburg, VA",,Temple,
 2552,1967,east,1,,Boston College,"Kingston, RI",,UConn,
@@ -2568,9 +2568,9 @@
 2566,1967,west,2,,UCLA,"Corvallis, OR",,Wyoming,
 2567,1967,west,2,,UTEP,"Corvallis, OR",,Pacific,
 2568,1967,west,3,,UCLA,"Corvallis, OR",,Pacific,
-2569,1967,final four,1,,UCLA,"Louisville, KY",,Houston,
-2570,1967,final four,1,,UNC,"Louisville, KY",,Dayton,
-2571,1967,final four,2,,UCLA,"Louisville, KY",,Dayton,
+2569,1967,final four,5,,UCLA,"Louisville, KY",,Houston,
+2570,1967,final four,5,,UNC,"Louisville, KY",,Dayton,
+2571,1967,final four,6,,UCLA,"Louisville, KY",,Dayton,
 2572,1966,east,1,,St. Joseph's,"Blacksburg, VA",,Providence,
 2573,1966,east,1,,Davidson,"Blacksburg, VA",,Rhode Island,
 2574,1966,east,2,,Duke,"Raleigh, NC",,St. Joseph's,
@@ -2589,9 +2589,9 @@
 2587,1966,west,2,,Utah,"Los Angeles, CA",,Pacific,
 2588,1966,west,2,,Houston,"Los Angeles, CA",,Oregon State,
 2589,1966,west,3,,Utah,"Los Angeles, CA",,Oregon State,
-2590,1966,final four,1,,UTEP,"College Park, MD",,Utah,
-2591,1966,final four,1,,Duke,"College Park, MD",,Kentucky,
-2592,1966,final four,2,,UTEP,"College Park, MD",,Kentucky,
+2590,1966,final four,5,,UTEP,"College Park, MD",,Utah,
+2591,1966,final four,5,,Duke,"College Park, MD",,Kentucky,
+2592,1966,final four,6,,UTEP,"College Park, MD",,Kentucky,
 2593,1965,east,1,,Princeton,"Philadelphia, PA",,Penn State,
 2594,1965,east,1,,St. Joseph's,"Philadelphia, PA",,UConn,
 2595,1965,east,1,,Providence,"Philadelphia, PA",,West Virginia,
@@ -2611,9 +2611,9 @@
 2609,1965,west,2,,UCLA,"Provo, UT",,BYU,
 2610,1965,west,2,,Oklahoma City,"Provo, UT",,San Francisco,
 2611,1965,west,3,,UCLA,"Provo, UT",,San Francisco,
-2612,1965,final four,1,,UCLA,"Portland, OR",,Wichita State,
-2613,1965,final four,1,,Princeton,"Portland, OR",,Michigan,
-2614,1965,final four,2,,UCLA,"Portland, OR",,Michigan,
+2612,1965,final four,5,,UCLA,"Portland, OR",,Wichita State,
+2613,1965,final four,5,,Princeton,"Portland, OR",,Michigan,
+2614,1965,final four,6,,UCLA,"Portland, OR",,Michigan,
 2615,1964,east,1,,Villanova,"Philadelphia, PA",,Providence,
 2616,1964,east,1,,Princeton,"Philadelphia, PA",,Virginia Military Institute,
 2617,1964,east,1,,UConn,"Philadelphia, PA",,Temple,
@@ -2635,9 +2635,9 @@
 2633,1964,west,2,,UCLA,"Corvallis, OR",,Seattle,
 2634,1964,west,2,,Utah State,"Corvallis, OR",,San Francisco,
 2635,1964,west,3,,UCLA,"Corvallis, OR",,San Francisco,
-2636,1964,final four,1,,UCLA,"Kansas City, MO",,Kansas State,
-2637,1964,final four,1,,Michigan,"Kansas City, MO",,Duke,
-2638,1964,final four,2,,UCLA,"Kansas City, MO",,Duke,
+2636,1964,final four,5,,UCLA,"Kansas City, MO",,Kansas State,
+2637,1964,final four,5,,Michigan,"Kansas City, MO",,Duke,
+2638,1964,final four,6,,UCLA,"Kansas City, MO",,Duke,
 2639,1963,east,1,,NYU,"Philadelphia, PA",,Pitt,
 2640,1963,east,1,,West Virginia,"Philadelphia, PA",,UConn,
 2641,1963,east,1,,St. Joseph's,"Philadelphia, PA",,Princeton,
@@ -2659,9 +2659,9 @@
 2657,1963,west,2,,Oregon State,"Provo, UT",,San Francisco,
 2658,1963,west,2,,UCLA,"Provo, UT",,Arizona State,
 2659,1963,west,3,,Oregon State,"Provo, UT",,Arizona State,
-2660,1963,final four,1,,Loyola (IL),"Louisville, KY",,Duke,
-2661,1963,final four,1,,Oregon State,"Louisville, KY",,Cincinnati,
-2662,1963,final four,2,,Loyola (IL),"Louisville, KY",,Cincinnati,
+2660,1963,final four,5,,Loyola (IL),"Louisville, KY",,Duke,
+2661,1963,final four,5,,Oregon State,"Louisville, KY",,Cincinnati,
+2662,1963,final four,6,,Loyola (IL),"Louisville, KY",,Cincinnati,
 2663,1962,east,1,,Wake Forest,"Philadelphia, PA",,Yale,
 2664,1962,east,1,,NYU,"Philadelphia, PA",,UMass,
 2665,1962,east,1,,Villanova,"Philadelphia, PA",,West Virginia,
@@ -2683,9 +2683,9 @@
 2681,1962,west,2,,UCLA,"Provo, UT",,Utah State,
 2682,1962,west,2,,Pepperdine,"Provo, UT",,Oregon State,
 2683,1962,west,3,,UCLA,"Provo, UT",,Oregon State,
-2684,1962,final four,1,,Cincinnati,"Louisville, KY",,UCLA,
-2685,1962,final four,1,,Wake Forest,"Louisville, KY",,Ohio State,
-2686,1962,final four,2,,Cincinnati,"Louisville, KY",,Ohio State,
+2684,1962,final four,5,,Cincinnati,"Louisville, KY",,UCLA,
+2685,1962,final four,5,,Wake Forest,"Louisville, KY",,Ohio State,
+2686,1962,final four,6,,Cincinnati,"Louisville, KY",,Ohio State,
 2687,1961,east,1,,Princeton,"New York, NY",,George Washington,
 2688,1961,east,1,,St. Bonaventure,"New York, NY",,Rhode Island,
 2689,1961,east,1,,Wake Forest,"New York, NY",,St. John's (NY),
@@ -2706,9 +2706,9 @@
 2704,1961,west,2,,Utah,"Portland, OR",,Loyola Marymount,
 2705,1961,west,2,,USC,"Portland, OR",,Arizona State,
 2706,1961,west,3,,Utah,"Portland, OR",,Arizona State,
-2707,1961,final four,1,,Cincinnati,"Kansas City, MO",,Utah,
-2708,1961,final four,1,,St. Joseph's,"Kansas City, MO",,Ohio State,
-2709,1961,final four,2,,Cincinnati,"Kansas City, MO",,Ohio State,
+2707,1961,final four,5,,Cincinnati,"Kansas City, MO",,Utah,
+2708,1961,final four,5,,St. Joseph's,"Kansas City, MO",,Ohio State,
+2709,1961,final four,6,,Cincinnati,"Kansas City, MO",,Ohio State,
 2710,1960,east,1,,NYU,"New York, NY",,UConn,
 2711,1960,east,1,,West Virginia,"New York, NY",,Navy,
 2712,1960,east,1,,Duke,"New York, NY",,Princeton,
@@ -2730,9 +2730,9 @@
 2728,1960,west,2,,University of California,"Seattle, WA",,Santa Clara,
 2729,1960,west,2,,Utah,"Seattle, WA",,Oregon,
 2730,1960,west,3,,University of California,"Seattle, WA",,Oregon,
-2731,1960,final four,1,,Ohio State,"San Francisco, CA",,NYU,
-2732,1960,final four,1,,Cincinnati,"San Francisco, CA",,University of California,
-2733,1960,final four,2,,Ohio State,"San Francisco, CA",,University of California,
+2731,1960,final four,5,,Ohio State,"San Francisco, CA",,NYU,
+2732,1960,final four,5,,Cincinnati,"San Francisco, CA",,University of California,
+2733,1960,final four,6,,Ohio State,"San Francisco, CA",,University of California,
 2734,1959,east,1,,West Virginia,"New York, NY",,Dartmouth,
 2735,1959,east,1,,Navy,"New York, NY",,UNC,
 2736,1959,east,1,,Boston University,"New York, NY",,UConn,
@@ -2752,9 +2752,9 @@
 2750,1959,west,2,,University of California,"San Francisco, CA",,Utah,
 2751,1959,west,2,,Idaho State,"San Francisco, CA",,Saint Mary's (CA),
 2752,1959,west,3,,University of California,"San Francisco, CA",,Saint Mary's (CA),
-2753,1959,final four,1,,University of California,"Louisville, KY",,Cincinnati,
-2754,1959,final four,1,,Louisville,"Louisville, KY",,West Virginia,
-2755,1959,final four,2,,University of California,"Louisville, KY",,West Virginia,
+2753,1959,final four,5,,University of California,"Louisville, KY",,Cincinnati,
+2754,1959,final four,5,,Louisville,"Louisville, KY",,West Virginia,
+2755,1959,final four,6,,University of California,"Louisville, KY",,West Virginia,
 2756,1958,east,1,,Maryland,"New York, NY",,Boston College,
 2757,1958,east,1,,Manhattan,"New York, NY",,West Virginia,
 2758,1958,east,1,,Dartmouth,"New York, NY",,UConn,
@@ -2775,9 +2775,9 @@
 2773,1958,west,2,,Seattle,"San Francisco, CA",,San Francisco,
 2774,1958,west,2,,Idaho State,"San Francisco, CA",,University of California,
 2775,1958,west,3,,Seattle,"San Francisco, CA",,University of California,
-2776,1958,final four,1,,Kentucky,"Louisville, KY",,Temple,
-2777,1958,final four,1,,Kansas State,"Louisville, KY",,Seattle,
-2778,1958,final four,2,,Kentucky,"Louisville, KY",,Seattle,
+2776,1958,final four,5,,Kentucky,"Louisville, KY",,Temple,
+2777,1958,final four,5,,Kansas State,"Louisville, KY",,Seattle,
+2778,1958,final four,6,,Kentucky,"Louisville, KY",,Seattle,
 2779,1957,east,1,,UNC,"New York, NY",,Yale,
 2780,1957,east,1,,Canisius,"New York, NY",,West Virginia,
 2781,1957,east,1,,Syracuse,"New York, NY",,UConn,
@@ -2797,9 +2797,9 @@
 2795,1957,west,2,,San Francisco,"Corvallis, OR",,Idaho State,
 2796,1957,west,2,,BYU,"Corvallis, OR",,University of California,
 2797,1957,west,3,,San Francisco,"Corvallis, OR",,University of California,
-2798,1957,final four,1,,UNC,"Kansas City, MO",,Michigan State,
-2799,1957,final four,1,,San Francisco,"Kansas City, MO",,Kansas,
-2800,1957,final four,2,,UNC,"Kansas City, MO",,Kansas,
+2798,1957,final four,5,,UNC,"Kansas City, MO",,Michigan State,
+2799,1957,final four,5,,San Francisco,"Kansas City, MO",,Kansas,
+2800,1957,final four,6,,UNC,"Kansas City, MO",,Kansas,
 2801,1956,east,1,,Temple,"New York, NY",,Holy Cross,
 2802,1956,east,1,,UConn,"New York, NY",,Manhattan,
 2803,1956,east,1,,Dartmouth,"New York, NY",,West Virginia,
@@ -2817,9 +2817,9 @@
 2815,1956,west,2,,SMU,"Evanston, IL",,Houston,
 2816,1956,west,2,,Kansas State,"Evanston, IL",,Oklahoma City,
 2817,1956,west,3,,SMU,"Evanston, IL",,Oklahoma City,
-2818,1956,final four,1,,San Francisco,"Evanston, IL",,SMU,
-2819,1956,final four,1,,Temple,"Evanston, IL",,Iowa,
-2820,1956,final four,2,,San Francisco,"Evanston, IL",,Iowa,
+2818,1956,final four,5,,San Francisco,"Evanston, IL",,SMU,
+2819,1956,final four,5,,Temple,"Evanston, IL",,Iowa,
+2820,1956,final four,6,,San Francisco,"Evanston, IL",,Iowa,
 2821,1955,east,1,,La Salle,"Philadelphia, PA",,Princeton,
 2822,1955,east,1,,Villanova,"New York, NY",,Duke,
 2823,1955,east,1,,Canisius,"New York, NY",,Williams,
