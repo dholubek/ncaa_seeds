@@ -81,15 +81,15 @@
 79,2016,west,1,5,Baylor,"Providence, RI",12,Yale,Yale
 80,2016,west,1,4,Duke,"Providence, RI",13,North Carolina-Wilmington,Duke
 81,2016,west,1,6,Texas,"Oklahoma City, OK",11,Northern Iowa,Northern Iowa
-82,2016,west,1,3,Texas A&M;,"Oklahoma City, OK",14,Green Bay,Texas A&M;
+82,2016,west,1,3,Texas A&M,"Oklahoma City, OK",14,Green Bay,Texas A&M
 83,2016,west,1,7,Oregon State,"Oklahoma City, OK",10,VCU,VCU
 84,2016,west,1,2,Oklahoma,"Oklahoma City, OK",15,Cal State Bakersfield,Oklahoma
 85,2016,west,2,1,Oregon,"Spokane, WA",8,St. Joseph's,Oregon
 86,2016,west,2,12,Yale,"Providence, RI",4,Duke,Duke
-87,2016,west,2,11,Northern Iowa,"Oklahoma City, OK",3,Texas A&M;,Texas A&M;
+87,2016,west,2,11,Northern Iowa,"Oklahoma City, OK",3,Texas A&M,Texas A&M
 88,2016,west,2,10,VCU,"Oklahoma City, OK",2,Oklahoma,Oklahoma
 89,2016,west,3,1,Oregon,"Anaheim, CA",4,Duke,Oregon
-90,2016,west,3,3,Texas A&M;,"Anaheim, CA",2,Oklahoma,Oklahoma
+90,2016,west,3,3,Texas A&M,"Anaheim, CA",2,Oklahoma,Oklahoma
 91,2016,west,4,1,Oregon,"Anaheim, CA",2,Oklahoma,Oklahoma
 92,2016,south,1,1,Kansas,"Des Moines, IA",16,Austin Peay,Kansas
 93,2016,south,1,8,Colorado,"Des Moines, IA",9,UConn,UConn
@@ -265,7 +265,7 @@
 263,2013,east,3,1,Indiana,"Washington, DC",4,Syracuse,Syracuse
 264,2013,east,3,3,Marquette,"Washington, DC",2,Miami (FL),Marquette
 265,2013,east,4,4,Syracuse,"Washington, DC",3,Marquette,Syracuse
-266,2013,midwest,1,1,Louisville,"Lexington, KY",16,North Carolina A&T;,Louisville
+266,2013,midwest,1,1,Louisville,"Lexington, KY",16,North Carolina A&T,Louisville
 267,2013,midwest,1,8,Colorado State,"Lexington, KY",9,Missouri,Colorado State
 268,2013,midwest,1,5,Oklahoma State,"San Jose, CA",12,Oregon,Oregon
 269,2013,midwest,1,4,Saint Louis,"San Jose, CA",13,New Mexico State,Saint Louis
@@ -412,7 +412,7 @@
 410,2011,southwest,1,4,Louisville,"Denver, CO",13,Morehead State,Morehead State
 411,2011,southwest,1,6,Georgetown,"Chicago, IL",11,VCU,VCU
 412,2011,southwest,1,3,Purdue,"Chicago, IL",14,St. Peter's,Purdue
-413,2011,southwest,1,7,Texas A&M;,"Chicago, IL",10,Florida State,Florida State
+413,2011,southwest,1,7,Texas A&M,"Chicago, IL",10,Florida State,Florida State
 414,2011,southwest,1,2,Notre Dame,"Chicago, IL",15,Akron,Notre Dame
 415,2011,southwest,2,1,Kansas,"Tulsa, OK",9,Illinois,Kansas
 416,2011,southwest,2,12,Richmond,"Denver, CO",13,Morehead State,Richmond
@@ -441,14 +441,14 @@
 439,2011,final four,6,3,UConn,"Houston, TX",8,Butler,UConn
 440,2010,south,1,1,Duke,"Jacksonville, FL",16,Arkansas-Pine Bluff,Duke
 441,2010,south,1,8,University of California,"Jacksonville, FL",9,Louisville,University of California
-442,2010,south,1,5,Texas A&M;,"Spokane, WA",12,Utah State,Texas A&M;
+442,2010,south,1,5,Texas A&M,"Spokane, WA",12,Utah State,Texas A&M
 443,2010,south,1,4,Purdue,"Spokane, WA",13,Siena,Purdue
 444,2010,south,1,6,Notre Dame,"New Orleans, LA",11,Old Dominion,Old Dominion
 445,2010,south,1,3,Baylor,"New Orleans, LA",14,Sam Houston State,Baylor
 446,2010,south,1,7,Richmond,"Providence, RI",10,Saint Mary's (CA),Saint Mary's (CA)
 447,2010,south,1,2,Villanova,"Providence, RI",15,Robert Morris,Villanova
 448,2010,south,2,1,Duke,"Jacksonville, FL",8,University of California,Duke
-449,2010,south,2,5,Texas A&M;,"Spokane, WA",4,Purdue,Purdue
+449,2010,south,2,5,Texas A&M,"Spokane, WA",4,Purdue,Purdue
 450,2010,south,2,11,Old Dominion,"New Orleans, LA",3,Baylor,Baylor
 451,2010,south,2,10,Saint Mary's (CA),"Providence, RI",2,Villanova,Saint Mary's (CA)
 452,2010,south,3,1,Duke,"Houston, TX",4,Purdue,Duke
@@ -548,14 +548,14 @@
 546,2009,south,3,3,Syracuse,"Memphis, TN",2,Oklahoma,Oklahoma
 547,2009,south,4,1,UNC,"Memphis, TN",2,Oklahoma,UNC
 548,2009,west,1,1,UConn,"Philadelphia, PA",16,Chattanooga,UConn
-549,2009,west,1,8,BYU,"Philadelphia, PA",9,Texas A&M;,Texas A&M;
+549,2009,west,1,8,BYU,"Philadelphia, PA",9,Texas A&M,Texas A&M
 550,2009,west,1,5,Purdue,"Portland, OR",12,Northern Iowa,Purdue
 551,2009,west,1,4,Washington,"Portland, OR",13,Mississippi State,Washington
 552,2009,west,1,6,Marquette,"Boise, ID",11,Utah State,Marquette
 553,2009,west,1,3,Missouri,"Boise, ID",14,Cornell,Missouri
 554,2009,west,1,7,University of California,"Kansas City, MO",10,Maryland,Maryland
 555,2009,west,1,2,Memphis,"Kansas City, MO",15,Cal State Northridge,Memphis
-556,2009,west,2,1,UConn,"Philadelphia, PA",9,Texas A&M;,UConn
+556,2009,west,2,1,UConn,"Philadelphia, PA",9,Texas A&M,UConn
 557,2009,west,2,5,Purdue,"Portland, OR",4,Washington,Purdue
 558,2009,west,2,6,Marquette,"Boise, ID",3,Missouri,Missouri
 559,2009,west,2,10,Maryland,"Kansas City, MO",2,Memphis,Memphis
@@ -611,14 +611,14 @@
 609,2008,south,3,3,Stanford,"Houston, TX",2,Texas,Texas
 610,2008,south,4,1,Memphis,"Houston, TX",2,Texas,Memphis
 611,2008,west,1,1,UCLA,"Anaheim, CA",16,Mississippi Valley State,UCLA
-612,2008,west,1,8,BYU,"Anaheim, CA",9,Texas A&M;,Texas A&M;
+612,2008,west,1,8,BYU,"Anaheim, CA",9,Texas A&M,Texas A&M
 613,2008,west,1,5,Drake,"Tampa, FL",12,Western Kentucky,Western Kentucky
 614,2008,west,1,4,UConn,"Tampa, FL",13,San Diego,San Diego
 615,2008,west,1,6,Purdue,"Washington, DC",11,Baylor,Purdue
 616,2008,west,1,3,Xavier,"Washington, DC",14,Georgia,Xavier
 617,2008,west,1,7,West Virginia,"Washington, DC",10,Arizona,West Virginia
 618,2008,west,1,2,Duke,"Washington, DC",15,Belmont,Duke
-619,2008,west,2,1,UCLA,"Anaheim, CA",9,Texas A&M;,UCLA
+619,2008,west,2,1,UCLA,"Anaheim, CA",9,Texas A&M,UCLA
 620,2008,west,2,12,Western Kentucky,"Tampa, FL",13,San Diego,Western Kentucky
 621,2008,west,2,6,Purdue,"Washington, DC",3,Xavier,Xavier
 622,2008,west,2,7,West Virginia,"Washington, DC",2,Duke,West Virginia
@@ -678,15 +678,15 @@
 676,2007,south,1,5,Tennessee,"Columbus, OH",12,Long Beach State,Tennessee
 677,2007,south,1,4,Virginia,"Columbus, OH",13,Albany (NY),Virginia
 678,2007,south,1,6,Louisville,"Lexington, KY",11,Stanford,Louisville
-679,2007,south,1,3,Texas A&M;,"Lexington, KY",14,Penn,Texas A&M;
+679,2007,south,1,3,Texas A&M,"Lexington, KY",14,Penn,Texas A&M
 680,2007,south,1,7,Nevada,"New Orleans, LA",10,Creighton,Nevada
 681,2007,south,1,2,Memphis,"New Orleans, LA",15,North Texas,Memphis
 682,2007,south,2,1,Ohio State,"Lexington, KY",9,Xavier,Ohio State
 683,2007,south,2,5,Tennessee,"Columbus, OH",4,Virginia,Tennessee
-684,2007,south,2,6,Louisville,"Lexington, KY",3,Texas A&M;,Texas A&M;
+684,2007,south,2,6,Louisville,"Lexington, KY",3,Texas A&M,Texas A&M
 685,2007,south,2,7,Nevada,"New Orleans, LA",2,Memphis,Memphis
 686,2007,south,3,1,Ohio State,"San Antonio, TX",5,Tennessee,Ohio State
-687,2007,south,3,3,Texas A&M;,"San Antonio, TX",2,Memphis,Memphis
+687,2007,south,3,3,Texas A&M,"San Antonio, TX",2,Memphis,Memphis
 688,2007,south,4,1,Ohio State,"San Antonio, TX",2,Memphis,Ohio State
 689,2007,final four,5,1,Florida,"Atlanta, GA",2,UCLA,Florida
 690,2007,final four,5,2,Georgetown,"Atlanta, GA",1,Ohio State,Ohio State
@@ -708,14 +708,14 @@
 706,2006,minneapolis,4,1,Villanova,"Minneapolis, MN",3,Florida,Florida
 707,2006,atlanta,1,1,Duke,"Greensboro, NC",16,Southern,Duke
 708,2006,atlanta,1,8,George Washington,"Greensboro, NC",9,North Carolina-Wilmington,George Washington
-709,2006,atlanta,1,5,Syracuse,"Jacksonville, FL",12,Texas A&M;,Texas A&M;
+709,2006,atlanta,1,5,Syracuse,"Jacksonville, FL",12,Texas A&M,Texas A&M
 710,2006,atlanta,1,4,LSU,"Jacksonville, FL",13,Iona,LSU
 711,2006,atlanta,1,6,West Virginia,"Auburn Hills, MI",11,Southern Illinois,West Virginia
 712,2006,atlanta,1,3,Iowa,"Auburn Hills, MI",14,Northwestern State,Northwestern State
 713,2006,atlanta,1,7,University of California,"Dallas, TX",10,North Carolina State,North Carolina State
 714,2006,atlanta,1,2,Texas,"Dallas, TX",15,Penn,Texas
 715,2006,atlanta,2,1,Duke,"Greensboro, NC",8,George Washington,Duke
-716,2006,atlanta,2,12,Texas A&M;,"Jacksonville, FL",4,LSU,LSU
+716,2006,atlanta,2,12,Texas A&M,"Jacksonville, FL",4,LSU,LSU
 717,2006,atlanta,2,6,West Virginia,"Auburn Hills, MI",14,Northwestern State,West Virginia
 718,2006,atlanta,2,10,North Carolina State,"Dallas, TX",2,Texas,Texas
 719,2006,atlanta,3,1,Duke,"Atlanta, GA",4,LSU,LSU
@@ -1102,7 +1102,7 @@
 1100,2000,final four,5,1,Michigan State,"Indianapolis, IN",8,Wisconsin,Michigan State
 1101,2000,final four,5,8,UNC,"Indianapolis, IN",5,Florida,Florida
 1102,2000,final four,6,1,Michigan State,"Indianapolis, IN",5,Florida,Michigan State
-1103,1999,east,1,1,Duke,"Charlotte, NC",16,Florida A&M;,Duke
+1103,1999,east,1,1,Duke,"Charlotte, NC",16,Florida A&M,Duke
 1104,1999,east,1,8,College of Charleston,"Charlotte, NC",9,Tulsa,Tulsa
 1105,1999,east,1,5,Wisconsin,"Charlotte, NC",12,Missouri State,Missouri State
 1106,1999,east,1,4,Tennessee,"Charlotte, NC",13,Delaware,Tennessee
@@ -1354,7 +1354,7 @@
 1352,1996,final four,5,1,Kentucky,"East Rutherford, NJ",1,UMass,Kentucky
 1353,1996,final four,5,5,Mississippi State,"East Rutherford, NJ",4,Syracuse,Syracuse
 1354,1996,final four,6,1,Kentucky,"East Rutherford, NJ",4,Syracuse,Kentucky
-1355,1995,east,1,1,Wake Forest,"Baltimore, MD",16,North Carolina A&T;,Wake Forest
+1355,1995,east,1,1,Wake Forest,"Baltimore, MD",16,North Carolina A&T,Wake Forest
 1356,1995,east,1,8,Minnesota,"Baltimore, MD",9,Saint Louis,Saint Louis
 1357,1995,east,1,5,Alabama,"Baltimore, MD",12,Penn,Alabama
 1358,1995,east,1,4,Oklahoma State,"Baltimore, MD",13,Drexel,Oklahoma State
@@ -1432,7 +1432,7 @@
 1430,1994,east,3,9,Boston College,"Miami, FL",5,Indiana,Boston College
 1431,1994,east,3,3,Florida,"Miami, FL",2,UConn,Florida
 1432,1994,east,4,9,Boston College,"Miami, FL",3,Florida,Florida
-1433,1994,midwest,1,1,Arkansas,"Oklahoma City, OK",16,North Carolina A&T;,Arkansas
+1433,1994,midwest,1,1,Arkansas,"Oklahoma City, OK",16,North Carolina A&T,Arkansas
 1434,1994,midwest,1,8,Illinois,"Oklahoma City, OK",9,Georgetown,Georgetown
 1435,1994,midwest,1,5,UCLA,"Oklahoma City, OK",12,Tulsa,Tulsa
 1436,1994,midwest,1,4,Oklahoma State,"Oklahoma City, OK",13,New Mexico State,Oklahoma State
@@ -1800,7 +1800,7 @@
 1798,1988,east,1,5,Georgia Tech,"Hartford, CT",12,Iowa State,Georgia Tech
 1799,1988,east,1,4,Indiana,"Hartford, CT",13,Richmond,Richmond
 1800,1988,east,1,6,Missouri,"Chapel Hill, NC",11,Rhode Island,Rhode Island
-1801,1988,east,1,3,Syracuse,"Chapel Hill, NC",14,North Carolina A&T;,Syracuse
+1801,1988,east,1,3,Syracuse,"Chapel Hill, NC",14,North Carolina A&T,Syracuse
 1802,1988,east,1,7,SMU,"Chapel Hill, NC",10,Notre Dame,SMU
 1803,1988,east,1,2,Duke,"Chapel Hill, NC",15,Boston University,Duke
 1804,1988,east,2,1,Temple,"Hartford, CT",8,Georgetown,Temple
@@ -1875,7 +1875,7 @@
 1873,1987,east,4,1,UNC,"East Rutherford, NJ",2,Syracuse,Syracuse
 1874,1987,midwest,1,1,Indiana,"Indianapolis, IN",16,Fairfield,Indiana
 1875,1987,midwest,1,8,Auburn,"Indianapolis, IN",9,San Diego,Auburn
-1876,1987,midwest,1,5,Duke,"Indianapolis, IN",12,Texas A&M;,Duke
+1876,1987,midwest,1,5,Duke,"Indianapolis, IN",12,Texas A&M,Duke
 1877,1987,midwest,1,4,Missouri,"Indianapolis, IN",13,Xavier,Xavier
 1878,1987,midwest,1,6,St. John's (NY),"Chicago, IL",11,Wichita State,St. John's (NY)
 1879,1987,midwest,1,3,DePaul,"Chicago, IL",14,Louisiana Tech,DePaul
@@ -1895,7 +1895,7 @@
 1893,1987,southeast,1,6,Providence,"Birmingham, AL",11,Alabama-Birmingham,Providence
 1894,1987,southeast,1,3,Illinois,"Birmingham, AL",14,Austin Peay,Austin Peay
 1895,1987,southeast,1,7,New Orleans,"Birmingham, AL",10,BYU,New Orleans
-1896,1987,southeast,1,2,Alabama,"Birmingham, AL",15,North Carolina A&T;,Alabama
+1896,1987,southeast,1,2,Alabama,"Birmingham, AL",15,North Carolina A&T,Alabama
 1897,1987,southeast,2,1,Georgetown,"Atlanta, GA",9,Ohio State,Georgetown
 1898,1987,southeast,2,5,Kansas,"Atlanta, GA",13,Missouri State,Kansas
 1899,1987,southeast,2,6,Providence,"Birmingham, AL",14,Austin Peay,Providence
@@ -1936,7 +1936,7 @@
 1934,1986,east,3,1,Duke,"East Rutherford, NJ",12,DePaul,Duke
 1935,1986,east,3,14,Cleveland State,"East Rutherford, NJ",7,Navy,Navy
 1936,1986,east,4,1,Duke,"East Rutherford, NJ",7,Navy,Duke
-1937,1986,midwest,1,1,Kansas,"Dayton, OH",16,North Carolina A&T;,Kansas
+1937,1986,midwest,1,1,Kansas,"Dayton, OH",16,North Carolina A&T,Kansas
 1938,1986,midwest,1,8,Jacksonville,"Dayton, OH",9,Temple,Temple
 1939,1986,midwest,1,5,Michigan State,"Dayton, OH",12,Washington,Michigan State
 1940,1986,midwest,1,4,Georgetown,"Dayton, OH",13,Texas Tech,Georgetown
@@ -1999,7 +1999,7 @@
 1997,1985,east,3,1,Georgetown,"Providence, RI",4,Loyola (IL),Georgetown
 1998,1985,east,3,3,Illinois,"Providence, RI",2,Georgia Tech,Georgia Tech
 1999,1985,east,4,1,Georgetown,"Providence, RI",2,Georgia Tech,Georgetown
-2000,1985,midwest,1,1,Oklahoma,"Tulsa, OK",16,North Carolina A&T;,Oklahoma
+2000,1985,midwest,1,1,Oklahoma,"Tulsa, OK",16,North Carolina A&T,Oklahoma
 2001,1985,midwest,1,8,USC,"Tulsa, OK",9,Illinois State,Illinois State
 2002,1985,midwest,1,5,Louisiana Tech,"Tulsa, OK",12,Pitt,Louisiana Tech
 2003,1985,midwest,1,4,Ohio State,"Tulsa, OK",13,Iowa State,Ohio State
@@ -2175,7 +2175,7 @@
 2173,1982,midwest,3,6,Houston,"St. Louis, MO",2,Missouri,Houston
 2174,1982,midwest,4,8,Boston College,"St. Louis, MO",6,Houston,Houston
 2175,1982,west,1,8,Wyoming,"Logan, UT",9,USC,Wyoming
-2176,1982,west,1,5,West Virginia,"Logan, UT",12,North Carolina A&T;,West Virginia
+2176,1982,west,1,5,West Virginia,"Logan, UT",12,North Carolina A&T,West Virginia
 2177,1982,west,1,6,Iowa,"Pullman, WA",11,Louisiana-Monroe,Iowa
 2178,1982,west,1,7,Pepperdine,"Pullman, WA",10,Pitt,Pepperdine
 2179,1982,west,2,1,Georgetown,"Logan, UT",8,Wyoming,Georgetown
@@ -2259,14 +2259,14 @@
 2257,1980,mideast,4,4,Duke,"Lexington, KY",6,Purdue,Purdue
 2258,1980,midwest,1,8,Alcorn State,"Denton, TX",9,South Alabama,Alcorn State
 2259,1980,midwest,1,5,Missouri,"Lincoln, NE",12,San Jose State,Missouri
-2260,1980,midwest,1,6,Texas A&M;,"Denton, TX",11,Bradley,Texas A&M;
+2260,1980,midwest,1,6,Texas A&M,"Denton, TX",11,Bradley,Texas A&M
 2261,1980,midwest,1,7,Kansas State,"Lincoln, NE",10,Arkansas,Kansas State
 2262,1980,midwest,2,1,LSU,"Denton, TX",8,Alcorn State,LSU
 2263,1980,midwest,2,5,Missouri,"Lincoln, NE",4,Notre Dame,Missouri
-2264,1980,midwest,2,6,Texas A&M;,"Denton, TX",3,UNC,Texas A&M;
+2264,1980,midwest,2,6,Texas A&M,"Denton, TX",3,UNC,Texas A&M
 2265,1980,midwest,2,7,Kansas State,"Lincoln, NE",2,Louisville,Louisville
 2266,1980,midwest,3,1,LSU,"Houston, TX",5,Missouri,LSU
-2267,1980,midwest,3,6,Texas A&M;,"Houston, TX",2,Louisville,Louisville
+2267,1980,midwest,3,6,Texas A&M,"Houston, TX",2,Louisville,Louisville
 2268,1980,midwest,4,1,LSU,"Houston, TX",2,Louisville,Louisville
 2269,1980,west,1,8,UCLA,"Tempe, AZ",9,Old Dominion,UCLA
 2270,1980,west,1,5,Arizona State,"Tempe, AZ",12,Loyola Marymount,Arizona State
@@ -2429,7 +2429,7 @@
 2427,1975,mideast,2,,Oregon State,"Dayton, OH",,Indiana,Indiana
 2428,1975,mideast,3,,Kentucky,"Dayton, OH",,Indiana,Kentucky
 2429,1975,midwest,1,,Louisville,"Tulsa, OK",,Rutgers,Louisville
-2430,1975,midwest,1,,Cincinnati,"Lubbock, TX",,Texas A&M;,Cincinnati
+2430,1975,midwest,1,,Cincinnati,"Lubbock, TX",,Texas A&M,Cincinnati
 2431,1975,midwest,1,,Notre Dame,"Tulsa, OK",,Kansas,Notre Dame
 2432,1975,midwest,1,,Maryland,"Lubbock, TX",,Creighton,Maryland
 2433,1975,midwest,2,,Louisville,"Las Cruces, NM",,Cincinnati,Louisville
@@ -2576,9 +2576,9 @@
 2574,1969,mideast,2,,Purdue,"Madison, WI",,Miami (OH),Purdue
 2575,1969,mideast,2,,Kentucky,"Madison, WI",,Marquette,Marquette
 2576,1969,mideast,3,,Purdue,"Madison, WI",,Marquette,Purdue
-2577,1969,midwest,1,,Texas A&M;,"Fort Worth, TX",,Trinity (TX),Texas A&M;
+2577,1969,midwest,1,,Texas A&M,"Fort Worth, TX",,Trinity (TX),Texas A&M
 2578,1969,midwest,1,,Colorado State,"Fort Worth, TX",,Dayton,Colorado State
-2579,1969,midwest,2,,Drake,"Manhattan, KS",,Texas A&M;,Drake
+2579,1969,midwest,2,,Drake,"Manhattan, KS",,Texas A&M,Drake
 2580,1969,midwest,2,,Colorado,"Manhattan, KS",,Colorado State,Colorado State
 2581,1969,midwest,3,,Drake,"Manhattan, KS",,Colorado State,Drake
 2582,1969,west,1,,New Mexico State,"Las Cruces, NM",,BYU,New Mexico State
@@ -2687,7 +2687,7 @@
 2685,1964,mideast,2,,Michigan,"Minneapolis, MN",,Loyola (IL),Michigan
 2686,1964,mideast,2,,Kentucky,"Minneapolis, MN",,Ohio,Ohio
 2687,1964,mideast,3,,Michigan,"Minneapolis, MN",,Ohio,Michigan
-2688,1964,midwest,1,,UTEP,"Dallas, TX",,Texas A&M;,UTEP
+2688,1964,midwest,1,,UTEP,"Dallas, TX",,Texas A&M,UTEP
 2689,1964,midwest,1,,Creighton,"Dallas, TX",,Oklahoma City,Creighton
 2690,1964,midwest,2,,Kansas State,"Wichita, KS",,UTEP,Kansas State
 2691,1964,midwest,2,,Creighton,"Wichita, KS",,Wichita State,Wichita State
@@ -2894,7 +2894,7 @@
 2892,1955,east,3,,La Salle,"Philadelphia, PA",,Canisius,La Salle
 2893,1955,east,3,,Marquette,"Evanston, IL",,Iowa,Iowa
 2894,1955,east,4,,La Salle,"Kansas City, MO",,Iowa,La Salle
-2895,1955,west,1,,San Francisco,"San Francisco, CA",,West Texas A&M;,San Francisco
+2895,1955,west,1,,San Francisco,"San Francisco, CA",,West Texas A&M,San Francisco
 2896,1955,west,1,,Seattle,"San Francisco, CA",,Idaho State,Seattle
 2897,1955,west,1,,Bradley,"New York, NY",,Oklahoma City,Bradley
 2898,1955,west,2,,San Francisco,"Corvallis, OR",,Utah,San Francisco
@@ -2969,7 +2969,7 @@
 2967,1951,east,3,,Kentucky,"Kansas City, MO",,Illinois,Kentucky
 2968,1951,west,1,,Kansas State,"Kansas City, MO",,Arizona,Kansas State
 2969,1951,west,1,,BYU,"Kansas City, MO",,San Jose State,BYU
-2970,1951,west,1,,Washington,"Kansas City, MO",,Texas A&M;,Washington
+2970,1951,west,1,,Washington,"Kansas City, MO",,Texas A&M,Washington
 2971,1951,west,1,,Oklahoma State,"Kansas City, MO",,Montana State,Oklahoma State
 2972,1951,west,2,,Kansas State,"Kansas City, MO",,BYU,Kansas State
 2973,1951,west,2,,Washington,"Kansas City, MO",,Oklahoma State,Oklahoma State
