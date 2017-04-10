@@ -1,0 +1,2187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>NCAA Men&#39;s Basketball Tournament: Four Florida teams made the big dance.</title>
+  <meta name="description" content="">
+
+  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="canonical" href="http://localhost:4000/jekyll/update/2017/04/08/ncaa-fl-teams.html">
+  <link rel="alternate" type="application/rss+xml" title="Teams from the state of Florida men&#39;s NCAA appearances" href="/feed.xml">
+  
+  
+</head>
+
+
+  <body>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" type="text/javascript"></script>
+<script src="https://cdn.datatables.net/1.10.13/js/jquery.dataTables.min.js" type="text/javascript"></script>
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.13/css/jquery.dataTables.min.css" />
+
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">NCAA Men&#39;s Basketball Tournament: Four Florida teams made the big dance.</h1>
+    <p class="post-meta"><time datetime="2017-04-08T10:05:53-04:00" itemprop="datePublished">Apr 8, 2017</time></p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" type="text/javascript"></script>
+
+<script src="https://cdn.datatables.net/1.10.13/js/jquery.dataTables.min.js" type="text/javascript"></script>
+
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.13/css/jquery.dataTables.min.css" />
+
+<p>The NCAA Men’s Tournament is over and UNC is the 2017 National Champion.  Congrats to them, and all participants this year…  This year someone emailed me a local news article
+<a href="http://www.local10.com/sports/college-basketball/miami-florida-florida-state-all-heading-to-big-dance">a Local 10 ABC news article</a> that said this was the first year that all three of Florida, Florida State and Miami all made the tournament.</p>
+
+<p>I thought this was an interesting headline but it left several questions.  Anyone who glanced at the bracket (or read the article) saw that FSU’s first round match up was against Florida Gulf Coast.  So technically <em>four</em> teams from the Sunshine State made the tournament.  Florida Gulf Coast was mentioned as an afterthought in the Local10 article when they mentioned the three teams’ first round opponents.  It got me thinking:</p>
+
+<ul>
+  <li><strong>What about the other Florida schools in previous years?</strong></li>
+  <li><strong>In college football, people often refer to UF, FSU and Miami as the big three, but is that the case in basketball?  Does Miami, for example, have substantially more appearances than say Florida Gulf Coast, UCF, Florida A&amp;M or any other school?</strong></li>
+  <li><strong>Among the Florida basketball schools: who has the most appearances, and who had the first NCAA tournament appearance?</strong></li>
+</ul>
+
+<p>I thought these would be interesting questions to research by writing some <a href="https://www.python.org">Python</a>.</p>
+
+<h2 id="who-cares-if-you-just-make-the-tournament">Who cares if you just make the tournament?</h2>
+
+<p>Let take a step back and say that just making the tournament is a big honor.  There are two ways to get to the tournament: 1) win a division 1 conference tournament 2) belong to a division 1 conference and be selected as at-large team by the NCAA selection committee for the remainder of the spots.  Teams that win their conference tournament cut down the nets.  Camera crews visit the tournament championship games of lesser known locations just to get a clip of the winning team dancing in celebration at making the NCAA tournament.  Bubble teams sit patiently in a team meeting room as a live camera feed is ready to broadcast them either leaping out of their seats or to have their coach give a disappointing interview.</p>
+
+<p>My favorite memory of a team making the tournament goes back to my first ever trip to Madison Square Garden.  I was visiting a friend who lived in New York and we went to an early round game of the Big East tournament.  It was UConn versus Syracuse during the 2005-2006 season.  UConn was poised to vie for a #1 seed.  Since I was a Gator fan, I was not a fan of the idea of UConn losing but keeping a #1 seed because it probably negatively impact the Gators’ spot in the tournament.  Syracuse, who was having an off year, was considered a bubble team on the outside looking into the tournament.  It was an electric setting since two rival fanbases seemed to split the Garden.  We were just hoping for a good game.  Down the stretch as Syracuse hung around it seemed they might have a chance.  As neutral fans looking for a good game, we were swept up in rooting for the underdog.  Syracuse’s point guard Gerry McNamara had hit several 3 pointers to keep Syracuse in the game.  Syracuse was down by 3 and had the ball for the last possession of the game.  As McNamara crossed the half court line, his defender stepped a couple steps beyond the three point arc.  I thought, ‘ok they are determined to take away even a long 3 pointer… McNamara needs to set up a guy for a 3 point play inside…’ but the seconds kept ticking away and McNamara still had space between him and the defender which put him even further from the 3 point line.  He launched up a deep three.  ‘I thought: <em>what are you thinking???!!!’</em>…  It went in.  Syracuse forced overtime and won in overtime.  A couple of days later Syracuse won the Big East tournament.  On the front page of espn.com was a picture of McNamara at the top of the ladder.  The article sub header said something to the effect of: Syracuse’s run in the Big East Tournament probably would have earned them at at large bid, but they won and left nothing to chance. They added something to the effect of: and the conference tournament MVP? Was there any debate?</p>
+
+<p>That said… onto the questions about the number of appearances by Florida teams.</p>
+
+<h2 id="lets-find-the-answers">Let’s find the answers</h2>
+
+<p>The first thing I did was try to figure out where I could get the data for every bracket from every year.  When I did a google search most ncaa brackets seemed to show up in PDF format.  I did some experimenting with a Python library PyPDF2 which can scrape the text from a PDF.  Once I realized that the text won’t be in any particular order I realized this didn’t work for me.  It would be probably fine if the PDF were paragraphs of text, but brackets are very free form and aren’t great for the web scraping I’m interested in doing.  I ended up finding a site that catalogued all the brakets in HTML format on the page: <a href="http://www.sports-reference.com/cbb/postseason/">SportsReference.com</a>.  The format of this site was ideal to use a really good Python library called <a href="https://www.crummy.com/software/BeautifulSoup/">Beautiful Soup</a>.</p>
+
+<p>The code and Jupyter Notebook used to get the data for this site is located <a href="https://github.com/dholubek/ncaa_seeds">at my GitHub repository</a></p>
+
+<p>Once I was able to get all the data for every team, I filtered by first round only.  I then added this custom filter for Florida teams.</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="n">df1</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">loc</span><span class="p">[(</span><span class="n">df</span><span class="p">[</span><span class="s">'Round'</span><span class="p">]</span> <span class="o">==</span> <span class="mi">1</span><span class="p">)]</span>
+<span class="n">fl_list</span> <span class="o">=</span> <span class="p">[</span><span class="s">'Florida'</span><span class="p">,</span> <span class="s">'Florida State'</span><span class="p">,</span> <span class="s">'Miami (FL)'</span><span class="p">,</span> <span class="s">'Jacksonville'</span><span class="p">,</span> <span class="s">'UCF'</span><span class="p">,</span> <span class="s">'Florida Gulf Coast'</span><span class="p">,</span> <span class="s">'South Florida'</span><span class="p">,</span> <span class="s">'Florida A&amp;M'</span><span class="p">,</span><span class="s">'Florida International'</span><span class="p">,</span> <span class="s">'Florida Atlantic'</span><span class="p">]</span></code></pre></figure>
+
+<p>There was no magical Python function to look up the team and determine if they are from Florida.  I couldn’t filter by the word Florida or FL.  There wasn’t a straightforward way to pull the location of the school then look it up on a map programmatically.  For example Jacksonville University is in Jacksonville, FL.  Jacksonville State University is in Jacksonville, AL.  The easiest way to build a filter of Florida teams was to just find all the first round teams and scroll through the list.</p>
+
+<h3 id="appearances-by-florida-ncaa-mens-basketball-teams">Appearances by Florida NCAA Men’s Basketball teams</h3>
+
+<p>All appearances by Florida teams are here.  The higher seed is in the Team column and lower Seed in the Opponent column.  There are several answers we can get just by looking at the data.</p>
+
+<p><br /></p>
+<table id="fl" class="display">
+  <thead>
+    <th>Year</th>
+    <th>Team</th>
+    <th>Opponent</th>
+  </thead>
+  <tbody>
+
+  </tbody>
+</table>
+<p><br /></p>
+
+<p>The answer to the question who has the most appearances is UF.  The graph below shows the count of all the Florida schools who have appeared in the NCAA Men’s Basketball Tournament:</p>
+
+<p><img src="http://localhost:4000/assets/florida_teams_ncaa_appearances.png" alt="Florida Men's teams total appearances" /></p>
+
+<p>19 appearances doesn’t rank very high among all division 1 schools.  Below is a list I compiled of the number of appearances by all schools:</p>
+
+<h3 id="number-of-appearances-by-all-ncaa-mens-basketball-teams">Number of Appearances by All NCAA Men’s Basketball teams</h3>
+
+<p><br /></p>
+<table id="all" class="display">
+  <thead>
+    <th>Team</th>
+    <th>Appearances</th>
+    <th>Rank</th>
+  </thead>
+  <tbody>
+
+  <tr>
+      <td> Kansas </td>
+      <td> 38 </td>
+      <td> 1 </td>
+  </tr>
+
+  <tr>
+      <td> UNC </td>
+      <td> 38 </td>
+      <td> 1 </td>
+  </tr>
+
+  <tr>
+      <td> Kentucky </td>
+      <td> 37 </td>
+      <td> 2 </td>
+  </tr>
+
+  <tr>
+      <td> Villanova </td>
+      <td> 35 </td>
+      <td> 3 </td>
+  </tr>
+
+  <tr>
+      <td> Duke </td>
+      <td> 35 </td>
+      <td> 3 </td>
+  </tr>
+
+  <tr>
+      <td> Arizona </td>
+      <td> 34 </td>
+      <td> 4 </td>
+  </tr>
+
+  <tr>
+      <td> Syracuse </td>
+      <td> 34 </td>
+      <td> 4 </td>
+  </tr>
+
+  <tr>
+      <td> Notre Dame </td>
+      <td> 33 </td>
+      <td> 5 </td>
+  </tr>
+
+  <tr>
+      <td> Louisville </td>
+      <td> 33 </td>
+      <td> 5 </td>
+  </tr>
+
+  <tr>
+      <td> UCLA </td>
+      <td> 32 </td>
+      <td> 6 </td>
+  </tr>
+
+  <tr>
+      <td> UConn </td>
+      <td> 32 </td>
+      <td> 6 </td>
+  </tr>
+
+  <tr>
+      <td> Temple </td>
+      <td> 31 </td>
+      <td> 7 </td>
+  </tr>
+
+  <tr>
+      <td> Marquette </td>
+      <td> 31 </td>
+      <td> 7 </td>
+  </tr>
+
+  <tr>
+      <td> Texas </td>
+      <td> 31 </td>
+      <td> 7 </td>
+  </tr>
+
+  <tr>
+      <td> Indiana </td>
+      <td> 30 </td>
+      <td> 8 </td>
+  </tr>
+
+  <tr>
+      <td> Oklahoma </td>
+      <td> 28 </td>
+      <td> 9 </td>
+  </tr>
+
+  <tr>
+      <td> West Virginia </td>
+      <td> 27 </td>
+      <td> 10 </td>
+  </tr>
+
+  <tr>
+      <td> Purdue </td>
+      <td> 27 </td>
+      <td> 10 </td>
+  </tr>
+
+  <tr>
+      <td> St. John's (NY) </td>
+      <td> 27 </td>
+      <td> 10 </td>
+  </tr>
+
+  <tr>
+      <td> Michigan State </td>
+      <td> 27 </td>
+      <td> 10 </td>
+  </tr>
+
+  <tr>
+      <td> Illinois </td>
+      <td> 27 </td>
+      <td> 10 </td>
+  </tr>
+
+  <tr>
+      <td> Georgetown </td>
+      <td> 26 </td>
+      <td> 11 </td>
+  </tr>
+
+  <tr>
+      <td> Arkansas </td>
+      <td> 26 </td>
+      <td> 11 </td>
+  </tr>
+
+  <tr>
+      <td> Pitt </td>
+      <td> 25 </td>
+      <td> 12 </td>
+  </tr>
+
+  <tr>
+      <td> Princeton </td>
+      <td> 25 </td>
+      <td> 12 </td>
+  </tr>
+
+  <tr>
+      <td> Xavier </td>
+      <td> 25 </td>
+      <td> 12 </td>
+  </tr>
+
+  <tr>
+      <td> Missouri </td>
+      <td> 24 </td>
+      <td> 13 </td>
+  </tr>
+
+  <tr>
+      <td> Oklahoma State </td>
+      <td> 24 </td>
+      <td> 13 </td>
+  </tr>
+
+  <tr>
+      <td> Ohio State </td>
+      <td> 24 </td>
+      <td> 13 </td>
+  </tr>
+
+  <tr>
+      <td> BYU </td>
+      <td> 24 </td>
+      <td> 13 </td>
+  </tr>
+
+  <tr>
+      <td> Maryland </td>
+      <td> 24 </td>
+      <td> 13 </td>
+  </tr>
+
+  <tr>
+      <td> Cincinnati </td>
+      <td> 24 </td>
+      <td> 13 </td>
+  </tr>
+
+  <tr>
+      <td> Western Kentucky </td>
+      <td> 23 </td>
+      <td> 14 </td>
+  </tr>
+
+  <tr>
+      <td> New Mexico State </td>
+      <td> 23 </td>
+      <td> 14 </td>
+  </tr>
+
+  <tr>
+      <td> Michigan </td>
+      <td> 23 </td>
+      <td> 14 </td>
+  </tr>
+
+  <tr>
+      <td> Utah </td>
+      <td> 22 </td>
+      <td> 15 </td>
+  </tr>
+
+  <tr>
+      <td> North Carolina State </td>
+      <td> 22 </td>
+      <td> 15 </td>
+  </tr>
+
+  <tr>
+      <td> Penn </td>
+      <td> 22 </td>
+      <td> 15 </td>
+  </tr>
+
+  <tr>
+      <td> Memphis </td>
+      <td> 22 </td>
+      <td> 15 </td>
+  </tr>
+
+  <tr>
+      <td> Wisconsin </td>
+      <td> 22 </td>
+      <td> 15 </td>
+  </tr>
+
+  <tr>
+      <td> Utah State </td>
+      <td> 20 </td>
+      <td> 16 </td>
+  </tr>
+
+  <tr>
+      <td> Kansas State </td>
+      <td> 20 </td>
+      <td> 16 </td>
+  </tr>
+
+  <tr>
+      <td> Creighton </td>
+      <td> 20 </td>
+      <td> 16 </td>
+  </tr>
+
+  <tr>
+      <td> Florida </td>
+      <td> 19 </td>
+      <td> 17 </td>
+  </tr>
+
+  <tr>
+      <td> Alabama </td>
+      <td> 19 </td>
+      <td> 17 </td>
+  </tr>
+
+  <tr>
+      <td> Gonzaga </td>
+      <td> 19 </td>
+      <td> 17 </td>
+  </tr>
+
+  <tr>
+      <td> UNLV </td>
+      <td> 19 </td>
+      <td> 17 </td>
+  </tr>
+
+  <tr>
+      <td> Iowa State </td>
+      <td> 19 </td>
+      <td> 17 </td>
+  </tr>
+
+  <tr>
+      <td> Iowa </td>
+      <td> 19 </td>
+      <td> 17 </td>
+  </tr>
+
+  <tr>
+      <td> Dayton </td>
+      <td> 18 </td>
+      <td> 18 </td>
+  </tr>
+
+  <tr>
+      <td> Virginia </td>
+      <td> 18 </td>
+      <td> 18 </td>
+  </tr>
+
+  <tr>
+      <td> Wake Forest </td>
+      <td> 18 </td>
+      <td> 18 </td>
+  </tr>
+
+  <tr>
+      <td> Tennessee </td>
+      <td> 18 </td>
+      <td> 18 </td>
+  </tr>
+
+  <tr>
+      <td> Providence </td>
+      <td> 17 </td>
+      <td> 19 </td>
+  </tr>
+
+  <tr>
+      <td> DePaul </td>
+      <td> 17 </td>
+      <td> 19 </td>
+  </tr>
+
+  <tr>
+      <td> Miami (OH) </td>
+      <td> 17 </td>
+      <td> 19 </td>
+  </tr>
+
+  <tr>
+      <td> Stanford </td>
+      <td> 17 </td>
+      <td> 19 </td>
+  </tr>
+
+  <tr>
+      <td> UTEP </td>
+      <td> 16 </td>
+      <td> 20 </td>
+  </tr>
+
+  <tr>
+      <td> USC </td>
+      <td> 16 </td>
+      <td> 20 </td>
+  </tr>
+
+  <tr>
+      <td> Boston College </td>
+      <td> 16 </td>
+      <td> 20 </td>
+  </tr>
+
+  <tr>
+      <td> Weber State </td>
+      <td> 16 </td>
+      <td> 20 </td>
+  </tr>
+
+  <tr>
+      <td> Houston </td>
+      <td> 16 </td>
+      <td> 20 </td>
+  </tr>
+
+  <tr>
+      <td> St. Joseph's </td>
+      <td> 16 </td>
+      <td> 20 </td>
+  </tr>
+
+  <tr>
+      <td> LSU </td>
+      <td> 16 </td>
+      <td> 20 </td>
+  </tr>
+
+  <tr>
+      <td> Florida State </td>
+      <td> 15 </td>
+      <td> 21 </td>
+  </tr>
+
+  <tr>
+      <td> Oregon </td>
+      <td> 15 </td>
+      <td> 21 </td>
+  </tr>
+
+  <tr>
+      <td> VCU </td>
+      <td> 15 </td>
+      <td> 21 </td>
+  </tr>
+
+  <tr>
+      <td> Murray State </td>
+      <td> 15 </td>
+      <td> 21 </td>
+  </tr>
+
+  <tr>
+      <td> Butler </td>
+      <td> 15 </td>
+      <td> 21 </td>
+  </tr>
+
+  <tr>
+      <td> University of California </td>
+      <td> 15 </td>
+      <td> 21 </td>
+  </tr>
+
+  <tr>
+      <td> New Mexico </td>
+      <td> 14 </td>
+      <td> 22 </td>
+  </tr>
+
+  <tr>
+      <td> Washington </td>
+      <td> 14 </td>
+      <td> 22 </td>
+  </tr>
+
+  <tr>
+      <td> Georgia Tech </td>
+      <td> 14 </td>
+      <td> 22 </td>
+  </tr>
+
+  <tr>
+      <td> Texas A&amp;M </td>
+      <td> 13 </td>
+      <td> 23 </td>
+  </tr>
+
+  <tr>
+      <td> Wyoming </td>
+      <td> 13 </td>
+      <td> 23 </td>
+  </tr>
+
+  <tr>
+      <td> Texas Tech </td>
+      <td> 13 </td>
+      <td> 23 </td>
+  </tr>
+
+  <tr>
+      <td> Arizona State </td>
+      <td> 13 </td>
+      <td> 23 </td>
+  </tr>
+
+  <tr>
+      <td> Ohio </td>
+      <td> 13 </td>
+      <td> 23 </td>
+  </tr>
+
+  <tr>
+      <td> Holy Cross </td>
+      <td> 13 </td>
+      <td> 23 </td>
+  </tr>
+
+  <tr>
+      <td> Davidson </td>
+      <td> 13 </td>
+      <td> 23 </td>
+  </tr>
+
+  <tr>
+      <td> Tulsa </td>
+      <td> 12 </td>
+      <td> 24 </td>
+  </tr>
+
+  <tr>
+      <td> Pepperdine </td>
+      <td> 12 </td>
+      <td> 24 </td>
+  </tr>
+
+  <tr>
+      <td> Wichita State </td>
+      <td> 12 </td>
+      <td> 24 </td>
+  </tr>
+
+  <tr>
+      <td> Vanderbilt </td>
+      <td> 12 </td>
+      <td> 24 </td>
+  </tr>
+
+  <tr>
+      <td> Alabama-Birmingham </td>
+      <td> 12 </td>
+      <td> 24 </td>
+  </tr>
+
+  <tr>
+      <td> Oregon State </td>
+      <td> 12 </td>
+      <td> 24 </td>
+  </tr>
+
+  <tr>
+      <td> La Salle </td>
+      <td> 12 </td>
+      <td> 24 </td>
+  </tr>
+
+  <tr>
+      <td> Old Dominion </td>
+      <td> 11 </td>
+      <td> 25 </td>
+  </tr>
+
+  <tr>
+      <td> Clemson </td>
+      <td> 11 </td>
+      <td> 25 </td>
+  </tr>
+
+  <tr>
+      <td> George Washington </td>
+      <td> 11 </td>
+      <td> 25 </td>
+  </tr>
+
+  <tr>
+      <td> Georgia </td>
+      <td> 11 </td>
+      <td> 25 </td>
+  </tr>
+
+  <tr>
+      <td> Baylor </td>
+      <td> 11 </td>
+      <td> 25 </td>
+  </tr>
+
+  <tr>
+      <td> Chattanooga </td>
+      <td> 11 </td>
+      <td> 25 </td>
+  </tr>
+
+  <tr>
+      <td> San Diego State </td>
+      <td> 11 </td>
+      <td> 25 </td>
+  </tr>
+
+  <tr>
+      <td> Navy </td>
+      <td> 11 </td>
+      <td> 25 </td>
+  </tr>
+
+  <tr>
+      <td> Minnesota </td>
+      <td> 11 </td>
+      <td> 25 </td>
+  </tr>
+
+  <tr>
+      <td> Iona </td>
+      <td> 11 </td>
+      <td> 25 </td>
+  </tr>
+
+  <tr>
+      <td> Seton Hall </td>
+      <td> 11 </td>
+      <td> 25 </td>
+  </tr>
+
+  <tr>
+      <td> Seattle </td>
+      <td> 10 </td>
+      <td> 26 </td>
+  </tr>
+
+  <tr>
+      <td> Oklahoma City </td>
+      <td> 10 </td>
+      <td> 26 </td>
+  </tr>
+
+  <tr>
+      <td> Montana </td>
+      <td> 10 </td>
+      <td> 26 </td>
+  </tr>
+
+  <tr>
+      <td> Idaho State </td>
+      <td> 10 </td>
+      <td> 26 </td>
+  </tr>
+
+  <tr>
+      <td> ETSU </td>
+      <td> 10 </td>
+      <td> 26 </td>
+  </tr>
+
+  <tr>
+      <td> Charlotte </td>
+      <td> 10 </td>
+      <td> 26 </td>
+  </tr>
+
+  <tr>
+      <td> Southern Illinois </td>
+      <td> 10 </td>
+      <td> 26 </td>
+  </tr>
+
+  <tr>
+      <td> Louisiana-Lafayette </td>
+      <td> 10 </td>
+      <td> 26 </td>
+  </tr>
+
+  <tr>
+      <td> Colorado State </td>
+      <td> 9 </td>
+      <td> 27 </td>
+  </tr>
+
+  <tr>
+      <td> Rhode Island </td>
+      <td> 9 </td>
+      <td> 27 </td>
+  </tr>
+
+  <tr>
+      <td> Virginia Tech </td>
+      <td> 9 </td>
+      <td> 27 </td>
+  </tr>
+
+  <tr>
+      <td> Long Beach State </td>
+      <td> 9 </td>
+      <td> 27 </td>
+  </tr>
+
+  <tr>
+      <td> Mississippi State </td>
+      <td> 9 </td>
+      <td> 27 </td>
+  </tr>
+
+  <tr>
+      <td> Miami (FL) </td>
+      <td> 9 </td>
+      <td> 27 </td>
+  </tr>
+
+  <tr>
+      <td> Penn State </td>
+      <td> 9 </td>
+      <td> 27 </td>
+  </tr>
+
+  <tr>
+      <td> Colorado </td>
+      <td> 9 </td>
+      <td> 27 </td>
+  </tr>
+
+  <tr>
+      <td> UMass </td>
+      <td> 9 </td>
+      <td> 27 </td>
+  </tr>
+
+  <tr>
+      <td> Valparaiso </td>
+      <td> 8 </td>
+      <td> 28 </td>
+  </tr>
+
+  <tr>
+      <td> Ole Miss </td>
+      <td> 8 </td>
+      <td> 28 </td>
+  </tr>
+
+  <tr>
+      <td> Robert Morris </td>
+      <td> 8 </td>
+      <td> 28 </td>
+  </tr>
+
+  <tr>
+      <td> Richmond </td>
+      <td> 8 </td>
+      <td> 28 </td>
+  </tr>
+
+  <tr>
+      <td> Northeastern </td>
+      <td> 8 </td>
+      <td> 28 </td>
+  </tr>
+
+  <tr>
+      <td> North Carolina A&amp;T </td>
+      <td> 8 </td>
+      <td> 28 </td>
+  </tr>
+
+  <tr>
+      <td> Auburn </td>
+      <td> 8 </td>
+      <td> 28 </td>
+  </tr>
+
+  <tr>
+      <td> Saint Louis </td>
+      <td> 8 </td>
+      <td> 28 </td>
+  </tr>
+
+  <tr>
+      <td> Eastern Kentucky </td>
+      <td> 8 </td>
+      <td> 28 </td>
+  </tr>
+
+  <tr>
+      <td> Saint Mary's (CA) </td>
+      <td> 8 </td>
+      <td> 28 </td>
+  </tr>
+
+  <tr>
+      <td> Winthrop </td>
+      <td> 8 </td>
+      <td> 28 </td>
+  </tr>
+
+  <tr>
+      <td> Bradley </td>
+      <td> 8 </td>
+      <td> 28 </td>
+  </tr>
+
+  <tr>
+      <td> Middle Tennessee </td>
+      <td> 8 </td>
+      <td> 28 </td>
+  </tr>
+
+  <tr>
+      <td> Southern </td>
+      <td> 8 </td>
+      <td> 28 </td>
+  </tr>
+
+  <tr>
+      <td> Morehead State </td>
+      <td> 7 </td>
+      <td> 29 </td>
+  </tr>
+
+  <tr>
+      <td> Nebraska </td>
+      <td> 7 </td>
+      <td> 29 </td>
+  </tr>
+
+  <tr>
+      <td> Northern Iowa </td>
+      <td> 7 </td>
+      <td> 29 </td>
+  </tr>
+
+  <tr>
+      <td> Dartmouth </td>
+      <td> 7 </td>
+      <td> 29 </td>
+  </tr>
+
+  <tr>
+      <td> Belmont </td>
+      <td> 7 </td>
+      <td> 29 </td>
+  </tr>
+
+  <tr>
+      <td> Bucknell </td>
+      <td> 7 </td>
+      <td> 29 </td>
+  </tr>
+
+  <tr>
+      <td> Ball State </td>
+      <td> 7 </td>
+      <td> 29 </td>
+  </tr>
+
+  <tr>
+      <td> Santa Clara </td>
+      <td> 7 </td>
+      <td> 29 </td>
+  </tr>
+
+  <tr>
+      <td> Louisiana-Monroe </td>
+      <td> 7 </td>
+      <td> 29 </td>
+  </tr>
+
+  <tr>
+      <td> South Carolina </td>
+      <td> 7 </td>
+      <td> 29 </td>
+  </tr>
+
+  <tr>
+      <td> Austin Peay </td>
+      <td> 7 </td>
+      <td> 29 </td>
+  </tr>
+
+  <tr>
+      <td> SMU </td>
+      <td> 7 </td>
+      <td> 29 </td>
+  </tr>
+
+  <tr>
+      <td> South Alabama </td>
+      <td> 7 </td>
+      <td> 29 </td>
+  </tr>
+
+  <tr>
+      <td> St. Bonaventure </td>
+      <td> 6 </td>
+      <td> 30 </td>
+  </tr>
+
+  <tr>
+      <td> Boston University </td>
+      <td> 6 </td>
+      <td> 30 </td>
+  </tr>
+
+  <tr>
+      <td> Vermont </td>
+      <td> 6 </td>
+      <td> 30 </td>
+  </tr>
+
+  <tr>
+      <td> San Francisco </td>
+      <td> 6 </td>
+      <td> 30 </td>
+  </tr>
+
+  <tr>
+      <td> Manhattan </td>
+      <td> 6 </td>
+      <td> 30 </td>
+  </tr>
+
+  <tr>
+      <td> George Mason </td>
+      <td> 6 </td>
+      <td> 30 </td>
+  </tr>
+
+  <tr>
+      <td> Washington State </td>
+      <td> 6 </td>
+      <td> 30 </td>
+  </tr>
+
+  <tr>
+      <td> Illinois State </td>
+      <td> 6 </td>
+      <td> 30 </td>
+  </tr>
+
+  <tr>
+      <td> Kent State </td>
+      <td> 6 </td>
+      <td> 30 </td>
+  </tr>
+
+  <tr>
+      <td> Detroit </td>
+      <td> 6 </td>
+      <td> 30 </td>
+  </tr>
+
+  <tr>
+      <td> Furman </td>
+      <td> 6 </td>
+      <td> 30 </td>
+  </tr>
+
+  <tr>
+      <td> Missouri State </td>
+      <td> 6 </td>
+      <td> 30 </td>
+  </tr>
+
+  <tr>
+      <td> Nevada </td>
+      <td> 6 </td>
+      <td> 30 </td>
+  </tr>
+
+  <tr>
+      <td> North Carolina-Wilmington </td>
+      <td> 6 </td>
+      <td> 30 </td>
+  </tr>
+
+  <tr>
+      <td> NYU </td>
+      <td> 6 </td>
+      <td> 30 </td>
+  </tr>
+
+  <tr>
+      <td> Siena </td>
+      <td> 6 </td>
+      <td> 30 </td>
+  </tr>
+
+  <tr>
+      <td> Boise State </td>
+      <td> 5 </td>
+      <td> 31 </td>
+  </tr>
+
+  <tr>
+      <td> Hampton </td>
+      <td> 5 </td>
+      <td> 31 </td>
+  </tr>
+
+  <tr>
+      <td> Hawaii </td>
+      <td> 5 </td>
+      <td> 31 </td>
+  </tr>
+
+  <tr>
+      <td> Delaware </td>
+      <td> 5 </td>
+      <td> 31 </td>
+  </tr>
+
+  <tr>
+      <td> South Carolina State </td>
+      <td> 5 </td>
+      <td> 31 </td>
+  </tr>
+
+  <tr>
+      <td> Alcorn State </td>
+      <td> 5 </td>
+      <td> 31 </td>
+  </tr>
+
+  <tr>
+      <td> Oral Roberts </td>
+      <td> 5 </td>
+      <td> 31 </td>
+  </tr>
+
+  <tr>
+      <td> Fresno State </td>
+      <td> 5 </td>
+      <td> 31 </td>
+  </tr>
+
+  <tr>
+      <td> Louisiana Tech </td>
+      <td> 5 </td>
+      <td> 31 </td>
+  </tr>
+
+  <tr>
+      <td> Duquesne </td>
+      <td> 5 </td>
+      <td> 31 </td>
+  </tr>
+
+  <tr>
+      <td> Harvard </td>
+      <td> 5 </td>
+      <td> 31 </td>
+  </tr>
+
+  <tr>
+      <td> Green Bay </td>
+      <td> 5 </td>
+      <td> 31 </td>
+  </tr>
+
+  <tr>
+      <td> Evansville </td>
+      <td> 5 </td>
+      <td> 31 </td>
+  </tr>
+
+  <tr>
+      <td> Rutgers </td>
+      <td> 5 </td>
+      <td> 31 </td>
+  </tr>
+
+  <tr>
+      <td> Albany (NY) </td>
+      <td> 5 </td>
+      <td> 31 </td>
+  </tr>
+
+  <tr>
+      <td> James Madison </td>
+      <td> 5 </td>
+      <td> 31 </td>
+  </tr>
+
+  <tr>
+      <td> UCSB </td>
+      <td> 5 </td>
+      <td> 31 </td>
+  </tr>
+
+  <tr>
+      <td> Loyola (IL) </td>
+      <td> 5 </td>
+      <td> 31 </td>
+  </tr>
+
+  <tr>
+      <td> Marshall </td>
+      <td> 5 </td>
+      <td> 31 </td>
+  </tr>
+
+  <tr>
+      <td> Jacksonville </td>
+      <td> 5 </td>
+      <td> 31 </td>
+  </tr>
+
+  <tr>
+      <td> Lamar </td>
+      <td> 5 </td>
+      <td> 31 </td>
+  </tr>
+
+  <tr>
+      <td> Texas Southern </td>
+      <td> 5 </td>
+      <td> 31 </td>
+  </tr>
+
+  <tr>
+      <td> Air Force </td>
+      <td> 4 </td>
+      <td> 32 </td>
+  </tr>
+
+  <tr>
+      <td> Pacific </td>
+      <td> 4 </td>
+      <td> 32 </td>
+  </tr>
+
+  <tr>
+      <td> Canisius </td>
+      <td> 4 </td>
+      <td> 32 </td>
+  </tr>
+
+  <tr>
+      <td> Wofford </td>
+      <td> 4 </td>
+      <td> 32 </td>
+  </tr>
+
+  <tr>
+      <td> LIU-Brooklyn </td>
+      <td> 4 </td>
+      <td> 32 </td>
+  </tr>
+
+  <tr>
+      <td> Arkansas-Little Rock </td>
+      <td> 4 </td>
+      <td> 32 </td>
+  </tr>
+
+  <tr>
+      <td> South Dakota State </td>
+      <td> 4 </td>
+      <td> 32 </td>
+  </tr>
+
+  <tr>
+      <td> Fairleigh Dickinson </td>
+      <td> 4 </td>
+      <td> 32 </td>
+  </tr>
+
+  <tr>
+      <td> Mount St. Mary's </td>
+      <td> 4 </td>
+      <td> 32 </td>
+  </tr>
+
+  <tr>
+      <td> Fordham </td>
+      <td> 4 </td>
+      <td> 32 </td>
+  </tr>
+
+  <tr>
+      <td> Yale </td>
+      <td> 4 </td>
+      <td> 32 </td>
+  </tr>
+
+  <tr>
+      <td> Loyola Marymount </td>
+      <td> 4 </td>
+      <td> 32 </td>
+  </tr>
+
+  <tr>
+      <td> Coastal Carolina </td>
+      <td> 4 </td>
+      <td> 32 </td>
+  </tr>
+
+  <tr>
+      <td> Stephen F. Austin </td>
+      <td> 4 </td>
+      <td> 32 </td>
+  </tr>
+
+  <tr>
+      <td> Central Michigan </td>
+      <td> 4 </td>
+      <td> 32 </td>
+  </tr>
+
+  <tr>
+      <td> UTSA </td>
+      <td> 4 </td>
+      <td> 32 </td>
+  </tr>
+
+  <tr>
+      <td> Akron </td>
+      <td> 4 </td>
+      <td> 32 </td>
+  </tr>
+
+  <tr>
+      <td> Lehigh </td>
+      <td> 4 </td>
+      <td> 32 </td>
+  </tr>
+
+  <tr>
+      <td> Cornell </td>
+      <td> 4 </td>
+      <td> 32 </td>
+  </tr>
+
+  <tr>
+      <td> New Orleans </td>
+      <td> 4 </td>
+      <td> 32 </td>
+  </tr>
+
+  <tr>
+      <td> Milwaukee </td>
+      <td> 4 </td>
+      <td> 32 </td>
+  </tr>
+
+  <tr>
+      <td> Bowling Green State </td>
+      <td> 4 </td>
+      <td> 32 </td>
+  </tr>
+
+  <tr>
+      <td> Texas Christian </td>
+      <td> 4 </td>
+      <td> 32 </td>
+  </tr>
+
+  <tr>
+      <td> Monmouth </td>
+      <td> 4 </td>
+      <td> 32 </td>
+  </tr>
+
+  <tr>
+      <td> North Carolina-Asheville </td>
+      <td> 4 </td>
+      <td> 32 </td>
+  </tr>
+
+  <tr>
+      <td> Western Michigan </td>
+      <td> 4 </td>
+      <td> 32 </td>
+  </tr>
+
+  <tr>
+      <td> Hofstra </td>
+      <td> 4 </td>
+      <td> 32 </td>
+  </tr>
+
+  <tr>
+      <td> College of Charleston </td>
+      <td> 4 </td>
+      <td> 32 </td>
+  </tr>
+
+  <tr>
+      <td> Mississippi Valley State </td>
+      <td> 4 </td>
+      <td> 32 </td>
+  </tr>
+
+  <tr>
+      <td> Drexel </td>
+      <td> 4 </td>
+      <td> 32 </td>
+  </tr>
+
+  <tr>
+      <td> Eastern Michigan </td>
+      <td> 4 </td>
+      <td> 32 </td>
+  </tr>
+
+  <tr>
+      <td> Oakland </td>
+      <td> 3 </td>
+      <td> 33 </td>
+  </tr>
+
+  <tr>
+      <td> Virginia Military Institute </td>
+      <td> 3 </td>
+      <td> 33 </td>
+  </tr>
+
+  <tr>
+      <td> Toledo </td>
+      <td> 3 </td>
+      <td> 33 </td>
+  </tr>
+
+  <tr>
+      <td> Rice </td>
+      <td> 3 </td>
+      <td> 33 </td>
+  </tr>
+
+  <tr>
+      <td> American </td>
+      <td> 3 </td>
+      <td> 33 </td>
+  </tr>
+
+  <tr>
+      <td> UCF </td>
+      <td> 3 </td>
+      <td> 33 </td>
+  </tr>
+
+  <tr>
+      <td> Lafayette </td>
+      <td> 3 </td>
+      <td> 33 </td>
+  </tr>
+
+  <tr>
+      <td> Idaho </td>
+      <td> 3 </td>
+      <td> 33 </td>
+  </tr>
+
+  <tr>
+      <td> Central Connecticut </td>
+      <td> 3 </td>
+      <td> 33 </td>
+  </tr>
+
+  <tr>
+      <td> Montana State </td>
+      <td> 3 </td>
+      <td> 33 </td>
+  </tr>
+
+  <tr>
+      <td> North Texas </td>
+      <td> 3 </td>
+      <td> 33 </td>
+  </tr>
+
+  <tr>
+      <td> North Dakota State </td>
+      <td> 3 </td>
+      <td> 33 </td>
+  </tr>
+
+  <tr>
+      <td> Tulane </td>
+      <td> 3 </td>
+      <td> 33 </td>
+  </tr>
+
+  <tr>
+      <td> Indiana State </td>
+      <td> 3 </td>
+      <td> 33 </td>
+  </tr>
+
+  <tr>
+      <td> St. Peter's </td>
+      <td> 3 </td>
+      <td> 33 </td>
+  </tr>
+
+  <tr>
+      <td> Loyola (LA) </td>
+      <td> 3 </td>
+      <td> 33 </td>
+  </tr>
+
+  <tr>
+      <td> Fairfield </td>
+      <td> 3 </td>
+      <td> 33 </td>
+  </tr>
+
+  <tr>
+      <td> Florida Gulf Coast </td>
+      <td> 3 </td>
+      <td> 33 </td>
+  </tr>
+
+  <tr>
+      <td> Northern Illinois </td>
+      <td> 3 </td>
+      <td> 33 </td>
+  </tr>
+
+  <tr>
+      <td> Niagara </td>
+      <td> 3 </td>
+      <td> 33 </td>
+  </tr>
+
+  <tr>
+      <td> Georgia State </td>
+      <td> 3 </td>
+      <td> 33 </td>
+  </tr>
+
+  <tr>
+      <td> Mercer </td>
+      <td> 3 </td>
+      <td> 33 </td>
+  </tr>
+
+  <tr>
+      <td> South Florida </td>
+      <td> 3 </td>
+      <td> 33 </td>
+  </tr>
+
+  <tr>
+      <td> San Diego </td>
+      <td> 3 </td>
+      <td> 33 </td>
+  </tr>
+
+  <tr>
+      <td> Jackson State </td>
+      <td> 3 </td>
+      <td> 33 </td>
+  </tr>
+
+  <tr>
+      <td> Northwestern State </td>
+      <td> 3 </td>
+      <td> 33 </td>
+  </tr>
+
+  <tr>
+      <td> Southern Miss </td>
+      <td> 3 </td>
+      <td> 33 </td>
+  </tr>
+
+  <tr>
+      <td> Columbia </td>
+      <td> 3 </td>
+      <td> 33 </td>
+  </tr>
+
+  <tr>
+      <td> San Jose State </td>
+      <td> 3 </td>
+      <td> 33 </td>
+  </tr>
+
+  <tr>
+      <td> Coppin State </td>
+      <td> 3 </td>
+      <td> 33 </td>
+  </tr>
+
+  <tr>
+      <td> Cleveland State </td>
+      <td> 2 </td>
+      <td> 34 </td>
+  </tr>
+
+  <tr>
+      <td> Eastern Illinois </td>
+      <td> 2 </td>
+      <td> 34 </td>
+  </tr>
+
+  <tr>
+      <td> Rider </td>
+      <td> 2 </td>
+      <td> 34 </td>
+  </tr>
+
+  <tr>
+      <td> Samford </td>
+      <td> 2 </td>
+      <td> 34 </td>
+  </tr>
+
+  <tr>
+      <td> Hardin-Simmons </td>
+      <td> 2 </td>
+      <td> 34 </td>
+  </tr>
+
+  <tr>
+      <td> Brown </td>
+      <td> 2 </td>
+      <td> 34 </td>
+  </tr>
+
+  <tr>
+      <td> East Carolina </td>
+      <td> 2 </td>
+      <td> 34 </td>
+  </tr>
+
+  <tr>
+      <td> Wright State </td>
+      <td> 2 </td>
+      <td> 34 </td>
+  </tr>
+
+  <tr>
+      <td> Cal State Fullerton </td>
+      <td> 2 </td>
+      <td> 34 </td>
+  </tr>
+
+  <tr>
+      <td> Alabama State </td>
+      <td> 2 </td>
+      <td> 34 </td>
+  </tr>
+
+  <tr>
+      <td> Tennessee Tech </td>
+      <td> 2 </td>
+      <td> 34 </td>
+  </tr>
+
+  <tr>
+      <td> Northern Arizona </td>
+      <td> 2 </td>
+      <td> 34 </td>
+  </tr>
+
+  <tr>
+      <td> Morgan State </td>
+      <td> 2 </td>
+      <td> 34 </td>
+  </tr>
+
+  <tr>
+      <td> Howard </td>
+      <td> 2 </td>
+      <td> 34 </td>
+  </tr>
+
+  <tr>
+      <td> UIC </td>
+      <td> 2 </td>
+      <td> 34 </td>
+  </tr>
+
+  <tr>
+      <td> Radford </td>
+      <td> 2 </td>
+      <td> 34 </td>
+  </tr>
+
+  <tr>
+      <td> North Carolina-Greensboro </td>
+      <td> 2 </td>
+      <td> 34 </td>
+  </tr>
+
+  <tr>
+      <td> Towson </td>
+      <td> 2 </td>
+      <td> 34 </td>
+  </tr>
+
+  <tr>
+      <td> Nicholls State </td>
+      <td> 2 </td>
+      <td> 34 </td>
+  </tr>
+
+  <tr>
+      <td> Tennessee State </td>
+      <td> 2 </td>
+      <td> 34 </td>
+  </tr>
+
+  <tr>
+      <td> McNeese State </td>
+      <td> 2 </td>
+      <td> 34 </td>
+  </tr>
+
+  <tr>
+      <td> Colgate </td>
+      <td> 2 </td>
+      <td> 34 </td>
+  </tr>
+
+  <tr>
+      <td> Texas State </td>
+      <td> 2 </td>
+      <td> 34 </td>
+  </tr>
+
+  <tr>
+      <td> Portland </td>
+      <td> 2 </td>
+      <td> 34 </td>
+  </tr>
+
+  <tr>
+      <td> Sam Houston State </td>
+      <td> 2 </td>
+      <td> 34 </td>
+  </tr>
+
+  <tr>
+      <td> Portland State </td>
+      <td> 2 </td>
+      <td> 34 </td>
+  </tr>
+
+  <tr>
+      <td> Marist </td>
+      <td> 2 </td>
+      <td> 34 </td>
+  </tr>
+
+  <tr>
+      <td> Loyola (MD) </td>
+      <td> 2 </td>
+      <td> 34 </td>
+  </tr>
+
+  <tr>
+      <td> Georgia Southern </td>
+      <td> 2 </td>
+      <td> 34 </td>
+  </tr>
+
+  <tr>
+      <td> CCNY </td>
+      <td> 2 </td>
+      <td> 34 </td>
+  </tr>
+
+  <tr>
+      <td> Troy </td>
+      <td> 2 </td>
+      <td> 34 </td>
+  </tr>
+
+  <tr>
+      <td> Buffalo </td>
+      <td> 2 </td>
+      <td> 34 </td>
+  </tr>
+
+  <tr>
+      <td> Cal State Northridge </td>
+      <td> 2 </td>
+      <td> 34 </td>
+  </tr>
+
+  <tr>
+      <td> UC-Irvine </td>
+      <td> 1 </td>
+      <td> 35 </td>
+  </tr>
+
+  <tr>
+      <td> Wayne State (MI) </td>
+      <td> 1 </td>
+      <td> 35 </td>
+  </tr>
+
+  <tr>
+      <td> Northern Kentucky </td>
+      <td> 1 </td>
+      <td> 35 </td>
+  </tr>
+
+  <tr>
+      <td> Wagner </td>
+      <td> 1 </td>
+      <td> 35 </td>
+  </tr>
+
+  <tr>
+      <td> Trinity (TX) </td>
+      <td> 1 </td>
+      <td> 35 </td>
+  </tr>
+
+  <tr>
+      <td> Cal Poly </td>
+      <td> 1 </td>
+      <td> 35 </td>
+  </tr>
+
+  <tr>
+      <td> Texas-Arlington </td>
+      <td> 1 </td>
+      <td> 35 </td>
+  </tr>
+
+  <tr>
+      <td> Southern Utah </td>
+      <td> 1 </td>
+      <td> 35 </td>
+  </tr>
+
+  <tr>
+      <td> Appalachian State </td>
+      <td> 1 </td>
+      <td> 35 </td>
+  </tr>
+
+  <tr>
+      <td> Liberty </td>
+      <td> 1 </td>
+      <td> 35 </td>
+  </tr>
+
+  <tr>
+      <td> Florida A&amp;M </td>
+      <td> 1 </td>
+      <td> 35 </td>
+  </tr>
+
+  <tr>
+      <td> IUPUI </td>
+      <td> 1 </td>
+      <td> 35 </td>
+  </tr>
+
+  <tr>
+      <td> Southeastern Louisiana </td>
+      <td> 1 </td>
+      <td> 35 </td>
+  </tr>
+
+  <tr>
+      <td> Northern Colorado </td>
+      <td> 1 </td>
+      <td> 35 </td>
+  </tr>
+
+  <tr>
+      <td> Southeast Missouri State </td>
+      <td> 1 </td>
+      <td> 35 </td>
+  </tr>
+
+  <tr>
+      <td> Delaware State </td>
+      <td> 1 </td>
+      <td> 35 </td>
+  </tr>
+
+  <tr>
+      <td> Tufts </td>
+      <td> 1 </td>
+      <td> 35 </td>
+  </tr>
+
+  <tr>
+      <td> North Dakota </td>
+      <td> 1 </td>
+      <td> 35 </td>
+  </tr>
+
+  <tr>
+      <td> Catholic </td>
+      <td> 1 </td>
+      <td> 35 </td>
+  </tr>
+
+  <tr>
+      <td> Charleston Southern </td>
+      <td> 1 </td>
+      <td> 35 </td>
+  </tr>
+
+  <tr>
+      <td> Florida International </td>
+      <td> 1 </td>
+      <td> 35 </td>
+  </tr>
+
+  <tr>
+      <td> Springfield </td>
+      <td> 1 </td>
+      <td> 35 </td>
+  </tr>
+
+  <tr>
+      <td> North Carolina Central </td>
+      <td> 1 </td>
+      <td> 35 </td>
+  </tr>
+
+  <tr>
+      <td> UMBC </td>
+      <td> 1 </td>
+      <td> 35 </td>
+  </tr>
+
+  <tr>
+      <td> Prairie View </td>
+      <td> 1 </td>
+      <td> 35 </td>
+  </tr>
+
+  <tr>
+      <td> Arkansas-Pine Bluff </td>
+      <td> 1 </td>
+      <td> 35 </td>
+  </tr>
+
+  <tr>
+      <td> Western Carolina </td>
+      <td> 1 </td>
+      <td> 35 </td>
+  </tr>
+
+  <tr>
+      <td> Saint Francis (PA) </td>
+      <td> 1 </td>
+      <td> 35 </td>
+  </tr>
+
+  <tr>
+      <td> Cal State Bakersfield </td>
+      <td> 1 </td>
+      <td> 35 </td>
+  </tr>
+
+  <tr>
+      <td> Lebanon Valley </td>
+      <td> 1 </td>
+      <td> 35 </td>
+  </tr>
+
+  <tr>
+      <td> Eastern Washington </td>
+      <td> 1 </td>
+      <td> 35 </td>
+  </tr>
+
+  <tr>
+      <td> Cal State Los Angeles </td>
+      <td> 1 </td>
+      <td> 35 </td>
+  </tr>
+
+  <tr>
+      <td> Arkansas State </td>
+      <td> 1 </td>
+      <td> 35 </td>
+  </tr>
+
+  <tr>
+      <td> UC-Davis </td>
+      <td> 1 </td>
+      <td> 35 </td>
+  </tr>
+
+  <tr>
+      <td> Stony Brook </td>
+      <td> 1 </td>
+      <td> 35 </td>
+  </tr>
+
+  <tr>
+      <td> Northwestern </td>
+      <td> 1 </td>
+      <td> 35 </td>
+  </tr>
+
+  <tr>
+      <td> Campbell </td>
+      <td> 1 </td>
+      <td> 35 </td>
+  </tr>
+
+  <tr>
+      <td> Florida Atlantic </td>
+      <td> 1 </td>
+      <td> 35 </td>
+  </tr>
+
+  <tr>
+      <td> Jacksonville State </td>
+      <td> 1 </td>
+      <td> 35 </td>
+  </tr>
+
+  <tr>
+      <td> Drake </td>
+      <td> 1 </td>
+      <td> 35 </td>
+  </tr>
+
+  <tr>
+      <td> Binghamton </td>
+      <td> 1 </td>
+      <td> 35 </td>
+  </tr>
+
+  <tr>
+      <td> Norfolk State </td>
+      <td> 1 </td>
+      <td> 35 </td>
+  </tr>
+
+  <tr>
+      <td> Texas A&M-Corpus; Christi </td>
+      <td> 1 </td>
+      <td> 35 </td>
+  </tr>
+
+  <tr>
+      <td> West Texas A&amp;M </td>
+      <td> 1 </td>
+      <td> 35 </td>
+  </tr>
+
+  <tr>
+      <td> Williams </td>
+      <td> 1 </td>
+      <td> 35 </td>
+  </tr>
+
+  </tbody>
+</table>
+<p><br /></p>
+
+<h2 id="3-or-more-florida-teams-in-the-tournament-by-year">3 or more Florida teams in the Tournament by year</h2>
+<p>If we are looking for years with 3 or more Florida teams we see 5 years that this has happened.  2017 is the only year with 4 Florida teams in the history of the NCAA Men’s Basketball Tournament.</p>
+
+<p><br /></p>
+<table id="threeplus" class="display">
+  <thead>
+    <th>Year</th>
+    <th>Appearances</th>
+  </thead>
+  <tbody>
+
+  <tr>
+      <td> 2017 </td>
+      <td> Florida </td>
+  </tr>
+
+  <tr>
+      <td> 2017 </td>
+      <td> Miami (FL) </td>
+  </tr>
+
+  <tr>
+      <td> 2017 </td>
+      <td> Florida State </td>
+  </tr>
+
+  <tr>
+      <td> 2017 </td>
+      <td> Florida Gulf Coast </td>
+  </tr>
+
+  <tr>
+      <td> 2013 </td>
+      <td> Miami (FL) </td>
+  </tr>
+
+  <tr>
+      <td> 2013 </td>
+      <td> Florida </td>
+  </tr>
+
+  <tr>
+      <td> 2013 </td>
+      <td> Florida Gulf Coast </td>
+  </tr>
+
+  <tr>
+      <td> 2012 </td>
+      <td> Florida State </td>
+  </tr>
+
+  <tr>
+      <td> 2012 </td>
+      <td> Florida </td>
+  </tr>
+
+  <tr>
+      <td> 2012 </td>
+      <td> South Florida </td>
+  </tr>
+
+  <tr>
+      <td> 2002 </td>
+      <td> Florida </td>
+  </tr>
+
+  <tr>
+      <td> 2002 </td>
+      <td> Miami (FL) </td>
+  </tr>
+
+  <tr>
+      <td> 2002 </td>
+      <td> Florida Atlantic </td>
+  </tr>
+
+  <tr>
+      <td> 1999 </td>
+      <td> Miami (FL) </td>
+  </tr>
+
+  <tr>
+      <td> 1999 </td>
+      <td> Florida </td>
+  </tr>
+
+  <tr>
+      <td> 1999 </td>
+      <td> Florida A&amp;M </td>
+  </tr>
+
+  </tbody>
+</table>
+<p><br /></p>
+
+<h2 id="answers">Answers</h2>
+
+<p>The original questions I was curious about were:</p>
+
+<ul>
+  <li><strong>What about the other Florida schools in previous years?</strong></li>
+</ul>
+
+<p>There are ten total Florida teams that have appeared in the NCAA tournament.  Even thought UF, FSU and Miami are the three most frequent, in my opinion they shouldn’t get the same “big 3” status as they do in college football.  To be fair, the original article never mentioned the term “big 3”.  I think though the article viewed this first through the lens of college football.  Of the 5 years that 3 or more Florida teams made the tournament this <em>is</em> the first year of the specific combination of UF, FSU, and Miami.</p>
+
+<ul>
+  <li><strong>Among the Florida basketball schools: who has the most appearances, and who had the first NCAA tournament appearance?</strong></li>
+</ul>
+
+<p>Most: Florida 19 appearances<br />
+First: Miami in 1960</p>
+
+<ul>
+  <li><strong>In college football, people often refer to UF, FSU and Miami as the big three, but is that the case in basketball?  Does Miami, for example, have substantially more appearances than say Florida Gulf Coast, UCF, Florida A&amp;M or any other school?</strong></li>
+</ul>
+
+<p>I would say no.  When I first looked at this article my first instinct was: what about Florida Gulf Coast?  What I learned was: Miami was the first FL team to make the tournament in 1960.  The other thing I learned was that the <strong>Jacksonville University Dolphins racked up four tournament appearances in the 70s.  From 1971-1988, Jacksonville had most NCAA appearances of any state of Florida Men’s basketball program. Today this still stands as fourth place among Florida teams.</strong>  It is worth noting that the Florida teams do not rank very high in number of appearances versus the nation.  At 19 appearances, UF is in a 6 way tie for 17th place.  College football still reigns supreme in Florida.  Miami has 5 national championships in football compared to UF and FSU with 3 apiece but lags behind in NCAA appearances. As for Final Four appearances it goes: UF = 5, FSU = 1 and that is it as far as teams from Florida.  This explains the motivation why a Miami sports news affiliate would cite this year’s combination of teams making the tournament.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>In 2005-2006 Syracuse went onto to be a #5 seed but was upset in the first round by Texas A&amp;M.  UConn had such a strong season that they kept their #1 seed.  The Huskies made the Elite 8 and were upset in the regional final by George Mason.  The Gators got a #3 seed (and the second of back to back National Championships). Syracuse <em>probably would not</em> have made the tournament if that long 3 from McNamara didn’t go in.  If they advanced to the BigEast final and lost they <em>probably would have</em> made the tournament.  We will never know.  We do know that going into the BigEast tournament the odds were against them and they decided to put their fate into their own hands.</p>
+
+<script type="text/javascript">
+$(document).ready(function(){
+    $('table#fl').DataTable({
+        paging: true,
+        //stateSave: true,
+        searching: true,
+        order: [[ 0, "desc" ]]
+    });
+    $('table#all').DataTable({
+        paging: true,
+        //stateSave: true,
+        searching: true,
+        order: [[1, 'desc']]
+    });
+    $('table#threeplus').DataTable({
+        paging: true,
+        //stateSave: true,
+        searching: true,
+        order: [[ 0, "desc" ]]
+    });
+});
+</script>
+
+
+  </div>
+
+  
+</article>
+
+      </div>
+    </main>
+
+    
+
+  </body>
+
+</html>
