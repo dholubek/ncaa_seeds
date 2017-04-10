@@ -1,0 +1,2136 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-04-09T21:21:53-04:00</updated><id>http://localhost:4000/</id><title type="html">Teams from the state of Florida men’s NCAA appearances</title><subtitle></subtitle><entry><title type="html">NCAA Men’s Basketball Tournament: Four Florida teams made the big dance.</title><link href="http://localhost:4000/jekyll/update/2017/04/08/ncaa-fl-teams.html" rel="alternate" type="text/html" title="NCAA Men's Basketball Tournament: Four Florida teams made the big dance." /><published>2017-04-08T10:05:53-04:00</published><updated>2017-04-08T10:05:53-04:00</updated><id>http://localhost:4000/jekyll/update/2017/04/08/ncaa-fl-teams</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2017/04/08/ncaa-fl-teams.html">&lt;script src=&quot;https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+
+&lt;script src=&quot;https://cdn.datatables.net/1.10.13/js/jquery.dataTables.min.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;
+
+&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.datatables.net/1.10.13/css/jquery.dataTables.min.css&quot; /&gt;
+
+&lt;p&gt;The NCAA Men’s Tournament is over and UNC is the 2017 National Champion.  Congrats to them, and all participants this year…  This year someone emailed me a local news article
+&lt;a href=&quot;http://www.local10.com/sports/college-basketball/miami-florida-florida-state-all-heading-to-big-dance&quot;&gt;a Local 10 ABC news article&lt;/a&gt; that said this was the first year that all three of Florida, Florida State and Miami all made the tournament.&lt;/p&gt;
+
+&lt;p&gt;I thought this was an interesting headline but it left several questions.  Anyone who glanced at the bracket (or read the article) saw that FSU’s first round match up was against Florida Gulf Coast.  So technically &lt;em&gt;four&lt;/em&gt; teams from the Sunshine State made the tournament.  Florida Gulf Coast was mentioned as an afterthought in the Local10 article when they mentioned the three teams’ first round opponents.  It got me thinking:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;What about the other Florida schools in previous years?&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;In college football, people often refer to UF, FSU and Miami as the big three, but is that the case in basketball?  Does Miami, for example, have substantially more appearances than say Florida Gulf Coast, UCF, Florida A&amp;amp;M or any other school?&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Among the Florida basketball schools: who has the most appearances, and who had the first NCAA tournament appearance?&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I thought these would be interesting questions to research by writing some &lt;a href=&quot;https://www.python.org&quot;&gt;Python&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;who-cares-if-you-just-make-the-tournament&quot;&gt;Who cares if you just make the tournament?&lt;/h2&gt;
+
+&lt;p&gt;Let take a step back and say that just making the tournament is a big honor.  There are two ways to get to the tournament: 1) win a division 1 conference tournament 2) belong to a division 1 conference and be selected as at-large team by the NCAA selection committee for the remainder of the spots.  Teams that win their conference tournament cut down the nets.  Camera crews visit the tournament championship games of lesser known locations just to get a clip of the winning team dancing in celebration at making the NCAA tournament.  Bubble teams sit patiently in a team meeting room as a live camera feed is ready to broadcast them either leaping out of their seats or to have their coach give a disappointing interview.&lt;/p&gt;
+
+&lt;p&gt;My favorite memory of a team making the tournament goes back to my first ever trip to Madison Square Garden.  I was visiting a friend who lived in New York and we went to an early round game of the Big East tournament.  It was UConn versus Syracuse during the 2005-2006 season.  UConn was poised to vie for a #1 seed.  Since I was a Gator fan, I was not a fan of the idea of UConn losing but keeping a #1 seed because it probably negatively impact the Gators’ spot in the tournament.  Syracuse, who was having an off year, was considered a bubble team on the outside looking into the tournament.  It was an electric setting since two rival fanbases seemed to split the Garden.  We were just hoping for a good game.  Down the stretch as Syracuse hung around it seemed they might have a chance.  As neutral fans looking for a good game, we were swept up in rooting for the underdog.  Syracuse’s point guard Gerry McNamara had hit several 3 pointers to keep Syracuse in the game.  Syracuse was down by 3 and had the ball for the last possession of the game.  As McNamara crossed the half court line, his defender stepped a couple steps beyond the three point arc.  I thought, ‘ok they are determined to take away even a long 3 pointer… McNamara needs to set up a guy for a 3 point play inside…’ but the seconds kept ticking away and McNamara still had space between him and the defender which put him even further from the 3 point line.  He launched up a deep three.  ‘I thought: &lt;em&gt;what are you thinking???!!!’&lt;/em&gt;…  It went in.  Syracuse forced overtime and won in overtime.  A couple of days later Syracuse won the Big East tournament.  On the front page of espn.com was a picture of McNamara at the top of the ladder.  The article sub header said something to the effect of: Syracuse’s run in the Big East Tournament probably would have earned them at at large bid, but they won and left nothing to chance. They added something to the effect of: and the conference tournament MVP? Was there any debate?&lt;/p&gt;
+
+&lt;p&gt;That said… onto the questions about the number of appearances by Florida teams.&lt;/p&gt;
+
+&lt;h2 id=&quot;lets-find-the-answers&quot;&gt;Let’s find the answers&lt;/h2&gt;
+
+&lt;p&gt;The first thing I did was try to figure out where I could get the data for every bracket from every year.  When I did a google search most ncaa brackets seemed to show up in PDF format.  I did some experimenting with a Python library PyPDF2 which can scrape the text from a PDF.  Once I realized that the text won’t be in any particular order I realized this didn’t work for me.  It would be probably fine if the PDF were paragraphs of text, but brackets are very free form and aren’t great for the web scraping I’m interested in doing.  I ended up finding a site that catalogued all the brakets in HTML format on the page: &lt;a href=&quot;http://www.sports-reference.com/cbb/postseason/&quot;&gt;SportsReference.com&lt;/a&gt;.  The format of this site was ideal to use a really good Python library called &lt;a href=&quot;https://www.crummy.com/software/BeautifulSoup/&quot;&gt;Beautiful Soup&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The code and Jupyter Notebook used to get the data for this site is located &lt;a href=&quot;https://github.com/dholubek/ncaa_seeds&quot;&gt;at my GitHub repository&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Once I was able to get all the data for every team, I filtered by first round only.  I then added this custom filter for Florida teams.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;n&quot;&gt;df1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;df&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;loc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;df&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'Round'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)]&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;fl_list&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'Florida'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'Florida State'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'Miami (FL)'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'Jacksonville'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'UCF'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'Florida Gulf Coast'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'South Florida'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'Florida A&amp;amp;M'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'Florida International'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'Florida Atlantic'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;There was no magical Python function to look up the team and determine if they are from Florida.  I couldn’t filter by the word Florida or FL.  There wasn’t a straightforward way to pull the location of the school then look it up on a map programmatically.  For example Jacksonville University is in Jacksonville, FL.  Jacksonville State University is in Jacksonville, AL.  The easiest way to build a filter of Florida teams was to just find all the first round teams and scroll through the list.&lt;/p&gt;
+
+&lt;h3 id=&quot;appearances-by-florida-ncaa-mens-basketball-teams&quot;&gt;Appearances by Florida NCAA Men’s Basketball teams&lt;/h3&gt;
+
+&lt;p&gt;All appearances by Florida teams are here.  The higher seed is in the Team column and lower Seed in the Opponent column.  There are several answers we can get just by looking at the data.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;table id=&quot;fl&quot; class=&quot;display&quot;&gt;
+  &lt;thead&gt;
+    &lt;th&gt;Year&lt;/th&gt;
+    &lt;th&gt;Team&lt;/th&gt;
+    &lt;th&gt;Opponent&lt;/th&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;The answer to the question who has the most appearances is UF.  The graph below shows the count of all the Florida schools who have appeared in the NCAA Men’s Basketball Tournament:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/florida_teams_ncaa_appearances.png&quot; alt=&quot;Florida Men's teams total appearances&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;19 appearances doesn’t rank very high among all division 1 schools.  Below is a list I compiled of the number of appearances by all schools:&lt;/p&gt;
+
+&lt;h3 id=&quot;number-of-appearances-by-all-ncaa-mens-basketball-teams&quot;&gt;Number of Appearances by All NCAA Men’s Basketball teams&lt;/h3&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;table id=&quot;all&quot; class=&quot;display&quot;&gt;
+  &lt;thead&gt;
+    &lt;th&gt;Team&lt;/th&gt;
+    &lt;th&gt;Appearances&lt;/th&gt;
+    &lt;th&gt;Rank&lt;/th&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Kansas &lt;/td&gt;
+      &lt;td&gt; 38 &lt;/td&gt;
+      &lt;td&gt; 1 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; UNC &lt;/td&gt;
+      &lt;td&gt; 38 &lt;/td&gt;
+      &lt;td&gt; 1 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Kentucky &lt;/td&gt;
+      &lt;td&gt; 37 &lt;/td&gt;
+      &lt;td&gt; 2 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Villanova &lt;/td&gt;
+      &lt;td&gt; 35 &lt;/td&gt;
+      &lt;td&gt; 3 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Duke &lt;/td&gt;
+      &lt;td&gt; 35 &lt;/td&gt;
+      &lt;td&gt; 3 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Arizona &lt;/td&gt;
+      &lt;td&gt; 34 &lt;/td&gt;
+      &lt;td&gt; 4 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Syracuse &lt;/td&gt;
+      &lt;td&gt; 34 &lt;/td&gt;
+      &lt;td&gt; 4 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Notre Dame &lt;/td&gt;
+      &lt;td&gt; 33 &lt;/td&gt;
+      &lt;td&gt; 5 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Louisville &lt;/td&gt;
+      &lt;td&gt; 33 &lt;/td&gt;
+      &lt;td&gt; 5 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; UCLA &lt;/td&gt;
+      &lt;td&gt; 32 &lt;/td&gt;
+      &lt;td&gt; 6 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; UConn &lt;/td&gt;
+      &lt;td&gt; 32 &lt;/td&gt;
+      &lt;td&gt; 6 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Temple &lt;/td&gt;
+      &lt;td&gt; 31 &lt;/td&gt;
+      &lt;td&gt; 7 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Marquette &lt;/td&gt;
+      &lt;td&gt; 31 &lt;/td&gt;
+      &lt;td&gt; 7 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Texas &lt;/td&gt;
+      &lt;td&gt; 31 &lt;/td&gt;
+      &lt;td&gt; 7 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Indiana &lt;/td&gt;
+      &lt;td&gt; 30 &lt;/td&gt;
+      &lt;td&gt; 8 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Oklahoma &lt;/td&gt;
+      &lt;td&gt; 28 &lt;/td&gt;
+      &lt;td&gt; 9 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; West Virginia &lt;/td&gt;
+      &lt;td&gt; 27 &lt;/td&gt;
+      &lt;td&gt; 10 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Purdue &lt;/td&gt;
+      &lt;td&gt; 27 &lt;/td&gt;
+      &lt;td&gt; 10 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; St. John's (NY) &lt;/td&gt;
+      &lt;td&gt; 27 &lt;/td&gt;
+      &lt;td&gt; 10 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Michigan State &lt;/td&gt;
+      &lt;td&gt; 27 &lt;/td&gt;
+      &lt;td&gt; 10 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Illinois &lt;/td&gt;
+      &lt;td&gt; 27 &lt;/td&gt;
+      &lt;td&gt; 10 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Georgetown &lt;/td&gt;
+      &lt;td&gt; 26 &lt;/td&gt;
+      &lt;td&gt; 11 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Arkansas &lt;/td&gt;
+      &lt;td&gt; 26 &lt;/td&gt;
+      &lt;td&gt; 11 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Pitt &lt;/td&gt;
+      &lt;td&gt; 25 &lt;/td&gt;
+      &lt;td&gt; 12 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Princeton &lt;/td&gt;
+      &lt;td&gt; 25 &lt;/td&gt;
+      &lt;td&gt; 12 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Xavier &lt;/td&gt;
+      &lt;td&gt; 25 &lt;/td&gt;
+      &lt;td&gt; 12 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Missouri &lt;/td&gt;
+      &lt;td&gt; 24 &lt;/td&gt;
+      &lt;td&gt; 13 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Oklahoma State &lt;/td&gt;
+      &lt;td&gt; 24 &lt;/td&gt;
+      &lt;td&gt; 13 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Ohio State &lt;/td&gt;
+      &lt;td&gt; 24 &lt;/td&gt;
+      &lt;td&gt; 13 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; BYU &lt;/td&gt;
+      &lt;td&gt; 24 &lt;/td&gt;
+      &lt;td&gt; 13 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Maryland &lt;/td&gt;
+      &lt;td&gt; 24 &lt;/td&gt;
+      &lt;td&gt; 13 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Cincinnati &lt;/td&gt;
+      &lt;td&gt; 24 &lt;/td&gt;
+      &lt;td&gt; 13 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Western Kentucky &lt;/td&gt;
+      &lt;td&gt; 23 &lt;/td&gt;
+      &lt;td&gt; 14 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; New Mexico State &lt;/td&gt;
+      &lt;td&gt; 23 &lt;/td&gt;
+      &lt;td&gt; 14 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Michigan &lt;/td&gt;
+      &lt;td&gt; 23 &lt;/td&gt;
+      &lt;td&gt; 14 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Utah &lt;/td&gt;
+      &lt;td&gt; 22 &lt;/td&gt;
+      &lt;td&gt; 15 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; North Carolina State &lt;/td&gt;
+      &lt;td&gt; 22 &lt;/td&gt;
+      &lt;td&gt; 15 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Penn &lt;/td&gt;
+      &lt;td&gt; 22 &lt;/td&gt;
+      &lt;td&gt; 15 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Memphis &lt;/td&gt;
+      &lt;td&gt; 22 &lt;/td&gt;
+      &lt;td&gt; 15 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Wisconsin &lt;/td&gt;
+      &lt;td&gt; 22 &lt;/td&gt;
+      &lt;td&gt; 15 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Utah State &lt;/td&gt;
+      &lt;td&gt; 20 &lt;/td&gt;
+      &lt;td&gt; 16 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Kansas State &lt;/td&gt;
+      &lt;td&gt; 20 &lt;/td&gt;
+      &lt;td&gt; 16 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Creighton &lt;/td&gt;
+      &lt;td&gt; 20 &lt;/td&gt;
+      &lt;td&gt; 16 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Florida &lt;/td&gt;
+      &lt;td&gt; 19 &lt;/td&gt;
+      &lt;td&gt; 17 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Alabama &lt;/td&gt;
+      &lt;td&gt; 19 &lt;/td&gt;
+      &lt;td&gt; 17 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Gonzaga &lt;/td&gt;
+      &lt;td&gt; 19 &lt;/td&gt;
+      &lt;td&gt; 17 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; UNLV &lt;/td&gt;
+      &lt;td&gt; 19 &lt;/td&gt;
+      &lt;td&gt; 17 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Iowa State &lt;/td&gt;
+      &lt;td&gt; 19 &lt;/td&gt;
+      &lt;td&gt; 17 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Iowa &lt;/td&gt;
+      &lt;td&gt; 19 &lt;/td&gt;
+      &lt;td&gt; 17 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Dayton &lt;/td&gt;
+      &lt;td&gt; 18 &lt;/td&gt;
+      &lt;td&gt; 18 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Virginia &lt;/td&gt;
+      &lt;td&gt; 18 &lt;/td&gt;
+      &lt;td&gt; 18 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Wake Forest &lt;/td&gt;
+      &lt;td&gt; 18 &lt;/td&gt;
+      &lt;td&gt; 18 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Tennessee &lt;/td&gt;
+      &lt;td&gt; 18 &lt;/td&gt;
+      &lt;td&gt; 18 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Providence &lt;/td&gt;
+      &lt;td&gt; 17 &lt;/td&gt;
+      &lt;td&gt; 19 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; DePaul &lt;/td&gt;
+      &lt;td&gt; 17 &lt;/td&gt;
+      &lt;td&gt; 19 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Miami (OH) &lt;/td&gt;
+      &lt;td&gt; 17 &lt;/td&gt;
+      &lt;td&gt; 19 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Stanford &lt;/td&gt;
+      &lt;td&gt; 17 &lt;/td&gt;
+      &lt;td&gt; 19 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; UTEP &lt;/td&gt;
+      &lt;td&gt; 16 &lt;/td&gt;
+      &lt;td&gt; 20 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; USC &lt;/td&gt;
+      &lt;td&gt; 16 &lt;/td&gt;
+      &lt;td&gt; 20 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Boston College &lt;/td&gt;
+      &lt;td&gt; 16 &lt;/td&gt;
+      &lt;td&gt; 20 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Weber State &lt;/td&gt;
+      &lt;td&gt; 16 &lt;/td&gt;
+      &lt;td&gt; 20 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Houston &lt;/td&gt;
+      &lt;td&gt; 16 &lt;/td&gt;
+      &lt;td&gt; 20 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; St. Joseph's &lt;/td&gt;
+      &lt;td&gt; 16 &lt;/td&gt;
+      &lt;td&gt; 20 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; LSU &lt;/td&gt;
+      &lt;td&gt; 16 &lt;/td&gt;
+      &lt;td&gt; 20 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Florida State &lt;/td&gt;
+      &lt;td&gt; 15 &lt;/td&gt;
+      &lt;td&gt; 21 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Oregon &lt;/td&gt;
+      &lt;td&gt; 15 &lt;/td&gt;
+      &lt;td&gt; 21 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; VCU &lt;/td&gt;
+      &lt;td&gt; 15 &lt;/td&gt;
+      &lt;td&gt; 21 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Murray State &lt;/td&gt;
+      &lt;td&gt; 15 &lt;/td&gt;
+      &lt;td&gt; 21 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Butler &lt;/td&gt;
+      &lt;td&gt; 15 &lt;/td&gt;
+      &lt;td&gt; 21 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; University of California &lt;/td&gt;
+      &lt;td&gt; 15 &lt;/td&gt;
+      &lt;td&gt; 21 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; New Mexico &lt;/td&gt;
+      &lt;td&gt; 14 &lt;/td&gt;
+      &lt;td&gt; 22 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Washington &lt;/td&gt;
+      &lt;td&gt; 14 &lt;/td&gt;
+      &lt;td&gt; 22 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Georgia Tech &lt;/td&gt;
+      &lt;td&gt; 14 &lt;/td&gt;
+      &lt;td&gt; 22 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Texas A&amp;amp;M &lt;/td&gt;
+      &lt;td&gt; 13 &lt;/td&gt;
+      &lt;td&gt; 23 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Wyoming &lt;/td&gt;
+      &lt;td&gt; 13 &lt;/td&gt;
+      &lt;td&gt; 23 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Texas Tech &lt;/td&gt;
+      &lt;td&gt; 13 &lt;/td&gt;
+      &lt;td&gt; 23 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Arizona State &lt;/td&gt;
+      &lt;td&gt; 13 &lt;/td&gt;
+      &lt;td&gt; 23 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Ohio &lt;/td&gt;
+      &lt;td&gt; 13 &lt;/td&gt;
+      &lt;td&gt; 23 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Holy Cross &lt;/td&gt;
+      &lt;td&gt; 13 &lt;/td&gt;
+      &lt;td&gt; 23 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Davidson &lt;/td&gt;
+      &lt;td&gt; 13 &lt;/td&gt;
+      &lt;td&gt; 23 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Tulsa &lt;/td&gt;
+      &lt;td&gt; 12 &lt;/td&gt;
+      &lt;td&gt; 24 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Pepperdine &lt;/td&gt;
+      &lt;td&gt; 12 &lt;/td&gt;
+      &lt;td&gt; 24 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Wichita State &lt;/td&gt;
+      &lt;td&gt; 12 &lt;/td&gt;
+      &lt;td&gt; 24 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Vanderbilt &lt;/td&gt;
+      &lt;td&gt; 12 &lt;/td&gt;
+      &lt;td&gt; 24 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Alabama-Birmingham &lt;/td&gt;
+      &lt;td&gt; 12 &lt;/td&gt;
+      &lt;td&gt; 24 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Oregon State &lt;/td&gt;
+      &lt;td&gt; 12 &lt;/td&gt;
+      &lt;td&gt; 24 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; La Salle &lt;/td&gt;
+      &lt;td&gt; 12 &lt;/td&gt;
+      &lt;td&gt; 24 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Old Dominion &lt;/td&gt;
+      &lt;td&gt; 11 &lt;/td&gt;
+      &lt;td&gt; 25 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Clemson &lt;/td&gt;
+      &lt;td&gt; 11 &lt;/td&gt;
+      &lt;td&gt; 25 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; George Washington &lt;/td&gt;
+      &lt;td&gt; 11 &lt;/td&gt;
+      &lt;td&gt; 25 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Georgia &lt;/td&gt;
+      &lt;td&gt; 11 &lt;/td&gt;
+      &lt;td&gt; 25 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Baylor &lt;/td&gt;
+      &lt;td&gt; 11 &lt;/td&gt;
+      &lt;td&gt; 25 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Chattanooga &lt;/td&gt;
+      &lt;td&gt; 11 &lt;/td&gt;
+      &lt;td&gt; 25 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; San Diego State &lt;/td&gt;
+      &lt;td&gt; 11 &lt;/td&gt;
+      &lt;td&gt; 25 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Navy &lt;/td&gt;
+      &lt;td&gt; 11 &lt;/td&gt;
+      &lt;td&gt; 25 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Minnesota &lt;/td&gt;
+      &lt;td&gt; 11 &lt;/td&gt;
+      &lt;td&gt; 25 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Iona &lt;/td&gt;
+      &lt;td&gt; 11 &lt;/td&gt;
+      &lt;td&gt; 25 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Seton Hall &lt;/td&gt;
+      &lt;td&gt; 11 &lt;/td&gt;
+      &lt;td&gt; 25 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Seattle &lt;/td&gt;
+      &lt;td&gt; 10 &lt;/td&gt;
+      &lt;td&gt; 26 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Oklahoma City &lt;/td&gt;
+      &lt;td&gt; 10 &lt;/td&gt;
+      &lt;td&gt; 26 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Montana &lt;/td&gt;
+      &lt;td&gt; 10 &lt;/td&gt;
+      &lt;td&gt; 26 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Idaho State &lt;/td&gt;
+      &lt;td&gt; 10 &lt;/td&gt;
+      &lt;td&gt; 26 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; ETSU &lt;/td&gt;
+      &lt;td&gt; 10 &lt;/td&gt;
+      &lt;td&gt; 26 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Charlotte &lt;/td&gt;
+      &lt;td&gt; 10 &lt;/td&gt;
+      &lt;td&gt; 26 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Southern Illinois &lt;/td&gt;
+      &lt;td&gt; 10 &lt;/td&gt;
+      &lt;td&gt; 26 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Louisiana-Lafayette &lt;/td&gt;
+      &lt;td&gt; 10 &lt;/td&gt;
+      &lt;td&gt; 26 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Colorado State &lt;/td&gt;
+      &lt;td&gt; 9 &lt;/td&gt;
+      &lt;td&gt; 27 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Rhode Island &lt;/td&gt;
+      &lt;td&gt; 9 &lt;/td&gt;
+      &lt;td&gt; 27 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Virginia Tech &lt;/td&gt;
+      &lt;td&gt; 9 &lt;/td&gt;
+      &lt;td&gt; 27 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Long Beach State &lt;/td&gt;
+      &lt;td&gt; 9 &lt;/td&gt;
+      &lt;td&gt; 27 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Mississippi State &lt;/td&gt;
+      &lt;td&gt; 9 &lt;/td&gt;
+      &lt;td&gt; 27 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Miami (FL) &lt;/td&gt;
+      &lt;td&gt; 9 &lt;/td&gt;
+      &lt;td&gt; 27 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Penn State &lt;/td&gt;
+      &lt;td&gt; 9 &lt;/td&gt;
+      &lt;td&gt; 27 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Colorado &lt;/td&gt;
+      &lt;td&gt; 9 &lt;/td&gt;
+      &lt;td&gt; 27 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; UMass &lt;/td&gt;
+      &lt;td&gt; 9 &lt;/td&gt;
+      &lt;td&gt; 27 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Valparaiso &lt;/td&gt;
+      &lt;td&gt; 8 &lt;/td&gt;
+      &lt;td&gt; 28 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Ole Miss &lt;/td&gt;
+      &lt;td&gt; 8 &lt;/td&gt;
+      &lt;td&gt; 28 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Robert Morris &lt;/td&gt;
+      &lt;td&gt; 8 &lt;/td&gt;
+      &lt;td&gt; 28 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Richmond &lt;/td&gt;
+      &lt;td&gt; 8 &lt;/td&gt;
+      &lt;td&gt; 28 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Northeastern &lt;/td&gt;
+      &lt;td&gt; 8 &lt;/td&gt;
+      &lt;td&gt; 28 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; North Carolina A&amp;amp;T &lt;/td&gt;
+      &lt;td&gt; 8 &lt;/td&gt;
+      &lt;td&gt; 28 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Auburn &lt;/td&gt;
+      &lt;td&gt; 8 &lt;/td&gt;
+      &lt;td&gt; 28 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Saint Louis &lt;/td&gt;
+      &lt;td&gt; 8 &lt;/td&gt;
+      &lt;td&gt; 28 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Eastern Kentucky &lt;/td&gt;
+      &lt;td&gt; 8 &lt;/td&gt;
+      &lt;td&gt; 28 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Saint Mary's (CA) &lt;/td&gt;
+      &lt;td&gt; 8 &lt;/td&gt;
+      &lt;td&gt; 28 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Winthrop &lt;/td&gt;
+      &lt;td&gt; 8 &lt;/td&gt;
+      &lt;td&gt; 28 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Bradley &lt;/td&gt;
+      &lt;td&gt; 8 &lt;/td&gt;
+      &lt;td&gt; 28 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Middle Tennessee &lt;/td&gt;
+      &lt;td&gt; 8 &lt;/td&gt;
+      &lt;td&gt; 28 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Southern &lt;/td&gt;
+      &lt;td&gt; 8 &lt;/td&gt;
+      &lt;td&gt; 28 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Morehead State &lt;/td&gt;
+      &lt;td&gt; 7 &lt;/td&gt;
+      &lt;td&gt; 29 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Nebraska &lt;/td&gt;
+      &lt;td&gt; 7 &lt;/td&gt;
+      &lt;td&gt; 29 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Northern Iowa &lt;/td&gt;
+      &lt;td&gt; 7 &lt;/td&gt;
+      &lt;td&gt; 29 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Dartmouth &lt;/td&gt;
+      &lt;td&gt; 7 &lt;/td&gt;
+      &lt;td&gt; 29 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Belmont &lt;/td&gt;
+      &lt;td&gt; 7 &lt;/td&gt;
+      &lt;td&gt; 29 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Bucknell &lt;/td&gt;
+      &lt;td&gt; 7 &lt;/td&gt;
+      &lt;td&gt; 29 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Ball State &lt;/td&gt;
+      &lt;td&gt; 7 &lt;/td&gt;
+      &lt;td&gt; 29 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Santa Clara &lt;/td&gt;
+      &lt;td&gt; 7 &lt;/td&gt;
+      &lt;td&gt; 29 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Louisiana-Monroe &lt;/td&gt;
+      &lt;td&gt; 7 &lt;/td&gt;
+      &lt;td&gt; 29 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; South Carolina &lt;/td&gt;
+      &lt;td&gt; 7 &lt;/td&gt;
+      &lt;td&gt; 29 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Austin Peay &lt;/td&gt;
+      &lt;td&gt; 7 &lt;/td&gt;
+      &lt;td&gt; 29 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; SMU &lt;/td&gt;
+      &lt;td&gt; 7 &lt;/td&gt;
+      &lt;td&gt; 29 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; South Alabama &lt;/td&gt;
+      &lt;td&gt; 7 &lt;/td&gt;
+      &lt;td&gt; 29 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; St. Bonaventure &lt;/td&gt;
+      &lt;td&gt; 6 &lt;/td&gt;
+      &lt;td&gt; 30 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Boston University &lt;/td&gt;
+      &lt;td&gt; 6 &lt;/td&gt;
+      &lt;td&gt; 30 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Vermont &lt;/td&gt;
+      &lt;td&gt; 6 &lt;/td&gt;
+      &lt;td&gt; 30 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; San Francisco &lt;/td&gt;
+      &lt;td&gt; 6 &lt;/td&gt;
+      &lt;td&gt; 30 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Manhattan &lt;/td&gt;
+      &lt;td&gt; 6 &lt;/td&gt;
+      &lt;td&gt; 30 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; George Mason &lt;/td&gt;
+      &lt;td&gt; 6 &lt;/td&gt;
+      &lt;td&gt; 30 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Washington State &lt;/td&gt;
+      &lt;td&gt; 6 &lt;/td&gt;
+      &lt;td&gt; 30 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Illinois State &lt;/td&gt;
+      &lt;td&gt; 6 &lt;/td&gt;
+      &lt;td&gt; 30 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Kent State &lt;/td&gt;
+      &lt;td&gt; 6 &lt;/td&gt;
+      &lt;td&gt; 30 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Detroit &lt;/td&gt;
+      &lt;td&gt; 6 &lt;/td&gt;
+      &lt;td&gt; 30 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Furman &lt;/td&gt;
+      &lt;td&gt; 6 &lt;/td&gt;
+      &lt;td&gt; 30 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Missouri State &lt;/td&gt;
+      &lt;td&gt; 6 &lt;/td&gt;
+      &lt;td&gt; 30 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Nevada &lt;/td&gt;
+      &lt;td&gt; 6 &lt;/td&gt;
+      &lt;td&gt; 30 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; North Carolina-Wilmington &lt;/td&gt;
+      &lt;td&gt; 6 &lt;/td&gt;
+      &lt;td&gt; 30 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; NYU &lt;/td&gt;
+      &lt;td&gt; 6 &lt;/td&gt;
+      &lt;td&gt; 30 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Siena &lt;/td&gt;
+      &lt;td&gt; 6 &lt;/td&gt;
+      &lt;td&gt; 30 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Boise State &lt;/td&gt;
+      &lt;td&gt; 5 &lt;/td&gt;
+      &lt;td&gt; 31 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Hampton &lt;/td&gt;
+      &lt;td&gt; 5 &lt;/td&gt;
+      &lt;td&gt; 31 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Hawaii &lt;/td&gt;
+      &lt;td&gt; 5 &lt;/td&gt;
+      &lt;td&gt; 31 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Delaware &lt;/td&gt;
+      &lt;td&gt; 5 &lt;/td&gt;
+      &lt;td&gt; 31 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; South Carolina State &lt;/td&gt;
+      &lt;td&gt; 5 &lt;/td&gt;
+      &lt;td&gt; 31 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Alcorn State &lt;/td&gt;
+      &lt;td&gt; 5 &lt;/td&gt;
+      &lt;td&gt; 31 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Oral Roberts &lt;/td&gt;
+      &lt;td&gt; 5 &lt;/td&gt;
+      &lt;td&gt; 31 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Fresno State &lt;/td&gt;
+      &lt;td&gt; 5 &lt;/td&gt;
+      &lt;td&gt; 31 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Louisiana Tech &lt;/td&gt;
+      &lt;td&gt; 5 &lt;/td&gt;
+      &lt;td&gt; 31 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Duquesne &lt;/td&gt;
+      &lt;td&gt; 5 &lt;/td&gt;
+      &lt;td&gt; 31 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Harvard &lt;/td&gt;
+      &lt;td&gt; 5 &lt;/td&gt;
+      &lt;td&gt; 31 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Green Bay &lt;/td&gt;
+      &lt;td&gt; 5 &lt;/td&gt;
+      &lt;td&gt; 31 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Evansville &lt;/td&gt;
+      &lt;td&gt; 5 &lt;/td&gt;
+      &lt;td&gt; 31 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Rutgers &lt;/td&gt;
+      &lt;td&gt; 5 &lt;/td&gt;
+      &lt;td&gt; 31 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Albany (NY) &lt;/td&gt;
+      &lt;td&gt; 5 &lt;/td&gt;
+      &lt;td&gt; 31 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; James Madison &lt;/td&gt;
+      &lt;td&gt; 5 &lt;/td&gt;
+      &lt;td&gt; 31 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; UCSB &lt;/td&gt;
+      &lt;td&gt; 5 &lt;/td&gt;
+      &lt;td&gt; 31 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Loyola (IL) &lt;/td&gt;
+      &lt;td&gt; 5 &lt;/td&gt;
+      &lt;td&gt; 31 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Marshall &lt;/td&gt;
+      &lt;td&gt; 5 &lt;/td&gt;
+      &lt;td&gt; 31 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Jacksonville &lt;/td&gt;
+      &lt;td&gt; 5 &lt;/td&gt;
+      &lt;td&gt; 31 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Lamar &lt;/td&gt;
+      &lt;td&gt; 5 &lt;/td&gt;
+      &lt;td&gt; 31 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Texas Southern &lt;/td&gt;
+      &lt;td&gt; 5 &lt;/td&gt;
+      &lt;td&gt; 31 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Air Force &lt;/td&gt;
+      &lt;td&gt; 4 &lt;/td&gt;
+      &lt;td&gt; 32 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Pacific &lt;/td&gt;
+      &lt;td&gt; 4 &lt;/td&gt;
+      &lt;td&gt; 32 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Canisius &lt;/td&gt;
+      &lt;td&gt; 4 &lt;/td&gt;
+      &lt;td&gt; 32 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Wofford &lt;/td&gt;
+      &lt;td&gt; 4 &lt;/td&gt;
+      &lt;td&gt; 32 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; LIU-Brooklyn &lt;/td&gt;
+      &lt;td&gt; 4 &lt;/td&gt;
+      &lt;td&gt; 32 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Arkansas-Little Rock &lt;/td&gt;
+      &lt;td&gt; 4 &lt;/td&gt;
+      &lt;td&gt; 32 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; South Dakota State &lt;/td&gt;
+      &lt;td&gt; 4 &lt;/td&gt;
+      &lt;td&gt; 32 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Fairleigh Dickinson &lt;/td&gt;
+      &lt;td&gt; 4 &lt;/td&gt;
+      &lt;td&gt; 32 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Mount St. Mary's &lt;/td&gt;
+      &lt;td&gt; 4 &lt;/td&gt;
+      &lt;td&gt; 32 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Fordham &lt;/td&gt;
+      &lt;td&gt; 4 &lt;/td&gt;
+      &lt;td&gt; 32 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Yale &lt;/td&gt;
+      &lt;td&gt; 4 &lt;/td&gt;
+      &lt;td&gt; 32 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Loyola Marymount &lt;/td&gt;
+      &lt;td&gt; 4 &lt;/td&gt;
+      &lt;td&gt; 32 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Coastal Carolina &lt;/td&gt;
+      &lt;td&gt; 4 &lt;/td&gt;
+      &lt;td&gt; 32 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Stephen F. Austin &lt;/td&gt;
+      &lt;td&gt; 4 &lt;/td&gt;
+      &lt;td&gt; 32 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Central Michigan &lt;/td&gt;
+      &lt;td&gt; 4 &lt;/td&gt;
+      &lt;td&gt; 32 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; UTSA &lt;/td&gt;
+      &lt;td&gt; 4 &lt;/td&gt;
+      &lt;td&gt; 32 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Akron &lt;/td&gt;
+      &lt;td&gt; 4 &lt;/td&gt;
+      &lt;td&gt; 32 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Lehigh &lt;/td&gt;
+      &lt;td&gt; 4 &lt;/td&gt;
+      &lt;td&gt; 32 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Cornell &lt;/td&gt;
+      &lt;td&gt; 4 &lt;/td&gt;
+      &lt;td&gt; 32 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; New Orleans &lt;/td&gt;
+      &lt;td&gt; 4 &lt;/td&gt;
+      &lt;td&gt; 32 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Milwaukee &lt;/td&gt;
+      &lt;td&gt; 4 &lt;/td&gt;
+      &lt;td&gt; 32 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Bowling Green State &lt;/td&gt;
+      &lt;td&gt; 4 &lt;/td&gt;
+      &lt;td&gt; 32 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Texas Christian &lt;/td&gt;
+      &lt;td&gt; 4 &lt;/td&gt;
+      &lt;td&gt; 32 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Monmouth &lt;/td&gt;
+      &lt;td&gt; 4 &lt;/td&gt;
+      &lt;td&gt; 32 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; North Carolina-Asheville &lt;/td&gt;
+      &lt;td&gt; 4 &lt;/td&gt;
+      &lt;td&gt; 32 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Western Michigan &lt;/td&gt;
+      &lt;td&gt; 4 &lt;/td&gt;
+      &lt;td&gt; 32 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Hofstra &lt;/td&gt;
+      &lt;td&gt; 4 &lt;/td&gt;
+      &lt;td&gt; 32 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; College of Charleston &lt;/td&gt;
+      &lt;td&gt; 4 &lt;/td&gt;
+      &lt;td&gt; 32 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Mississippi Valley State &lt;/td&gt;
+      &lt;td&gt; 4 &lt;/td&gt;
+      &lt;td&gt; 32 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Drexel &lt;/td&gt;
+      &lt;td&gt; 4 &lt;/td&gt;
+      &lt;td&gt; 32 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Eastern Michigan &lt;/td&gt;
+      &lt;td&gt; 4 &lt;/td&gt;
+      &lt;td&gt; 32 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Oakland &lt;/td&gt;
+      &lt;td&gt; 3 &lt;/td&gt;
+      &lt;td&gt; 33 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Virginia Military Institute &lt;/td&gt;
+      &lt;td&gt; 3 &lt;/td&gt;
+      &lt;td&gt; 33 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Toledo &lt;/td&gt;
+      &lt;td&gt; 3 &lt;/td&gt;
+      &lt;td&gt; 33 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Rice &lt;/td&gt;
+      &lt;td&gt; 3 &lt;/td&gt;
+      &lt;td&gt; 33 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; American &lt;/td&gt;
+      &lt;td&gt; 3 &lt;/td&gt;
+      &lt;td&gt; 33 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; UCF &lt;/td&gt;
+      &lt;td&gt; 3 &lt;/td&gt;
+      &lt;td&gt; 33 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Lafayette &lt;/td&gt;
+      &lt;td&gt; 3 &lt;/td&gt;
+      &lt;td&gt; 33 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Idaho &lt;/td&gt;
+      &lt;td&gt; 3 &lt;/td&gt;
+      &lt;td&gt; 33 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Central Connecticut &lt;/td&gt;
+      &lt;td&gt; 3 &lt;/td&gt;
+      &lt;td&gt; 33 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Montana State &lt;/td&gt;
+      &lt;td&gt; 3 &lt;/td&gt;
+      &lt;td&gt; 33 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; North Texas &lt;/td&gt;
+      &lt;td&gt; 3 &lt;/td&gt;
+      &lt;td&gt; 33 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; North Dakota State &lt;/td&gt;
+      &lt;td&gt; 3 &lt;/td&gt;
+      &lt;td&gt; 33 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Tulane &lt;/td&gt;
+      &lt;td&gt; 3 &lt;/td&gt;
+      &lt;td&gt; 33 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Indiana State &lt;/td&gt;
+      &lt;td&gt; 3 &lt;/td&gt;
+      &lt;td&gt; 33 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; St. Peter's &lt;/td&gt;
+      &lt;td&gt; 3 &lt;/td&gt;
+      &lt;td&gt; 33 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Loyola (LA) &lt;/td&gt;
+      &lt;td&gt; 3 &lt;/td&gt;
+      &lt;td&gt; 33 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Fairfield &lt;/td&gt;
+      &lt;td&gt; 3 &lt;/td&gt;
+      &lt;td&gt; 33 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Florida Gulf Coast &lt;/td&gt;
+      &lt;td&gt; 3 &lt;/td&gt;
+      &lt;td&gt; 33 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Northern Illinois &lt;/td&gt;
+      &lt;td&gt; 3 &lt;/td&gt;
+      &lt;td&gt; 33 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Niagara &lt;/td&gt;
+      &lt;td&gt; 3 &lt;/td&gt;
+      &lt;td&gt; 33 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Georgia State &lt;/td&gt;
+      &lt;td&gt; 3 &lt;/td&gt;
+      &lt;td&gt; 33 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Mercer &lt;/td&gt;
+      &lt;td&gt; 3 &lt;/td&gt;
+      &lt;td&gt; 33 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; South Florida &lt;/td&gt;
+      &lt;td&gt; 3 &lt;/td&gt;
+      &lt;td&gt; 33 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; San Diego &lt;/td&gt;
+      &lt;td&gt; 3 &lt;/td&gt;
+      &lt;td&gt; 33 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Jackson State &lt;/td&gt;
+      &lt;td&gt; 3 &lt;/td&gt;
+      &lt;td&gt; 33 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Northwestern State &lt;/td&gt;
+      &lt;td&gt; 3 &lt;/td&gt;
+      &lt;td&gt; 33 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Southern Miss &lt;/td&gt;
+      &lt;td&gt; 3 &lt;/td&gt;
+      &lt;td&gt; 33 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Columbia &lt;/td&gt;
+      &lt;td&gt; 3 &lt;/td&gt;
+      &lt;td&gt; 33 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; San Jose State &lt;/td&gt;
+      &lt;td&gt; 3 &lt;/td&gt;
+      &lt;td&gt; 33 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Coppin State &lt;/td&gt;
+      &lt;td&gt; 3 &lt;/td&gt;
+      &lt;td&gt; 33 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Cleveland State &lt;/td&gt;
+      &lt;td&gt; 2 &lt;/td&gt;
+      &lt;td&gt; 34 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Eastern Illinois &lt;/td&gt;
+      &lt;td&gt; 2 &lt;/td&gt;
+      &lt;td&gt; 34 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Rider &lt;/td&gt;
+      &lt;td&gt; 2 &lt;/td&gt;
+      &lt;td&gt; 34 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Samford &lt;/td&gt;
+      &lt;td&gt; 2 &lt;/td&gt;
+      &lt;td&gt; 34 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Hardin-Simmons &lt;/td&gt;
+      &lt;td&gt; 2 &lt;/td&gt;
+      &lt;td&gt; 34 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Brown &lt;/td&gt;
+      &lt;td&gt; 2 &lt;/td&gt;
+      &lt;td&gt; 34 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; East Carolina &lt;/td&gt;
+      &lt;td&gt; 2 &lt;/td&gt;
+      &lt;td&gt; 34 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Wright State &lt;/td&gt;
+      &lt;td&gt; 2 &lt;/td&gt;
+      &lt;td&gt; 34 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Cal State Fullerton &lt;/td&gt;
+      &lt;td&gt; 2 &lt;/td&gt;
+      &lt;td&gt; 34 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Alabama State &lt;/td&gt;
+      &lt;td&gt; 2 &lt;/td&gt;
+      &lt;td&gt; 34 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Tennessee Tech &lt;/td&gt;
+      &lt;td&gt; 2 &lt;/td&gt;
+      &lt;td&gt; 34 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Northern Arizona &lt;/td&gt;
+      &lt;td&gt; 2 &lt;/td&gt;
+      &lt;td&gt; 34 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Morgan State &lt;/td&gt;
+      &lt;td&gt; 2 &lt;/td&gt;
+      &lt;td&gt; 34 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Howard &lt;/td&gt;
+      &lt;td&gt; 2 &lt;/td&gt;
+      &lt;td&gt; 34 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; UIC &lt;/td&gt;
+      &lt;td&gt; 2 &lt;/td&gt;
+      &lt;td&gt; 34 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Radford &lt;/td&gt;
+      &lt;td&gt; 2 &lt;/td&gt;
+      &lt;td&gt; 34 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; North Carolina-Greensboro &lt;/td&gt;
+      &lt;td&gt; 2 &lt;/td&gt;
+      &lt;td&gt; 34 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Towson &lt;/td&gt;
+      &lt;td&gt; 2 &lt;/td&gt;
+      &lt;td&gt; 34 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Nicholls State &lt;/td&gt;
+      &lt;td&gt; 2 &lt;/td&gt;
+      &lt;td&gt; 34 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Tennessee State &lt;/td&gt;
+      &lt;td&gt; 2 &lt;/td&gt;
+      &lt;td&gt; 34 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; McNeese State &lt;/td&gt;
+      &lt;td&gt; 2 &lt;/td&gt;
+      &lt;td&gt; 34 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Colgate &lt;/td&gt;
+      &lt;td&gt; 2 &lt;/td&gt;
+      &lt;td&gt; 34 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Texas State &lt;/td&gt;
+      &lt;td&gt; 2 &lt;/td&gt;
+      &lt;td&gt; 34 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Portland &lt;/td&gt;
+      &lt;td&gt; 2 &lt;/td&gt;
+      &lt;td&gt; 34 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Sam Houston State &lt;/td&gt;
+      &lt;td&gt; 2 &lt;/td&gt;
+      &lt;td&gt; 34 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Portland State &lt;/td&gt;
+      &lt;td&gt; 2 &lt;/td&gt;
+      &lt;td&gt; 34 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Marist &lt;/td&gt;
+      &lt;td&gt; 2 &lt;/td&gt;
+      &lt;td&gt; 34 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Loyola (MD) &lt;/td&gt;
+      &lt;td&gt; 2 &lt;/td&gt;
+      &lt;td&gt; 34 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Georgia Southern &lt;/td&gt;
+      &lt;td&gt; 2 &lt;/td&gt;
+      &lt;td&gt; 34 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; CCNY &lt;/td&gt;
+      &lt;td&gt; 2 &lt;/td&gt;
+      &lt;td&gt; 34 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Troy &lt;/td&gt;
+      &lt;td&gt; 2 &lt;/td&gt;
+      &lt;td&gt; 34 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Buffalo &lt;/td&gt;
+      &lt;td&gt; 2 &lt;/td&gt;
+      &lt;td&gt; 34 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Cal State Northridge &lt;/td&gt;
+      &lt;td&gt; 2 &lt;/td&gt;
+      &lt;td&gt; 34 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; UC-Irvine &lt;/td&gt;
+      &lt;td&gt; 1 &lt;/td&gt;
+      &lt;td&gt; 35 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Wayne State (MI) &lt;/td&gt;
+      &lt;td&gt; 1 &lt;/td&gt;
+      &lt;td&gt; 35 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Northern Kentucky &lt;/td&gt;
+      &lt;td&gt; 1 &lt;/td&gt;
+      &lt;td&gt; 35 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Wagner &lt;/td&gt;
+      &lt;td&gt; 1 &lt;/td&gt;
+      &lt;td&gt; 35 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Trinity (TX) &lt;/td&gt;
+      &lt;td&gt; 1 &lt;/td&gt;
+      &lt;td&gt; 35 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Cal Poly &lt;/td&gt;
+      &lt;td&gt; 1 &lt;/td&gt;
+      &lt;td&gt; 35 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Texas-Arlington &lt;/td&gt;
+      &lt;td&gt; 1 &lt;/td&gt;
+      &lt;td&gt; 35 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Southern Utah &lt;/td&gt;
+      &lt;td&gt; 1 &lt;/td&gt;
+      &lt;td&gt; 35 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Appalachian State &lt;/td&gt;
+      &lt;td&gt; 1 &lt;/td&gt;
+      &lt;td&gt; 35 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Liberty &lt;/td&gt;
+      &lt;td&gt; 1 &lt;/td&gt;
+      &lt;td&gt; 35 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Florida A&amp;amp;M &lt;/td&gt;
+      &lt;td&gt; 1 &lt;/td&gt;
+      &lt;td&gt; 35 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; IUPUI &lt;/td&gt;
+      &lt;td&gt; 1 &lt;/td&gt;
+      &lt;td&gt; 35 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Southeastern Louisiana &lt;/td&gt;
+      &lt;td&gt; 1 &lt;/td&gt;
+      &lt;td&gt; 35 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Northern Colorado &lt;/td&gt;
+      &lt;td&gt; 1 &lt;/td&gt;
+      &lt;td&gt; 35 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Southeast Missouri State &lt;/td&gt;
+      &lt;td&gt; 1 &lt;/td&gt;
+      &lt;td&gt; 35 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Delaware State &lt;/td&gt;
+      &lt;td&gt; 1 &lt;/td&gt;
+      &lt;td&gt; 35 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Tufts &lt;/td&gt;
+      &lt;td&gt; 1 &lt;/td&gt;
+      &lt;td&gt; 35 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; North Dakota &lt;/td&gt;
+      &lt;td&gt; 1 &lt;/td&gt;
+      &lt;td&gt; 35 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Catholic &lt;/td&gt;
+      &lt;td&gt; 1 &lt;/td&gt;
+      &lt;td&gt; 35 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Charleston Southern &lt;/td&gt;
+      &lt;td&gt; 1 &lt;/td&gt;
+      &lt;td&gt; 35 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Florida International &lt;/td&gt;
+      &lt;td&gt; 1 &lt;/td&gt;
+      &lt;td&gt; 35 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Springfield &lt;/td&gt;
+      &lt;td&gt; 1 &lt;/td&gt;
+      &lt;td&gt; 35 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; North Carolina Central &lt;/td&gt;
+      &lt;td&gt; 1 &lt;/td&gt;
+      &lt;td&gt; 35 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; UMBC &lt;/td&gt;
+      &lt;td&gt; 1 &lt;/td&gt;
+      &lt;td&gt; 35 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Prairie View &lt;/td&gt;
+      &lt;td&gt; 1 &lt;/td&gt;
+      &lt;td&gt; 35 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Arkansas-Pine Bluff &lt;/td&gt;
+      &lt;td&gt; 1 &lt;/td&gt;
+      &lt;td&gt; 35 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Western Carolina &lt;/td&gt;
+      &lt;td&gt; 1 &lt;/td&gt;
+      &lt;td&gt; 35 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Saint Francis (PA) &lt;/td&gt;
+      &lt;td&gt; 1 &lt;/td&gt;
+      &lt;td&gt; 35 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Cal State Bakersfield &lt;/td&gt;
+      &lt;td&gt; 1 &lt;/td&gt;
+      &lt;td&gt; 35 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Lebanon Valley &lt;/td&gt;
+      &lt;td&gt; 1 &lt;/td&gt;
+      &lt;td&gt; 35 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Eastern Washington &lt;/td&gt;
+      &lt;td&gt; 1 &lt;/td&gt;
+      &lt;td&gt; 35 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Cal State Los Angeles &lt;/td&gt;
+      &lt;td&gt; 1 &lt;/td&gt;
+      &lt;td&gt; 35 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Arkansas State &lt;/td&gt;
+      &lt;td&gt; 1 &lt;/td&gt;
+      &lt;td&gt; 35 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; UC-Davis &lt;/td&gt;
+      &lt;td&gt; 1 &lt;/td&gt;
+      &lt;td&gt; 35 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Stony Brook &lt;/td&gt;
+      &lt;td&gt; 1 &lt;/td&gt;
+      &lt;td&gt; 35 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Northwestern &lt;/td&gt;
+      &lt;td&gt; 1 &lt;/td&gt;
+      &lt;td&gt; 35 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Campbell &lt;/td&gt;
+      &lt;td&gt; 1 &lt;/td&gt;
+      &lt;td&gt; 35 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Florida Atlantic &lt;/td&gt;
+      &lt;td&gt; 1 &lt;/td&gt;
+      &lt;td&gt; 35 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Jacksonville State &lt;/td&gt;
+      &lt;td&gt; 1 &lt;/td&gt;
+      &lt;td&gt; 35 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Drake &lt;/td&gt;
+      &lt;td&gt; 1 &lt;/td&gt;
+      &lt;td&gt; 35 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Binghamton &lt;/td&gt;
+      &lt;td&gt; 1 &lt;/td&gt;
+      &lt;td&gt; 35 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Norfolk State &lt;/td&gt;
+      &lt;td&gt; 1 &lt;/td&gt;
+      &lt;td&gt; 35 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Texas A&amp;M-Corpus; Christi &lt;/td&gt;
+      &lt;td&gt; 1 &lt;/td&gt;
+      &lt;td&gt; 35 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; West Texas A&amp;amp;M &lt;/td&gt;
+      &lt;td&gt; 1 &lt;/td&gt;
+      &lt;td&gt; 35 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; Williams &lt;/td&gt;
+      &lt;td&gt; 1 &lt;/td&gt;
+      &lt;td&gt; 35 &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;3-or-more-florida-teams-in-the-tournament-by-year&quot;&gt;3 or more Florida teams in the Tournament by year&lt;/h2&gt;
+&lt;p&gt;If we are looking for years with 3 or more Florida teams we see 5 years that this has happened.  2017 is the only year with 4 Florida teams in the history of the NCAA Men’s Basketball Tournament.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;table id=&quot;threeplus&quot; class=&quot;display&quot;&gt;
+  &lt;thead&gt;
+    &lt;th&gt;Year&lt;/th&gt;
+    &lt;th&gt;Appearances&lt;/th&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; 2017 &lt;/td&gt;
+      &lt;td&gt; Florida &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; 2017 &lt;/td&gt;
+      &lt;td&gt; Miami (FL) &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; 2017 &lt;/td&gt;
+      &lt;td&gt; Florida State &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; 2017 &lt;/td&gt;
+      &lt;td&gt; Florida Gulf Coast &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; 2013 &lt;/td&gt;
+      &lt;td&gt; Miami (FL) &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; 2013 &lt;/td&gt;
+      &lt;td&gt; Florida &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; 2013 &lt;/td&gt;
+      &lt;td&gt; Florida Gulf Coast &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; 2012 &lt;/td&gt;
+      &lt;td&gt; Florida State &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; 2012 &lt;/td&gt;
+      &lt;td&gt; Florida &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; 2012 &lt;/td&gt;
+      &lt;td&gt; South Florida &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; 2002 &lt;/td&gt;
+      &lt;td&gt; Florida &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; 2002 &lt;/td&gt;
+      &lt;td&gt; Miami (FL) &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; 2002 &lt;/td&gt;
+      &lt;td&gt; Florida Atlantic &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; 1999 &lt;/td&gt;
+      &lt;td&gt; Miami (FL) &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; 1999 &lt;/td&gt;
+      &lt;td&gt; Florida &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;tr&gt;
+      &lt;td&gt; 1999 &lt;/td&gt;
+      &lt;td&gt; Florida A&amp;amp;M &lt;/td&gt;
+  &lt;/tr&gt;
+
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;answers&quot;&gt;Answers&lt;/h2&gt;
+
+&lt;p&gt;The original questions I was curious about were:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;What about the other Florida schools in previous years?&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;There are ten total Florida teams that have appeared in the NCAA tournament.  Even thought UF, FSU and Miami are the three most frequent, in my opinion they shouldn’t get the same “big 3” status as they do in college football.  To be fair, the original article never mentioned the term “big 3”.  I think though the article viewed this first through the lens of college football.  Of the 5 years that 3 or more Florida teams made the tournament this &lt;em&gt;is&lt;/em&gt; the first year of the specific combination of UF, FSU, and Miami.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Among the Florida basketball schools: who has the most appearances, and who had the first NCAA tournament appearance?&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Most: Florida 19 appearances&lt;br /&gt;
+First: Miami in 1960&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;In college football, people often refer to UF, FSU and Miami as the big three, but is that the case in basketball?  Does Miami, for example, have substantially more appearances than say Florida Gulf Coast, UCF, Florida A&amp;amp;M or any other school?&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I would say no.  When I first looked at this article my first instinct was: what about Florida Gulf Coast?  What I learned was: Miami was the first FL team to make the tournament in 1960.  The other thing I learned was that the &lt;strong&gt;Jacksonville University Dolphins racked up four tournament appearances in the 70s.  From 1971-1988, Jacksonville had most NCAA appearances of any state of Florida Men’s basketball program. Today this still stands as fourth place among Florida teams.&lt;/strong&gt;  It is worth noting that the Florida teams do not rank very high in number of appearances versus the nation.  At 19 appearances, UF is in a 6 way tie for 17th place.  College football still reigns supreme in Florida.  Miami has 5 national championships in football compared to UF and FSU with 3 apiece but lags behind in NCAA appearances. As for Final Four appearances it goes: UF = 5, FSU = 1 and that is it as far as teams from Florida.  This explains the motivation why a Miami sports news affiliate would cite this year’s combination of teams making the tournament.&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;In 2005-2006 Syracuse went onto to be a #5 seed but was upset in the first round by Texas A&amp;amp;M.  UConn had such a strong season that they kept their #1 seed.  The Huskies made the Elite 8 and were upset in the regional final by George Mason.  The Gators got a #3 seed (and the second of back to back National Championships). Syracuse &lt;em&gt;probably would not&lt;/em&gt; have made the tournament if that long 3 from McNamara didn’t go in.  If they advanced to the BigEast final and lost they &lt;em&gt;probably would have&lt;/em&gt; made the tournament.  We will never know.  We do know that going into the BigEast tournament the odds were against them and they decided to put their fate into their own hands.&lt;/p&gt;
+
+&lt;script type=&quot;text/javascript&quot;&gt;
+$(document).ready(function(){
+    $('table#fl').DataTable({
+        paging: true,
+        //stateSave: true,
+        searching: true,
+        order: [[ 0, &quot;desc&quot; ]]
+    });
+    $('table#all').DataTable({
+        paging: true,
+        //stateSave: true,
+        searching: true,
+        order: [[1, 'desc']]
+    });
+    $('table#threeplus').DataTable({
+        paging: true,
+        //stateSave: true,
+        searching: true,
+        order: [[ 0, &quot;desc&quot; ]]
+    });
+});
+&lt;/script&gt;</content><author><name></name></author><summary type="html"></summary></entry></feed>
