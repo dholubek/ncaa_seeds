@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://localhost:4000/jekyll/update/2017/04/08/ncaa-fl-teams.html</loc>
+<loc>https://dholubek.github.io/ncaa_seeds/jekyll/update/2017/04/08/ncaa-fl-teams.html</loc>
 <lastmod>2017-04-08T10:05:53-04:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/about/</loc>
+<loc>https://dholubek.github.io/ncaa_seeds/about/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/</loc>
+<loc>https://dholubek.github.io/ncaa_seeds/</loc>
 </url>
 </urlset>
